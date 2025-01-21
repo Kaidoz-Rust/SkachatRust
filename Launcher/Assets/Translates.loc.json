@@ -69,40 +69,82 @@
    },
    "Windows":{
       "Main":{
-         "Servers":{
-            "Headers":{
-               "Servers":{
-                  "en":"Servers",
-                  "ru":"Сервера"
-               },
-               "Online":{
-                  "en":"Online",
-                  "ru":"Онлайн"
-               },
-               "Players":{
-                  "en":"Project players",
-                  "ru":"Игроков проекта"
-               }
+        "Servers": {
+          "Headers": {
+            "Servers": {
+              "en": "Servers",
+              "ru": "Сервера"
+            },
+            "Online": {
+              "en": "Online",
+              "ru": "Онлайн"
+            },
+            "Players": {
+              "en": "Project players",
+              "ru": "Игроков проекта"
             }
-         },
-         "Popup":{
-            "Visit":{
-               "en":"Visit page",
-               "ru":"Посетить сайт"
+          }
+        },
+        "Popups": {
+          "Close": {
+            "en": "Close",
+            "ru": "Закрыть"
+          },
+          "ChooseFolder": {
+            "en": "Select the game folder",
+            "ru": "Выберите папку с игрой"
+          },
+          "ServerPopup": {
+            "Visit": {
+              "en": "Visit page",
+              "ru": "Посетить сайт"
             },
-            "CopyIp":{
-               "en":"Connection address has been copied",
-               "ru":"Ип адрес был скопирован"
+            "CopyIp": {
+              "en": "Connection address has been copied",
+              "ru": "Ип адрес был скопирован"
             },
-			"Map": {
-				"en": "{0}",
-				"ru": "{0}"
-			},
-			"Online":{
-				"en": "{0}",
-				"ru": "{0}"
-			}
-         }
+            "Map": {
+              "en": "{0}",
+              "ru": "{0}"
+            },
+            "Online": {
+              "en": "{0}",
+              "ru": "{0}"
+            }
+          },
+          "GameFolderPopup": {
+            "Choices": {
+              "ChooseDisk": {
+                "en": "Disk selection",
+                "ru": "Выбор диска"
+              },
+              "ChooseFolder": {
+                "en": "Folder selection",
+                "ru": "Выбор папки"
+              }
+            },
+            "ChooseDisk": {
+              "SelectDisk": {
+                "en": "Selection a disk:",
+                "ru": "Выберите диск:"
+              },
+              "DiskInformation": {
+                "en": "Free: {0} GB. Need: 40 GB",
+                "ru": "Свободно: {0} ГБ. Нужно: 40 ГБ"
+              }
+            },
+            "ChooseFolder": {
+              "SelectFolder": {
+                "en": "Selection a folder:",
+                "ru": "Выбор папки:"
+              },
+              "Select": {
+                "en": "Select folder",
+                "ru": "Выбрать папку"
+              }
+            }
+          }
+        }
       },
       "Settings":{
          "Language":{
