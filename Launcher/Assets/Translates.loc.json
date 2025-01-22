@@ -1,218 +1,300 @@
 ﻿{
-   "Languages":{
-      "en":"English",
-      "ru":"Русский"
-   },
-   "Menu":{
-      "Home":{
-         "en":"Home",
-         "ru":"Главное"
-      },
-      "News":{
-         "en":"News",
-         "ru":"Новости"
-      },
-      "Settings":{
-         "en":"Settings",
-         "ru":"Настройки"
-      }
-   },
-   "GameMenu":{
+  "Languages": {
+    "en": "English",
+    "ru": "Русский",
+    "uk": "Українська"
+  },
+  "Menu": {
+    "Home": {
+      "en": "Home",
+      "ru": "Главное",
+      "uk": "Головна"
+    },
+    "News": {
+      "en": "News",
+      "ru": "Новости",
+      "uk": "Новини"
+    },
+    "Settings": {
+      "en": "Settings",
+      "ru": "Настройки",
+      "uk": "Налаштування"
+    }
+  },
+  "GameMenu": {
     "GameButton": {
       "Launch": {
         "en": "Launch",
-        "ru": "Играть"
+        "ru": "Играть",
+        "uk": "Грати"
       },
       "Launched": {
         "en": "Launched",
-        "ru": "Запущено"
+        "ru": "Запущено",
+        "uk": "Запущено"
       },
       "Update": {
         "en": "Update",
-        "ru": "Обновить"
+        "ru": "Обновить",
+        "uk": "Оновити"
       },
       "Install": {
         "en": "Install",
-        "ru": "Установить"
+        "ru": "Установить",
+        "uk": "Встановити"
       },
       "Downloading": {
-        "en": "Pause",
-        "ru": "Пауза"
+        "en": "Downloading",
+        "ru": "Скачивание",
+        "uk": "Завантаження"
       },
       "Paused": {
-        "en": "Resume",
-        "ru": "Возобновить"
+        "en": "Paused",
+        "ru": "Пауза",
+        "uk": "Пауза"
       }
     },
     "GameStatus": {
       "Actual": {
         "en": "You have up-to-date game client",
-        "ru": "У вас актуальный клиент игры"
+        "ru": "У вас актуальный клиент игры",
+        "uk": "У вас актуальний клієнт гри"
       },
       "NeedUpdate": {
         "en": "Need update game client",
-        "ru": "Необходимо установить обновление"
+        "ru": "Необходимо установить обновление",
+        "uk": "Необхідно встановити оновлення"
       },
       "NeedInstal": {
         "en": "Need install game client",
-        "ru": "Необходимо установить клиент игры"
+        "ru": "Необходимо установить клиент игры",
+        "uk": "Необхідно встановити клієнт гри"
       },
       "Downloading": {
         "en": "Game is in the process of downloading",
-        "ru": "Игра в процессе скачивания"
+        "ru": "Игра в процессе скачивания",
+        "uk": "Гра в процесі завантаження"
       },
       "Error": {
         "en": "An error occurred. Check logs",
-        "ru": "Произошла ошибка. Проверьте логи"
+        "ru": "Произошла ошибка. Проверьте логи",
+        "uk": "Сталася помилка. Перевірте логи"
       }
     }
-   },
-   "Windows":{
-      "Main":{
-        "Servers": {
-          "Headers": {
-            "Servers": {
-              "en": "Servers",
-              "ru": "Сервера"
-            },
-            "Online": {
-              "en": "Online",
-              "ru": "Онлайн"
-            },
-            "Players": {
-              "en": "Project players",
-              "ru": "Игроков проекта"
-            }
-          }
-        },
-        "Popups": {
-          "Close": {
-            "en": "Close",
-            "ru": "Закрыть"
+  },
+  "Windows": {
+    "Main": {
+      "Servers": {
+        "Headers": {
+          "Servers": {
+            "en": "Servers",
+            "ru": "Сервера",
+            "uk": "Сервери"
           },
-          "ChooseFolder": {
-            "en": "Select the game folder",
-            "ru": "Выберите папку с игрой"
+          "Online": {
+            "en": "Online",
+            "ru": "Онлайн",
+            "uk": "Онлайн"
           },
-          "ServerPopup": {
-            "Visit": {
-              "en": "Visit page",
-              "ru": "Посетить сайт"
-            },
-            "CopyIp": {
-              "en": "Connection address has been copied",
-              "ru": "Ип адрес был скопирован"
-            },
-            "Map": {
-              "en": "{0}",
-              "ru": "{0}"
-            },
-            "Online": {
-              "en": "{0}",
-              "ru": "{0}"
-            }
-          },
-          "GameFolderPopup": {
-            "Choices": {
-              "ChooseDisk": {
-                "en": "Disk selection",
-                "ru": "Выбор диска"
-              },
-              "ChooseFolder": {
-                "en": "Folder selection",
-                "ru": "Выбор папки"
-              }
-            },
-            "ChooseDisk": {
-              "SelectDisk": {
-                "en": "Selection a disk:",
-                "ru": "Выберите диск:"
-              },
-              "DiskInformation": {
-                "en": "Free: {0} GB. Need: 40 GB",
-                "ru": "Свободно: {0} ГБ. Нужно: 40 ГБ"
-              }
-            },
-            "ChooseFolder": {
-              "SelectFolder": {
-                "en": "Selection a folder:",
-                "ru": "Выбор папки:"
-              },
-              "Select": {
-                "en": "Select folder",
-                "ru": "Выбрать папку"
-              }
-            }
+          "Players": {
+            "en": "Project players",
+            "ru": "Игроков проекта",
+            "uk": "Гравців проекту"
           }
         }
       },
-      "Settings":{
-         "Language":{
-            "Name":{
-               "en":"Language",
-               "ru":"Язык"
+      "Popups": {
+        "Popup": {
+          "Close": {
+            "en": "Close",
+            "ru": "Закрыть",
+            "uk": "Закрити"
+          },
+          "Install": {
+            "en": "Install",
+            "ru": "Установить",
+            "uk": "Закрити"
+          },
+          "ChooseFolder": {
+            "en": "Select the game folder",
+            "ru": "Выберите папку с игрой",
+            "uk": "Виберіть папку з грою"
+          },
+          "CopyIp": {
+            "en": "Connection address has been copied",
+            "ru": "Адрес подключения был скопирован",
+            "uk": "Адресу підключення скопійовано"
+          }
+        },
+        "RequiredSteamPopup": {
+          "SteamNotInstalled": {
+            "NotificationMessage": {
+              "en": "Steam is not installed. \nInstall Steam to run the game.",
+              "ru": "Steam не установлен. \nУстановите Steam для работы игры.",
+              "uk": "Steam не встановлено. \nВстановіть Steam для запуску гри."
+            },
+            "ButtonContent": {
+              "en": "Download Steam",
+              "ru": "Скачать Steam",
+              "uk": "Завантажити Steam"
             }
-         },
-         "Basic":{
-            "Name":{
-               "en":"Basic",
-               "ru":"Базовые"
+          },
+          "SteamNotRunning": {
+            "NotificationMessage": {
+              "en": "Steam is installed but not running. \nLaunch Steam to run the game.",
+              "ru": "Steam установлен, но не запущен. \nЗапустите Steam для работы игры.",
+              "uk": "Steam встановлено, але не запущено. \nЗапустіть Steam для запуску гри."
             },
-            "GameParameters":{
-               "en":"Game Parameters",
-               "ru":"Параметры запуска"
-            },
-            "SaveButton":{
-               "en":"Save",
-               "ru":"Сохранить"
+            "ButtonContent": {
+              "en": "Launch Steam",
+              "ru": "Запустить Steam",
+              "uk": "Запустити Steam"
             }
-         },
-         "Files":{
-            "Name":{
-               "en":"Files",
-               "ru":"Файлы"
+          }
+        },
+        "ServerPopup": {
+          "Visit": {
+            "en": "Visit page",
+            "ru": "Посетить сайт",
+            "uk": "Відвідати сайт"
+          },
+          "CopyIp": {
+            "en": "Connection address has been copied",
+            "ru": "Ип адрес был скопирован",
+            "uk": "IP-адресу скопійовано"
+          },
+          "Map": {
+            "en": "{0}",
+            "ru": "{0}",
+            "uk": "{0}"
+          },
+          "Online": {
+            "en": "{0}",
+            "ru": "{0}",
+            "uk": "{0}"
+          }
+        },
+        "GameFolderPopup": {
+          "Choices": {
+            "ChooseDisk": {
+              "en": "Disk selection",
+              "ru": "Выбор диска",
+              "uk": "Вибір диска"
             },
-            "GameFolder":{
-               "en":"Game folder",
-               "ru":"Папка с игрой"
-            },
-            "PathFolderTextBox":{
-               "en":"Not selected",
-               "ru":"Не выбрана папка"
-            },
-            "ChooseFolder":{
-               "en":"Save",
-               "ru":"Сохранить"
-            },
-            "ChooseButton":{
-               "en":"Choose",
-               "ru":"Выбрать"
-            },
-            "VerifyText":{
-               "en":"Force verify game files",
-               "ru":"Проверка целостности"
-            },
-            "VerifyOn":{
-               "en":"On",
-               "ru":"Вкл"
-            },
-            "VerifyOff":{
-               "en":"Off",
-               "ru":"Выкл"
+            "ChooseFolder": {
+              "en": "Folder selection",
+              "ru": "Выбор папки",
+              "uk": "Вибір папки"
             }
-         },
-         "Version":{
-            "Name":{
-               "en":"Version",
-               "ru":"Версия"
+          },
+          "ChooseDisk": {
+            "SelectDisk": {
+              "en": "Selection a disk:",
+              "ru": "Выберите диск:",
+              "uk": "Виберіть диск:"
             },
-            "List":{
-               "Latest":{
-                  "en":"Latest",
-                  "ru":"Последняя"
-               }
+            "DiskInformation": {
+              "en": "Free: {0} GB. Need: 40 GB",
+              "ru": "Свободно: {0} ГБ. Нужно: 40 ГБ",
+              "uk": "Вільно: {0} ГБ. Потрібно: 40 ГБ"
             }
-         }
+          },
+          "ChooseFolder": {
+            "SelectFolder": {
+              "en": "Selection a folder:",
+              "ru": "Выбор папки:",
+              "uk": "Вибір папки:"
+            },
+            "Select": {
+              "en": "Select folder",
+              "ru": "Выбрать папку",
+              "uk": "Вибрати папку"
+            }
+          }
+        }
       }
-   }
+    },
+    "Settings": {
+      "Language": {
+        "Name": {
+          "en": "Language",
+          "ru": "Язык",
+          "uk": "Мова"
+        }
+      },
+      "Basic": {
+        "Name": {
+          "en": "Basic",
+          "ru": "Базовые",
+          "uk": "Базові"
+        },
+        "GameParameters": {
+          "en": "Game Parameters",
+          "ru": "Параметры запуска",
+          "uk": "Параметри запуску"
+        },
+        "SaveButton": {
+          "en": "Save",
+          "ru": "Сохранить",
+          "uk": "Зберегти"
+        }
+      },
+      "Files": {
+        "Name": {
+          "en": "Files",
+          "ru": "Файлы",
+          "uk": "Файли"
+        },
+        "GameFolder": {
+          "en": "Game folder",
+          "ru": "Папка с игрой",
+          "uk": "Папка з грою"
+        },
+        "PathFolderTextBox": {
+          "en": "Not selected",
+          "ru": "Не выбрана папка",
+          "uk": "Папка не вибрана"
+        },
+        "ChooseFolder": {
+          "en": "Save",
+          "ru": "Сохранить",
+          "uk": "Зберегти"
+        },
+        "ChooseButton": {
+          "en": "Choose",
+          "ru": "Выбрать",
+          "uk": "Вибрати"
+        },
+        "VerifyText": {
+          "en": "Force verify game files",
+          "ru": "Проверка целостности",
+          "uk": "Перевірка цілісності"
+        },
+        "VerifyOn": {
+          "en": "On",
+          "ru": "Вкл",
+          "uk": "Увімкнено"
+        },
+        "VerifyOff": {
+          "en": "Off",
+          "ru": "Выкл",
+          "uk": "Вимкнено"
+        }
+      },
+      "Version": {
+        "Name": {
+          "en": "Version",
+          "ru": "Версия",
+          "uk": "Версія"
+        },
+        "List": {
+          "Latest": {
+            "en": "Latest",
+            "ru": "Последняя",
+            "uk": "Остання"
+          }
+        }
+      }
+    }
+  }
 }
