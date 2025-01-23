@@ -105,6 +105,11 @@
       },
       "Popups": {
         "Popup": {
+          "Exception": {
+            "en": "There was an error: {0}",
+            "ru": "Произошла ошибка: {0}",
+            "uk": "Сталася помилка: {0}"
+          },
           "Close": {
             "en": "Close",
             "ru": "Закрыть",

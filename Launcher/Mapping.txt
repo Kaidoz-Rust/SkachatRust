@@ -12,6 +12,7 @@ Renamed Types:
 	System.ComponentModel.PropertyChangingEventArgs [AtomForge.Application]System.ComponentModel.PropertyChangingEventArgs  . ::⁙ -> ⁜
 	System.ComponentModel.PropertyChangingEventArgs [AtomForge.Application]System.ComponentModel.PropertyChangingEventArgs  . ::⁚ -> ⁝
 	System.ComponentModel.PropertyChangingEventArgs [AtomForge.Application]System.ComponentModel.PropertyChangingEventArgs  . ::⁛ -> ⁞
+	System.ComponentModel.PropertyChangingEventArgs [AtomForge.Application]System.ComponentModel.PropertyChangingEventArgs  . ::⁜ ->  
 }
 
 [AtomForge.Application] .  -> [AtomForge.Application] . 
@@ -19,13 +20,14 @@ Renamed Types:
 
 	[AtomForge.Application] . ::.cctor[0]( ) skipped:  special name
 
-	System.ComponentModel.PropertyChangedEventArgs [AtomForge.Application]System.ComponentModel.PropertyChangedEventArgs  . ::⁜ ->  
 	System.ComponentModel.PropertyChangedEventArgs [AtomForge.Application]System.ComponentModel.PropertyChangedEventArgs  . ::⁝ -> ⁠
 	System.ComponentModel.PropertyChangedEventArgs [AtomForge.Application]System.ComponentModel.PropertyChangedEventArgs  . ::⁞ -> ⁡
 	System.ComponentModel.PropertyChangedEventArgs [AtomForge.Application]System.ComponentModel.PropertyChangedEventArgs  . ::  -> ⁢
 	System.ComponentModel.PropertyChangedEventArgs [AtomForge.Application]System.ComponentModel.PropertyChangedEventArgs  . ::⁠ -> ⁣
 	System.ComponentModel.PropertyChangedEventArgs [AtomForge.Application]System.ComponentModel.PropertyChangedEventArgs  . ::⁡ -> ⁤
 	System.ComponentModel.PropertyChangedEventArgs [AtomForge.Application]System.ComponentModel.PropertyChangedEventArgs  . ::⁢ -> ⁪
+	System.ComponentModel.PropertyChangedEventArgs [AtomForge.Application]System.ComponentModel.PropertyChangedEventArgs  . ::⁣ -> ⁫
+	System.ComponentModel.PropertyChangedEventArgs [AtomForge.Application]System.ComponentModel.PropertyChangedEventArgs  . ::⁤ -> ⁬
 }
 
 [AtomForge.Application] .  -> [AtomForge.Application] . 
@@ -33,14 +35,14 @@ Renamed Types:
 
 	[AtomForge.Application] . ::.ctor[0]( ) skipped:  special name
 
-	System.Boolean [AtomForge.Application]System.Boolean  . ::⁣ -> ⁫
-	System.Boolean [AtomForge.Application]System.Boolean  . ::⁤ -> ⁬
+	System.Boolean [AtomForge.Application]System.Boolean  . ::⁪ -> ⁭
+	System.Boolean [AtomForge.Application]System.Boolean  . ::⁫ -> ⁮
 }
 
 [AtomForge.Application] .  -> [AtomForge.Application] . 
 {
-	System.String [AtomForge.Application]System.String  . :: ⁚ ->  ⁝
-	System.String [AtomForge.Application]System.String  . :: ⁛ ->  ⁞
+	System.String [AtomForge.Application]System.String  . :: ⁢ ->  ⁪
+	System.String [AtomForge.Application]System.String  . :: ⁣ ->  ⁫
 }
 
 [AtomForge.Application]AtomForge.Application.ViewModels.Windows.MainWindowViewModel/  -> [AtomForge.Application]AtomForge.Application.ViewModels.Windows.MainWindowViewModel/ 
@@ -49,9 +51,9 @@ Renamed Types:
 	[AtomForge.Application]AtomForge.Application.ViewModels.Windows.MainWindowViewModel/ ::MoveNext[0]( ) skipped:  external base class or interface
 	[AtomForge.Application]AtomForge.Application.ViewModels.Windows.MainWindowViewModel/ ::SetStateMachine[1]( [System.Runtime]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
 
-	System.Int32 [AtomForge.Application]System.Int32 AtomForge.Application.ViewModels.Windows.MainWindowViewModel/ :: ⁜ ->  ⁢
-	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Application]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Application.ViewModels.Windows.MainWindowViewModel/ :: ⁝ ->  ⁣
-	AtomForge.Application.ViewModels.Windows.MainWindowViewModel [AtomForge.Application]AtomForge.Application.ViewModels.Windows.MainWindowViewModel AtomForge.Application.ViewModels.Windows.MainWindowViewModel/ :: ⁞ ->  ⁤
+	System.Int32 [AtomForge.Application]System.Int32 AtomForge.Application.ViewModels.Windows.MainWindowViewModel/ :: ⁤ ->  ⁯
+	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Application]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Application.ViewModels.Windows.MainWindowViewModel/ :: ⁪ ->  　
+	AtomForge.Application.ViewModels.Windows.MainWindowViewModel [AtomForge.Application]AtomForge.Application.ViewModels.Windows.MainWindowViewModel AtomForge.Application.ViewModels.Windows.MainWindowViewModel/ :: ⁫ ->   
 }
 
 [AtomForge.Application]AtomForge.Application.ViewModels.Windows.MainWindowViewModel/  -> [AtomForge.Application]AtomForge.Application.ViewModels.Windows.MainWindowViewModel/ 
@@ -60,10 +62,10 @@ Renamed Types:
 	[AtomForge.Application]AtomForge.Application.ViewModels.Windows.MainWindowViewModel/ ::MoveNext[0]( ) skipped:  external base class or interface
 	[AtomForge.Application]AtomForge.Application.ViewModels.Windows.MainWindowViewModel/ ::SetStateMachine[1]( [System.Runtime]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
 
-	System.Int32 [AtomForge.Application]System.Int32 AtomForge.Application.ViewModels.Windows.MainWindowViewModel/ ::   ->  ⁪
-	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Application]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Application.ViewModels.Windows.MainWindowViewModel/ :: ⁠ ->  ⁫
-	AtomForge.Application.ViewModels.Windows.MainWindowViewModel [AtomForge.Application]AtomForge.Application.ViewModels.Windows.MainWindowViewModel AtomForge.Application.ViewModels.Windows.MainWindowViewModel/ :: ⁡ ->  ⁬
-	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.Application]System.Runtime.CompilerServices.TaskAwaiter AtomForge.Application.ViewModels.Windows.MainWindowViewModel/ :: ⁢ ->  ⁭
+	System.Int32 [AtomForge.Application]System.Int32 AtomForge.Application.ViewModels.Windows.MainWindowViewModel/ :: ⁬ ->   
+	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Application]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Application.ViewModels.Windows.MainWindowViewModel/ :: ⁭ ->   
+	AtomForge.Application.ViewModels.Windows.MainWindowViewModel [AtomForge.Application]AtomForge.Application.ViewModels.Windows.MainWindowViewModel AtomForge.Application.ViewModels.Windows.MainWindowViewModel/ :: ⁮ ->   
+	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.Application]System.Runtime.CompilerServices.TaskAwaiter AtomForge.Application.ViewModels.Windows.MainWindowViewModel/ :: ⁯ ->   
 }
 
 [AtomForge.Application]AtomForge.Application.ViewModels.Windows.MainWindowViewModel/  -> [AtomForge.Application]AtomForge.Application.ViewModels.Windows.MainWindowViewModel/ 
@@ -72,15 +74,15 @@ Renamed Types:
 	[AtomForge.Application]AtomForge.Application.ViewModels.Windows.MainWindowViewModel/ ::MoveNext[0]( ) skipped:  external base class or interface
 	[AtomForge.Application]AtomForge.Application.ViewModels.Windows.MainWindowViewModel/ ::SetStateMachine[1]( [System.Runtime]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
 
-	System.Int32 [AtomForge.Application]System.Int32 AtomForge.Application.ViewModels.Windows.MainWindowViewModel/ :: ⁣ ->  ⁮
-	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Application]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Application.ViewModels.Windows.MainWindowViewModel/ :: ⁤ ->  ⁯
-	AtomForge.Application.ViewModels.Windows.MainWindowViewModel [AtomForge.Application]AtomForge.Application.ViewModels.Windows.MainWindowViewModel AtomForge.Application.ViewModels.Windows.MainWindowViewModel/ :: ⁪ ->  　
-	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.Application]System.Runtime.CompilerServices.TaskAwaiter AtomForge.Application.ViewModels.Windows.MainWindowViewModel/ :: ⁫ ->   
+	System.Int32 [AtomForge.Application]System.Int32 AtomForge.Application.ViewModels.Windows.MainWindowViewModel/ :: 　 ->   
+	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Application]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Application.ViewModels.Windows.MainWindowViewModel/ ::   ->   
+	AtomForge.Application.ViewModels.Windows.MainWindowViewModel [AtomForge.Application]AtomForge.Application.ViewModels.Windows.MainWindowViewModel AtomForge.Application.ViewModels.Windows.MainWindowViewModel/ ::   ->   
+	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.Application]System.Runtime.CompilerServices.TaskAwaiter AtomForge.Application.ViewModels.Windows.MainWindowViewModel/ ::   ->   
 }
 
 [AtomForge.Application]AtomForge.Application.ViewModels.Pages.ServersViewModel/  -> [AtomForge.Application]AtomForge.Application.ViewModels.Pages.ServersViewModel/ 
 {
-	System.Func`2<AtomForge.Domain.DTOs.ServerInformationJson,AtomForge.Domain.Models.ServerInfoModel> [AtomForge.Application]System.Func`2<AtomForge.Domain.DTOs.ServerInformationJson,AtomForge.Domain.Models.ServerInfoModel> AtomForge.Application.ViewModels.Pages.ServersViewModel/ :: ⁬ ->   
+	System.Func`2<AtomForge.Domain.DTOs.ServerInformationJson,AtomForge.Domain.Models.ServerInfoModel> [AtomForge.Application]System.Func`2<AtomForge.Domain.DTOs.ServerInformationJson,AtomForge.Domain.Models.ServerInfoModel> AtomForge.Application.ViewModels.Pages.ServersViewModel/ ::   ->   
 }
 
 [AtomForge.Application]AtomForge.Application.ViewModels.Pages.ServersViewModel/  -> [AtomForge.Application]AtomForge.Application.ViewModels.Pages.ServersViewModel/ 
@@ -91,9 +93,9 @@ Renamed Types:
 	[AtomForge.Application]AtomForge.Application.ViewModels.Pages.ServersViewModel/ ::.cctor[0]( ) skipped:  special name
 	[AtomForge.Application]AtomForge.Application.ViewModels.Pages.ServersViewModel/ ::.ctor[0]( ) skipped:  special name
 
-	AtomForge.Application.ViewModels.Pages.ServersViewModel/  [AtomForge.Application]AtomForge.Application.ViewModels.Pages.ServersViewModel/  AtomForge.Application.ViewModels.Pages.ServersViewModel/ :: ⁭ ->   
-	System.Func`2<AtomForge.Domain.Models.ServerInfoModel,System.Int32> [AtomForge.Application]System.Func`2<AtomForge.Domain.Models.ServerInfoModel,System.Int32> AtomForge.Application.ViewModels.Pages.ServersViewModel/ :: ⁮ ->   
-	System.Func`2<AtomForge.Domain.Models.ServerInfoModel,System.Int32> [AtomForge.Application]System.Func`2<AtomForge.Domain.Models.ServerInfoModel,System.Int32> AtomForge.Application.ViewModels.Pages.ServersViewModel/ :: ⁯ ->   
+	AtomForge.Application.ViewModels.Pages.ServersViewModel/  [AtomForge.Application]AtomForge.Application.ViewModels.Pages.ServersViewModel/  AtomForge.Application.ViewModels.Pages.ServersViewModel/ ::   ->   
+	System.Func`2<AtomForge.Domain.Models.ServerInfoModel,System.Int32> [AtomForge.Application]System.Func`2<AtomForge.Domain.Models.ServerInfoModel,System.Int32> AtomForge.Application.ViewModels.Pages.ServersViewModel/ ::   ->   
+	System.Func`2<AtomForge.Domain.Models.ServerInfoModel,System.Int32> [AtomForge.Application]System.Func`2<AtomForge.Domain.Models.ServerInfoModel,System.Int32> AtomForge.Application.ViewModels.Pages.ServersViewModel/ ::   ->   
 }
 
 [AtomForge.Application]AtomForge.Application.ViewModels.Pages.ServersViewModel/  -> [AtomForge.Application]AtomForge.Application.ViewModels.Pages.ServersViewModel/ 
@@ -102,10 +104,10 @@ Renamed Types:
 	[AtomForge.Application]AtomForge.Application.ViewModels.Pages.ServersViewModel/ ::MoveNext[0]( ) skipped:  external base class or interface
 	[AtomForge.Application]AtomForge.Application.ViewModels.Pages.ServersViewModel/ ::SetStateMachine[1]( [System.Runtime]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
 
-	System.Int32 [AtomForge.Application]System.Int32 AtomForge.Application.ViewModels.Pages.ServersViewModel/ :: 　 ->   
-	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Application]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Application.ViewModels.Pages.ServersViewModel/ ::   ->   
-	AtomForge.Application.ViewModels.Pages.ServersViewModel [AtomForge.Application]AtomForge.Application.ViewModels.Pages.ServersViewModel AtomForge.Application.ViewModels.Pages.ServersViewModel/ ::   ->   
-	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.Application]System.Runtime.CompilerServices.TaskAwaiter AtomForge.Application.ViewModels.Pages.ServersViewModel/ ::   ->   
+	System.Int32 [AtomForge.Application]System.Int32 AtomForge.Application.ViewModels.Pages.ServersViewModel/ ::   ->  ​
+	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Application]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Application.ViewModels.Pages.ServersViewModel/ ::   ->  ‐
+	AtomForge.Application.ViewModels.Pages.ServersViewModel [AtomForge.Application]AtomForge.Application.ViewModels.Pages.ServersViewModel AtomForge.Application.ViewModels.Pages.ServersViewModel/ ::   ->  ‑
+	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.Application]System.Runtime.CompilerServices.TaskAwaiter AtomForge.Application.ViewModels.Pages.ServersViewModel/ ::   ->  ‒
 }
 
 [AtomForge.Application]AtomForge.Application.ViewModels.Pages.Popup.GameFolderPopupViewModel/  -> [AtomForge.Application]AtomForge.Application.ViewModels.Pages.Popup.GameFolderPopupViewModel/ 
@@ -115,8 +117,8 @@ Renamed Types:
 	[AtomForge.Application]AtomForge.Application.ViewModels.Pages.Popup.GameFolderPopupViewModel/ ::.cctor[0]( ) skipped:  special name
 	[AtomForge.Application]AtomForge.Application.ViewModels.Pages.Popup.GameFolderPopupViewModel/ ::.ctor[0]( ) skipped:  special name
 
-	AtomForge.Application.ViewModels.Pages.Popup.GameFolderPopupViewModel/  [AtomForge.Application]AtomForge.Application.ViewModels.Pages.Popup.GameFolderPopupViewModel/  AtomForge.Application.ViewModels.Pages.Popup.GameFolderPopupViewModel/ ::   ->   
-	System.Func`2<System.IO.DriveInfo,System.Boolean> [AtomForge.Application]System.Func`2<System.IO.DriveInfo,System.Boolean> AtomForge.Application.ViewModels.Pages.Popup.GameFolderPopupViewModel/ ::   ->   
+	AtomForge.Application.ViewModels.Pages.Popup.GameFolderPopupViewModel/  [AtomForge.Application]AtomForge.Application.ViewModels.Pages.Popup.GameFolderPopupViewModel/  AtomForge.Application.ViewModels.Pages.Popup.GameFolderPopupViewModel/ ::   ->  –
+	System.Func`2<System.IO.DriveInfo,System.Boolean> [AtomForge.Application]System.Func`2<System.IO.DriveInfo,System.Boolean> AtomForge.Application.ViewModels.Pages.Popup.GameFolderPopupViewModel/ ::   ->  —
 }
 
 [AtomForge.Application]AtomForge.Application.ViewModels.Pages.Popup.ServerPagePopupViewModel/  -> [AtomForge.Application]AtomForge.Application.ViewModels.Pages.Popup.ServerPagePopupViewModel/ 
@@ -125,10 +127,10 @@ Renamed Types:
 	[AtomForge.Application]AtomForge.Application.ViewModels.Pages.Popup.ServerPagePopupViewModel/ ::MoveNext[0]( ) skipped:  external base class or interface
 	[AtomForge.Application]AtomForge.Application.ViewModels.Pages.Popup.ServerPagePopupViewModel/ ::SetStateMachine[1]( [System.Runtime]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
 
-	System.Int32 [AtomForge.Application]System.Int32 AtomForge.Application.ViewModels.Pages.Popup.ServerPagePopupViewModel/ ::   ->   
-	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Application]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Application.ViewModels.Pages.Popup.ServerPagePopupViewModel/ ::   ->   
-	AtomForge.Application.ViewModels.Pages.Popup.ServerPagePopupViewModel [AtomForge.Application]AtomForge.Application.ViewModels.Pages.Popup.ServerPagePopupViewModel AtomForge.Application.ViewModels.Pages.Popup.ServerPagePopupViewModel/ ::   ->  ​
-	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.Application]System.Runtime.CompilerServices.TaskAwaiter AtomForge.Application.ViewModels.Pages.Popup.ServerPagePopupViewModel/ ::   ->  ‐
+	System.Int32 [AtomForge.Application]System.Int32 AtomForge.Application.ViewModels.Pages.Popup.ServerPagePopupViewModel/ :: ​ ->  ―
+	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Application]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Application.ViewModels.Pages.Popup.ServerPagePopupViewModel/ :: ‐ ->  •
+	AtomForge.Application.ViewModels.Pages.Popup.ServerPagePopupViewModel [AtomForge.Application]AtomForge.Application.ViewModels.Pages.Popup.ServerPagePopupViewModel AtomForge.Application.ViewModels.Pages.Popup.ServerPagePopupViewModel/ :: ‑ ->  ․
+	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.Application]System.Runtime.CompilerServices.TaskAwaiter AtomForge.Application.ViewModels.Pages.Popup.ServerPagePopupViewModel/ :: ‒ ->  ‥
 }
 
 [AtomForge.Application]AtomForge.Application.ViewModels.Pages.Popup.ServerPagePopupViewModel/  -> [AtomForge.Application]AtomForge.Application.ViewModels.Pages.Popup.ServerPagePopupViewModel/ 
@@ -137,13 +139,13 @@ Renamed Types:
 	[AtomForge.Application]AtomForge.Application.ViewModels.Pages.Popup.ServerPagePopupViewModel/ ::MoveNext[0]( ) skipped:  external base class or interface
 	[AtomForge.Application]AtomForge.Application.ViewModels.Pages.Popup.ServerPagePopupViewModel/ ::SetStateMachine[1]( [System.Runtime]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
 
-	System.Int32 [AtomForge.Application]System.Int32 AtomForge.Application.ViewModels.Pages.Popup.ServerPagePopupViewModel/ ::   ->  ‑
-	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Application]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Application.ViewModels.Pages.Popup.ServerPagePopupViewModel/ ::   ->  ‒
-	System.String [AtomForge.Application]System.String AtomForge.Application.ViewModels.Pages.Popup.ServerPagePopupViewModel/ ::   ->  –
-	System.Action`1<System.Windows.Media.Imaging.BitmapImage> [AtomForge.Application]System.Action`1<System.Windows.Media.Imaging.BitmapImage> AtomForge.Application.ViewModels.Pages.Popup.ServerPagePopupViewModel/ ::   ->  —
-	AtomForge.Application.ViewModels.Pages.Popup.ServerPagePopupViewModel [AtomForge.Application]AtomForge.Application.ViewModels.Pages.Popup.ServerPagePopupViewModel AtomForge.Application.ViewModels.Pages.Popup.ServerPagePopupViewModel/ :: ​ ->  ―
-	System.Threading.CancellationTokenSource [AtomForge.Application]System.Threading.CancellationTokenSource AtomForge.Application.ViewModels.Pages.Popup.ServerPagePopupViewModel/ :: ‐ ->  •
-	System.Runtime.CompilerServices.TaskAwaiter`1<System.Windows.Media.Imaging.BitmapImage> [AtomForge.Application]System.Runtime.CompilerServices.TaskAwaiter`1<System.Windows.Media.Imaging.BitmapImage> AtomForge.Application.ViewModels.Pages.Popup.ServerPagePopupViewModel/ :: ‑ ->  ․
+	System.Int32 [AtomForge.Application]System.Int32 AtomForge.Application.ViewModels.Pages.Popup.ServerPagePopupViewModel/ :: – ->  ‧
+	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Application]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Application.ViewModels.Pages.Popup.ServerPagePopupViewModel/ :: — ->   
+	System.String [AtomForge.Application]System.String AtomForge.Application.ViewModels.Pages.Popup.ServerPagePopupViewModel/ :: ― ->   
+	System.Action`1<System.Windows.Media.Imaging.BitmapImage> [AtomForge.Application]System.Action`1<System.Windows.Media.Imaging.BitmapImage> AtomForge.Application.ViewModels.Pages.Popup.ServerPagePopupViewModel/ :: • ->  ‪
+	AtomForge.Application.ViewModels.Pages.Popup.ServerPagePopupViewModel [AtomForge.Application]AtomForge.Application.ViewModels.Pages.Popup.ServerPagePopupViewModel AtomForge.Application.ViewModels.Pages.Popup.ServerPagePopupViewModel/ :: ․ ->  ‫
+	System.Threading.CancellationTokenSource [AtomForge.Application]System.Threading.CancellationTokenSource AtomForge.Application.ViewModels.Pages.Popup.ServerPagePopupViewModel/ :: ‥ ->  ‬
+	System.Runtime.CompilerServices.TaskAwaiter`1<System.Windows.Media.Imaging.BitmapImage> [AtomForge.Application]System.Runtime.CompilerServices.TaskAwaiter`1<System.Windows.Media.Imaging.BitmapImage> AtomForge.Application.ViewModels.Pages.Popup.ServerPagePopupViewModel/ :: ‧ ->  ‭
 }
 
 [AtomForge.Application]AtomForge.Application.ViewModels.Pages.Popup.ServerPagePopupViewModel/  -> [AtomForge.Application]AtomForge.Application.ViewModels.Pages.Popup.ServerPagePopupViewModel/ 
@@ -152,10 +154,10 @@ Renamed Types:
 	[AtomForge.Application]AtomForge.Application.ViewModels.Pages.Popup.ServerPagePopupViewModel/ ::MoveNext[0]( ) skipped:  external base class or interface
 	[AtomForge.Application]AtomForge.Application.ViewModels.Pages.Popup.ServerPagePopupViewModel/ ::SetStateMachine[1]( [System.Runtime]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
 
-	System.Int32 [AtomForge.Application]System.Int32 AtomForge.Application.ViewModels.Pages.Popup.ServerPagePopupViewModel/ :: ‒ ->  ‥
-	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Application]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Application.ViewModels.Pages.Popup.ServerPagePopupViewModel/ :: – ->  ‧
-	AtomForge.Application.ViewModels.Pages.Popup.ServerPagePopupViewModel [AtomForge.Application]AtomForge.Application.ViewModels.Pages.Popup.ServerPagePopupViewModel AtomForge.Application.ViewModels.Pages.Popup.ServerPagePopupViewModel/ :: — ->   
-	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.Application]System.Runtime.CompilerServices.TaskAwaiter AtomForge.Application.ViewModels.Pages.Popup.ServerPagePopupViewModel/ :: ― ->   
+	System.Int32 [AtomForge.Application]System.Int32 AtomForge.Application.ViewModels.Pages.Popup.ServerPagePopupViewModel/ ::   ->  ‮
+	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Application]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Application.ViewModels.Pages.Popup.ServerPagePopupViewModel/ ::   ->   
+	AtomForge.Application.ViewModels.Pages.Popup.ServerPagePopupViewModel [AtomForge.Application]AtomForge.Application.ViewModels.Pages.Popup.ServerPagePopupViewModel AtomForge.Application.ViewModels.Pages.Popup.ServerPagePopupViewModel/ :: ‪ ->  ′
+	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.Application]System.Runtime.CompilerServices.TaskAwaiter AtomForge.Application.ViewModels.Pages.Popup.ServerPagePopupViewModel/ :: ‫ ->  ‵
 }
 
 [AtomForge.Application]AtomForge.Application.ViewModels.Pages.Popup.TaskExtensions/  -> [AtomForge.Application]AtomForge.Application.ViewModels.Pages.Popup.TaskExtensions/ 
@@ -164,7 +166,7 @@ Renamed Types:
 
 	[AtomForge.Application]AtomForge.Application.ViewModels.Pages.Popup.TaskExtensions/ ::.ctor[0]( ) skipped:  special name
 
-	System.Action`1<System.Exception> [AtomForge.Application]System.Action`1<System.Exception> AtomForge.Application.ViewModels.Pages.Popup.TaskExtensions/ :: • ->  ‪
+	System.Action`1<System.Exception> [AtomForge.Application]System.Action`1<System.Exception> AtomForge.Application.ViewModels.Pages.Popup.TaskExtensions/ :: ‬ ->  ″
 }
 
 [AtomForge.Infrastructure] .  -> [AtomForge.Infrastructure] . 
@@ -175,10 +177,11 @@ Renamed Types:
 	[AtomForge.Infrastructure] . ::DownloadGameAsync[2]( [System.Runtime]System.String, [System.Runtime]System.String ) skipped:  KeepPublicApi option in configuration
 	[AtomForge.Infrastructure] . ::.ctor[3]( [AtomForge.Application]AtomForge.Application.Interfaces.Services.TorrentServices.ITorrentClient, [AtomForge.Application]AtomForge.Application.Interfaces.Services.Downloaders.IDownloaderTorrentService, [Microsoft.Extensions.Logging.Abstractions]Microsoft.Extensions.Logging.ILogger`1<[AtomForge.Infrastructure] . > ) skipped:  special name
 
-	AtomForge.Application.Interfaces.Services.TorrentServices.ITorrentClient [AtomForge.Infrastructure]AtomForge.Application.Interfaces.Services.TorrentServices.ITorrentClient  . :: ‮ ->  ⁉
-	AtomForge.Application.Interfaces.Services.Downloaders.IDownloaderTorrentService [AtomForge.Infrastructure]AtomForge.Application.Interfaces.Services.Downloaders.IDownloaderTorrentService  . ::   ->  ⁊
-	System.Double [AtomForge.Infrastructure]System.Double  . :: ′ ->  ⁋
-	Microsoft.Extensions.Logging.ILogger`1< . > [AtomForge.Infrastructure]Microsoft.Extensions.Logging.ILogger`1< . >  . :: ‵ ->  ⁌
+	AtomForge.Application.Interfaces.Services.TorrentServices.ITorrentClient [AtomForge.Infrastructure]AtomForge.Application.Interfaces.Services.TorrentServices.ITorrentClient  . :: ⁉ ->  ⁒
+	AtomForge.Application.Interfaces.Services.Downloaders.IDownloaderTorrentService [AtomForge.Infrastructure]AtomForge.Application.Interfaces.Services.Downloaders.IDownloaderTorrentService  . :: ⁊ ->  ⁓
+	System.Double [AtomForge.Infrastructure]System.Double  . :: ⁋ ->  ⁔
+	Microsoft.Extensions.Logging.ILogger`1< . > [AtomForge.Infrastructure]Microsoft.Extensions.Logging.ILogger`1< . >  . :: ⁌ ->  ⁕
+	System.Double [AtomForge.Infrastructure]System.Double  . :: ⁍ ->  ⁖
 }
 
 [AtomForge.Infrastructure]AtomForge.Infrastructure.IServiceCollectionExtensions/  -> [AtomForge.Infrastructure]AtomForge.Infrastructure.IServiceCollectionExtensions/ 
@@ -188,8 +191,8 @@ Renamed Types:
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.IServiceCollectionExtensions/ ::.cctor[0]( ) skipped:  special name
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.IServiceCollectionExtensions/ ::.ctor[0]( ) skipped:  special name
 
-	AtomForge.Infrastructure.IServiceCollectionExtensions/  [AtomForge.Infrastructure]AtomForge.Infrastructure.IServiceCollectionExtensions/  AtomForge.Infrastructure.IServiceCollectionExtensions/ :: ⁖ ->  ⁢
-	System.Action`1<System.Net.Http.HttpClient> [AtomForge.Infrastructure]System.Action`1<System.Net.Http.HttpClient> AtomForge.Infrastructure.IServiceCollectionExtensions/ :: ⁗ ->  ⁣
+	AtomForge.Infrastructure.IServiceCollectionExtensions/  [AtomForge.Infrastructure]AtomForge.Infrastructure.IServiceCollectionExtensions/  AtomForge.Infrastructure.IServiceCollectionExtensions/ :: ⁠ ->   
+	System.Action`1<System.Net.Http.HttpClient> [AtomForge.Infrastructure]System.Action`1<System.Net.Http.HttpClient> AtomForge.Infrastructure.IServiceCollectionExtensions/ :: ⁡ ->   
 }
 
 [AtomForge.Infrastructure]AtomForge.Infrastructure.IServiceCollectionExtensions/  -> [AtomForge.Infrastructure]AtomForge.Infrastructure.IServiceCollectionExtensions/ 
@@ -199,7 +202,7 @@ Renamed Types:
 
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.IServiceCollectionExtensions/ ::.ctor[0]( ) skipped:  special name
 
-	Microsoft.Extensions.Configuration.IConfiguration [AtomForge.Infrastructure]Microsoft.Extensions.Configuration.IConfiguration AtomForge.Infrastructure.IServiceCollectionExtensions/ :: ⁘ ->  ⁤
+	Microsoft.Extensions.Configuration.IConfiguration [AtomForge.Infrastructure]Microsoft.Extensions.Configuration.IConfiguration AtomForge.Infrastructure.IServiceCollectionExtensions/ :: ⁢ ->   
 }
 
 [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.InitializationLauncherService/  -> [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.InitializationLauncherService/ 
@@ -208,11 +211,11 @@ Renamed Types:
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.InitializationLauncherService/ ::MoveNext[0]( ) skipped:  external base class or interface
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.InitializationLauncherService/ ::SetStateMachine[1]( [System.Runtime]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
 
-	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.InitializationLauncherService/ :: ⁙ ->  ⁪
-	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Infrastructure.Services.InitializationLauncherService/ :: ⁚ ->  ⁫
-	AtomForge.Infrastructure.Services.InitializationLauncherService [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.InitializationLauncherService AtomForge.Infrastructure.Services.InitializationLauncherService/ :: ⁛ ->  ⁬
-	System.Threading.CancellationToken [AtomForge.Infrastructure]System.Threading.CancellationToken AtomForge.Infrastructure.Services.InitializationLauncherService/ :: ⁜ ->  ⁭
-	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter AtomForge.Infrastructure.Services.InitializationLauncherService/ :: ⁝ ->  ⁮
+	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.InitializationLauncherService/ :: ⁣ ->   
+	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Infrastructure.Services.InitializationLauncherService/ :: ⁤ ->   
+	AtomForge.Infrastructure.Services.InitializationLauncherService [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.InitializationLauncherService AtomForge.Infrastructure.Services.InitializationLauncherService/ :: ⁪ ->   
+	System.Threading.CancellationToken [AtomForge.Infrastructure]System.Threading.CancellationToken AtomForge.Infrastructure.Services.InitializationLauncherService/ :: ⁫ ->   
+	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter AtomForge.Infrastructure.Services.InitializationLauncherService/ :: ⁬ ->   
 }
 
 [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.WebLauncherService/  -> [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.WebLauncherService/ 
@@ -221,10 +224,10 @@ Renamed Types:
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.WebLauncherService/ ::MoveNext[0]( ) skipped:  external base class or interface
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.WebLauncherService/ ::SetStateMachine[1]( [System.Runtime]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
 
-	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.WebLauncherService/ :: ⁞ ->  ⁯
-	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Infrastructure.Services.WebLauncherService/ ::   ->  　
-	AtomForge.Infrastructure.Services.WebLauncherService [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.WebLauncherService AtomForge.Infrastructure.Services.WebLauncherService/ :: ⁠ ->   
-	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter AtomForge.Infrastructure.Services.WebLauncherService/ :: ⁡ ->   
+	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.WebLauncherService/ :: ⁭ ->   
+	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Infrastructure.Services.WebLauncherService/ :: ⁮ ->   
+	AtomForge.Infrastructure.Services.WebLauncherService [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.WebLauncherService AtomForge.Infrastructure.Services.WebLauncherService/ :: ⁯ ->   
+	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter AtomForge.Infrastructure.Services.WebLauncherService/ :: 　 ->   
 }
 
 [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.WebLauncherService/  -> [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.WebLauncherService/ 
@@ -233,11 +236,11 @@ Renamed Types:
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.WebLauncherService/ ::MoveNext[0]( ) skipped:  external base class or interface
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.WebLauncherService/ ::SetStateMachine[1]( [System.Runtime]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
 
-	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.WebLauncherService/ :: ⁢ ->   
-	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Infrastructure.Services.WebLauncherService/ :: ⁣ ->   
-	AtomForge.Application.Interfaces.Refit.IWebApiLauncherRefit [AtomForge.Infrastructure]AtomForge.Application.Interfaces.Refit.IWebApiLauncherRefit AtomForge.Infrastructure.Services.WebLauncherService/ :: ⁤ ->   
-	AtomForge.Infrastructure.Services.WebLauncherService [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.WebLauncherService AtomForge.Infrastructure.Services.WebLauncherService/ :: ⁪ ->   
-	System.Runtime.CompilerServices.TaskAwaiter`1<AtomForge.Domain.DTOs.GameClientInfoJson> [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter`1<AtomForge.Domain.DTOs.GameClientInfoJson> AtomForge.Infrastructure.Services.WebLauncherService/ :: ⁫ ->   
+	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.WebLauncherService/ ::   ->   
+	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Infrastructure.Services.WebLauncherService/ ::   ->  ​
+	AtomForge.Application.Interfaces.Refit.IWebApiLauncherRefit [AtomForge.Infrastructure]AtomForge.Application.Interfaces.Refit.IWebApiLauncherRefit AtomForge.Infrastructure.Services.WebLauncherService/ ::   ->  ‐
+	AtomForge.Infrastructure.Services.WebLauncherService [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.WebLauncherService AtomForge.Infrastructure.Services.WebLauncherService/ ::   ->  ‑
+	System.Runtime.CompilerServices.TaskAwaiter`1<AtomForge.Domain.DTOs.GameClientInfoJson> [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter`1<AtomForge.Domain.DTOs.GameClientInfoJson> AtomForge.Infrastructure.Services.WebLauncherService/ ::   ->  ‒
 }
 
 [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.WebLauncherService/  -> [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.WebLauncherService/ 
@@ -246,11 +249,11 @@ Renamed Types:
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.WebLauncherService/ ::MoveNext[0]( ) skipped:  external base class or interface
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.WebLauncherService/ ::SetStateMachine[1]( [System.Runtime]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
 
-	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.WebLauncherService/ :: ⁬ ->   
-	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Infrastructure.Services.WebLauncherService/ :: ⁭ ->   
-	AtomForge.Application.Interfaces.Refit.IWebApiLauncherRefit [AtomForge.Infrastructure]AtomForge.Application.Interfaces.Refit.IWebApiLauncherRefit AtomForge.Infrastructure.Services.WebLauncherService/ :: ⁮ ->   
-	AtomForge.Infrastructure.Services.WebLauncherService [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.WebLauncherService AtomForge.Infrastructure.Services.WebLauncherService/ :: ⁯ ->   
-	System.Runtime.CompilerServices.TaskAwaiter`1<System.Collections.Generic.List`1<AtomForge.Domain.DTOs.ServerInformationJson>> [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter`1<System.Collections.Generic.List`1<AtomForge.Domain.DTOs.ServerInformationJson>> AtomForge.Infrastructure.Services.WebLauncherService/ :: 　 ->   
+	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.WebLauncherService/ ::   ->  –
+	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Infrastructure.Services.WebLauncherService/ ::   ->  —
+	AtomForge.Application.Interfaces.Refit.IWebApiLauncherRefit [AtomForge.Infrastructure]AtomForge.Application.Interfaces.Refit.IWebApiLauncherRefit AtomForge.Infrastructure.Services.WebLauncherService/ ::   ->  ―
+	AtomForge.Infrastructure.Services.WebLauncherService [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.WebLauncherService AtomForge.Infrastructure.Services.WebLauncherService/ ::   ->  •
+	System.Runtime.CompilerServices.TaskAwaiter`1<System.Collections.Generic.List`1<AtomForge.Domain.DTOs.ServerInformationJson>> [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter`1<System.Collections.Generic.List`1<AtomForge.Domain.DTOs.ServerInformationJson>> AtomForge.Infrastructure.Services.WebLauncherService/ ::   ->  ․
 }
 
 [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.WebLauncherService/  -> [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.WebLauncherService/ 
@@ -259,12 +262,12 @@ Renamed Types:
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.WebLauncherService/ ::MoveNext[0]( ) skipped:  external base class or interface
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.WebLauncherService/ ::SetStateMachine[1]( [System.Runtime]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
 
-	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.WebLauncherService/ ::   ->   
-	System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.String> [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.String> AtomForge.Infrastructure.Services.WebLauncherService/ ::   ->  ​
-	AtomForge.Infrastructure.Services.WebLauncherService [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.WebLauncherService AtomForge.Infrastructure.Services.WebLauncherService/ ::   ->  ‐
-	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.WebLauncherService/ ::   ->  ‑
-	System.Threading.CancellationToken [AtomForge.Infrastructure]System.Threading.CancellationToken AtomForge.Infrastructure.Services.WebLauncherService/ ::   ->  ‒
-	System.Runtime.CompilerServices.TaskAwaiter`1<System.String> [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter`1<System.String> AtomForge.Infrastructure.Services.WebLauncherService/ ::   ->  –
+	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.WebLauncherService/ ::   ->  ‥
+	System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.String> [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.String> AtomForge.Infrastructure.Services.WebLauncherService/ ::   ->  ‧
+	AtomForge.Infrastructure.Services.WebLauncherService [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.WebLauncherService AtomForge.Infrastructure.Services.WebLauncherService/ ::   ->   
+	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.WebLauncherService/ :: ​ ->   
+	System.Threading.CancellationToken [AtomForge.Infrastructure]System.Threading.CancellationToken AtomForge.Infrastructure.Services.WebLauncherService/ :: ‐ ->  ‪
+	System.Runtime.CompilerServices.TaskAwaiter`1<System.String> [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter`1<System.String> AtomForge.Infrastructure.Services.WebLauncherService/ :: ‑ ->  ‫
 }
 
 [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.WebLauncherService/  -> [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.WebLauncherService/ 
@@ -273,10 +276,10 @@ Renamed Types:
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.WebLauncherService/ ::MoveNext[0]( ) skipped:  external base class or interface
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.WebLauncherService/ ::SetStateMachine[1]( [System.Runtime]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
 
-	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.WebLauncherService/ ::   ->  —
-	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Infrastructure.Services.WebLauncherService/ ::   ->  ―
-	AtomForge.Infrastructure.Services.WebLauncherService [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.WebLauncherService AtomForge.Infrastructure.Services.WebLauncherService/ ::   ->  •
-	System.Runtime.CompilerServices.TaskAwaiter`1<System.Boolean> [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter`1<System.Boolean> AtomForge.Infrastructure.Services.WebLauncherService/ ::   ->  ․
+	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.WebLauncherService/ :: ‒ ->  ‬
+	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Infrastructure.Services.WebLauncherService/ :: – ->  ‭
+	AtomForge.Infrastructure.Services.WebLauncherService [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.WebLauncherService AtomForge.Infrastructure.Services.WebLauncherService/ :: — ->  ‮
+	System.Runtime.CompilerServices.TaskAwaiter`1<System.Boolean> [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter`1<System.Boolean> AtomForge.Infrastructure.Services.WebLauncherService/ :: ― ->   
 }
 
 [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/  -> [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ 
@@ -285,12 +288,12 @@ Renamed Types:
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ ::MoveNext[0]( ) skipped:  external base class or interface
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ ::SetStateMachine[1]( [System.Runtime]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
 
-	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ ::   ->  ‥
-	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ ::   ->  ‧
-	AtomForge.Infrastructure.Services.TorrentServices.TorrentClient [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.TorrentServices.TorrentClient AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ ::   ->   
-	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ :: ​ ->   
-	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ :: ‐ ->  ‪
-	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ :: ‑ ->  ‫
+	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ :: • ->  ′
+	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ :: ․ ->  ‵
+	AtomForge.Infrastructure.Services.TorrentServices.TorrentClient [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.TorrentServices.TorrentClient AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ :: ‥ ->  ″
+	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ :: ‧ ->  ‶
+	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ ::   ->  ‾
+	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ ::   ->  ⁇
 }
 
 [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/  -> [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ 
@@ -299,13 +302,13 @@ Renamed Types:
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ ::MoveNext[0]( ) skipped:  external base class or interface
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ ::SetStateMachine[1]( [System.Runtime]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
 
-	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ :: ‒ ->  ‬
-	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ :: – ->  ‭
-	System.IO.StreamReader [AtomForge.Infrastructure]System.IO.StreamReader AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ :: — ->  ‮
-	AtomForge.Infrastructure.Services.TorrentServices.TorrentClient [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.TorrentServices.TorrentClient AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ :: ― ->   
-	System.Text.StringBuilder [AtomForge.Infrastructure]System.Text.StringBuilder AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ :: • ->  ′
-	System.Char[] [AtomForge.Infrastructure]System.Char[] AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ :: ․ ->  ‵
-	System.Runtime.CompilerServices.TaskAwaiter`1<System.Int32> [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter`1<System.Int32> AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ :: ‥ ->  ″
+	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ :: ‪ ->  ⁈
+	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ :: ‫ ->  ⁉
+	System.IO.StreamReader [AtomForge.Infrastructure]System.IO.StreamReader AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ :: ‬ ->  ⁊
+	AtomForge.Infrastructure.Services.TorrentServices.TorrentClient [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.TorrentServices.TorrentClient AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ :: ‭ ->  ⁋
+	System.Text.StringBuilder [AtomForge.Infrastructure]System.Text.StringBuilder AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ :: ‮ ->  ⁌
+	System.Char[] [AtomForge.Infrastructure]System.Char[] AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ ::   ->  ⁍
+	System.Runtime.CompilerServices.TaskAwaiter`1<System.Int32> [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter`1<System.Int32> AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ :: ′ ->  ⁎
 }
 
 [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/  -> [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ 
@@ -314,13 +317,13 @@ Renamed Types:
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ ::MoveNext[0]( ) skipped:  external base class or interface
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ ::SetStateMachine[1]( [System.Runtime]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
 
-	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ :: ‧ ->  ‶
-	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ ::   ->  ‾
-	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ ::   ->  ⁇
-	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ :: ‪ ->  ⁈
-	AtomForge.Infrastructure.Services.TorrentServices.TorrentClient [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.TorrentServices.TorrentClient AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ :: ‫ ->  ⁉
-	System.Runtime.CompilerServices.TaskAwaiter`1<System.Threading.Tasks.Task> [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter`1<System.Threading.Tasks.Task> AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ :: ‬ ->  ⁊
-	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ :: ‭ ->  ⁋
+	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ :: ‵ ->  ⁏
+	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ :: ″ ->  ⁐
+	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ :: ‶ ->  ⁑
+	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ :: ‾ ->  ⁒
+	AtomForge.Infrastructure.Services.TorrentServices.TorrentClient [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.TorrentServices.TorrentClient AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ :: ⁇ ->  ⁓
+	System.Runtime.CompilerServices.TaskAwaiter`1<System.Threading.Tasks.Task> [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter`1<System.Threading.Tasks.Task> AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ :: ⁈ ->  ⁔
+	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ :: ⁉ ->  ⁕
 }
 
 [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Popup.PopupHandlerSerivce/  -> [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Popup.PopupHandlerSerivce/ 
@@ -329,8 +332,8 @@ Renamed Types:
 
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Popup.PopupHandlerSerivce/ ::.ctor[0]( ) skipped:  special name
 
-	AtomForge.Infrastructure.Services.Popup.PopupHandlerSerivce [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Popup.PopupHandlerSerivce AtomForge.Infrastructure.Services.Popup.PopupHandlerSerivce/ :: ‮ ->  ⁌
-	Wpf.Ui.Controls.ContentDialog [AtomForge.Infrastructure]Wpf.Ui.Controls.ContentDialog AtomForge.Infrastructure.Services.Popup.PopupHandlerSerivce/ ::   ->  ⁍
+	AtomForge.Infrastructure.Services.Popup.PopupHandlerSerivce [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Popup.PopupHandlerSerivce AtomForge.Infrastructure.Services.Popup.PopupHandlerSerivce/ :: ⁊ ->  ⁖
+	Wpf.Ui.Controls.ContentDialog [AtomForge.Infrastructure]Wpf.Ui.Controls.ContentDialog AtomForge.Infrastructure.Services.Popup.PopupHandlerSerivce/ :: ⁋ ->  ⁗
 }
 
 [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.ConfigManager/  -> [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.ConfigManager/ 
@@ -339,16 +342,16 @@ Renamed Types:
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.ConfigManager/ ::MoveNext[0]( ) skipped:  external base class or interface
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.ConfigManager/ ::SetStateMachine[1]( [System.Runtime]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
 
-	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.Managers.ConfigManager/ :: ′ ->  ⁎
-	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Infrastructure.Services.Managers.ConfigManager/ :: ‵ ->  ⁏
-	AtomForge.Infrastructure.Services.Managers.ConfigManager [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.ConfigManager AtomForge.Infrastructure.Services.Managers.ConfigManager/ :: ″ ->  ⁐
-	System.Threading.Tasks.Task`1<System.String> [AtomForge.Infrastructure]System.Threading.Tasks.Task`1<System.String> AtomForge.Infrastructure.Services.Managers.ConfigManager/ :: ‶ ->  ⁑
-	System.Runtime.CompilerServices.TaskAwaiter`1<System.Threading.Tasks.Task> [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter`1<System.Threading.Tasks.Task> AtomForge.Infrastructure.Services.Managers.ConfigManager/ :: ‾ ->  ⁒
+	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.Managers.ConfigManager/ :: ⁌ ->  ⁘
+	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Infrastructure.Services.Managers.ConfigManager/ :: ⁍ ->  ⁙
+	AtomForge.Infrastructure.Services.Managers.ConfigManager [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.ConfigManager AtomForge.Infrastructure.Services.Managers.ConfigManager/ :: ⁎ ->  ⁚
+	System.Threading.Tasks.Task`1<System.String> [AtomForge.Infrastructure]System.Threading.Tasks.Task`1<System.String> AtomForge.Infrastructure.Services.Managers.ConfigManager/ :: ⁏ ->  ⁛
+	System.Runtime.CompilerServices.TaskAwaiter`1<System.Threading.Tasks.Task> [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter`1<System.Threading.Tasks.Task> AtomForge.Infrastructure.Services.Managers.ConfigManager/ :: ⁐ ->  ⁜
 }
 
 [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.LanguageManager/  -> [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.LanguageManager/ 
 {
-	System.EventHandler`1<CodingSeb.Localization.LocalizationMissingTranslationEventArgs> [AtomForge.Infrastructure]System.EventHandler`1<CodingSeb.Localization.LocalizationMissingTranslationEventArgs> AtomForge.Infrastructure.Services.Managers.LanguageManager/ :: ⁇ ->  ⁓
+	System.EventHandler`1<CodingSeb.Localization.LocalizationMissingTranslationEventArgs> [AtomForge.Infrastructure]System.EventHandler`1<CodingSeb.Localization.LocalizationMissingTranslationEventArgs> AtomForge.Infrastructure.Services.Managers.LanguageManager/ :: ⁑ ->  ⁝
 }
 
 [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.LanguageManager/  -> [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.LanguageManager/ 
@@ -357,7 +360,7 @@ Renamed Types:
 
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.LanguageManager/ ::.ctor[0]( ) skipped:  special name
 
-	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.Managers.LanguageManager/ :: ⁈ ->  ⁔
+	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.Managers.LanguageManager/ :: ⁒ ->  ⁞
 }
 
 [AtomForge.Infrastructure] . /  -> [AtomForge.Infrastructure] . / 
@@ -366,12 +369,12 @@ Renamed Types:
 	[AtomForge.Infrastructure] . / ::MoveNext[0]( ) skipped:  external base class or interface
 	[AtomForge.Infrastructure] . / ::SetStateMachine[1]( [System.Runtime]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
 
-	System.Int32 [AtomForge.Infrastructure]System.Int32  . / :: ⁉ ->  ⁕
-	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder  . / :: ⁊ ->  ⁖
-	 .  [AtomForge.Infrastructure] .   . / :: ⁋ ->  ⁗
-	System.String [AtomForge.Infrastructure]System.String  . / :: ⁌ ->  ⁘
-	System.String [AtomForge.Infrastructure]System.String  . / :: ⁍ ->  ⁙
-	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter  . / :: ⁎ ->  ⁚
+	System.Int32 [AtomForge.Infrastructure]System.Int32  . / :: ⁓ ->   
+	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder  . / :: ⁔ ->  ⁠
+	 .  [AtomForge.Infrastructure] .   . / :: ⁕ ->  ⁡
+	System.String [AtomForge.Infrastructure]System.String  . / :: ⁖ ->  ⁢
+	System.String [AtomForge.Infrastructure]System.String  . / :: ⁗ ->  ⁣
+	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter  . / :: ⁘ ->  ⁤
 }
 
 [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameLauncherService/  -> [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameLauncherService/ 
@@ -380,10 +383,10 @@ Renamed Types:
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameLauncherService/ ::MoveNext[0]( ) skipped:  external base class or interface
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameLauncherService/ ::SetStateMachine[1]( [System.Runtime]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
 
-	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.Game.GameLauncherService/ :: ⁏ ->  ⁛
-	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Infrastructure.Services.Game.GameLauncherService/ :: ⁐ ->  ⁜
-	AtomForge.Infrastructure.Services.Game.GameLauncherService [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameLauncherService AtomForge.Infrastructure.Services.Game.GameLauncherService/ :: ⁑ ->  ⁝
-	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter AtomForge.Infrastructure.Services.Game.GameLauncherService/ :: ⁒ ->  ⁞
+	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.Game.GameLauncherService/ :: ⁙ ->  ⁪
+	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Infrastructure.Services.Game.GameLauncherService/ :: ⁚ ->  ⁫
+	AtomForge.Infrastructure.Services.Game.GameLauncherService [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameLauncherService AtomForge.Infrastructure.Services.Game.GameLauncherService/ :: ⁛ ->  ⁬
+	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter AtomForge.Infrastructure.Services.Game.GameLauncherService/ :: ⁜ ->  ⁭
 }
 
 [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameLauncherService/  -> [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameLauncherService/ 
@@ -392,10 +395,10 @@ Renamed Types:
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameLauncherService/ ::MoveNext[0]( ) skipped:  external base class or interface
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameLauncherService/ ::SetStateMachine[1]( [System.Runtime]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
 
-	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.Game.GameLauncherService/ :: ⁓ ->   
-	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Infrastructure.Services.Game.GameLauncherService/ :: ⁔ ->  ⁠
-	AtomForge.Infrastructure.Services.Game.GameLauncherService [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameLauncherService AtomForge.Infrastructure.Services.Game.GameLauncherService/ :: ⁕ ->  ⁡
-	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter AtomForge.Infrastructure.Services.Game.GameLauncherService/ :: ⁖ ->  ⁢
+	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.Game.GameLauncherService/ :: ⁝ ->  ⁮
+	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Infrastructure.Services.Game.GameLauncherService/ :: ⁞ ->  ⁯
+	AtomForge.Infrastructure.Services.Game.GameLauncherService [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameLauncherService AtomForge.Infrastructure.Services.Game.GameLauncherService/ ::   ->  　
+	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter AtomForge.Infrastructure.Services.Game.GameLauncherService/ :: ⁠ ->   
 }
 
 [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameLauncherService/  -> [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameLauncherService/ 
@@ -404,11 +407,11 @@ Renamed Types:
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameLauncherService/ ::MoveNext[0]( ) skipped:  external base class or interface
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameLauncherService/ ::SetStateMachine[1]( [System.Runtime]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
 
-	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.Game.GameLauncherService/ :: ⁗ ->  ⁣
-	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Infrastructure.Services.Game.GameLauncherService/ :: ⁘ ->  ⁤
-	AtomForge.Infrastructure.Services.Game.GameLauncherService [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameLauncherService AtomForge.Infrastructure.Services.Game.GameLauncherService/ :: ⁙ ->  ⁪
-	AtomForge.Application.ViewModels.Windows.MainWindow.GameStateViewModel [AtomForge.Infrastructure]AtomForge.Application.ViewModels.Windows.MainWindow.GameStateViewModel AtomForge.Infrastructure.Services.Game.GameLauncherService/ :: ⁚ ->  ⁫
-	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter AtomForge.Infrastructure.Services.Game.GameLauncherService/ :: ⁛ ->  ⁬
+	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.Game.GameLauncherService/ :: ⁡ ->   
+	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Infrastructure.Services.Game.GameLauncherService/ :: ⁢ ->   
+	AtomForge.Infrastructure.Services.Game.GameLauncherService [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameLauncherService AtomForge.Infrastructure.Services.Game.GameLauncherService/ :: ⁣ ->   
+	AtomForge.Application.ViewModels.Windows.MainWindow.GameStateViewModel [AtomForge.Infrastructure]AtomForge.Application.ViewModels.Windows.MainWindow.GameStateViewModel AtomForge.Infrastructure.Services.Game.GameLauncherService/ :: ⁤ ->   
+	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter AtomForge.Infrastructure.Services.Game.GameLauncherService/ :: ⁪ ->   
 }
 
 [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameLauncherService/  -> [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameLauncherService/ 
@@ -417,10 +420,10 @@ Renamed Types:
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameLauncherService/ ::MoveNext[0]( ) skipped:  external base class or interface
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameLauncherService/ ::SetStateMachine[1]( [System.Runtime]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
 
-	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.Game.GameLauncherService/ :: ⁜ ->  ⁭
-	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Infrastructure.Services.Game.GameLauncherService/ :: ⁝ ->  ⁮
-	AtomForge.Infrastructure.Services.Game.GameLauncherService [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameLauncherService AtomForge.Infrastructure.Services.Game.GameLauncherService/ :: ⁞ ->  ⁯
-	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter AtomForge.Infrastructure.Services.Game.GameLauncherService/ ::   ->  　
+	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.Game.GameLauncherService/ :: ⁫ ->   
+	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Infrastructure.Services.Game.GameLauncherService/ :: ⁬ ->   
+	AtomForge.Infrastructure.Services.Game.GameLauncherService [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameLauncherService AtomForge.Infrastructure.Services.Game.GameLauncherService/ :: ⁭ ->   
+	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter AtomForge.Infrastructure.Services.Game.GameLauncherService/ :: ⁮ ->   
 }
 
 [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameLauncherService/  -> [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameLauncherService/ 
@@ -429,10 +432,10 @@ Renamed Types:
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameLauncherService/ ::MoveNext[0]( ) skipped:  external base class or interface
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameLauncherService/ ::SetStateMachine[1]( [System.Runtime]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
 
-	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.Game.GameLauncherService/ :: ⁠ ->   
-	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Infrastructure.Services.Game.GameLauncherService/ :: ⁡ ->   
-	AtomForge.Infrastructure.Services.Game.GameLauncherService [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameLauncherService AtomForge.Infrastructure.Services.Game.GameLauncherService/ :: ⁢ ->   
-	System.Runtime.CompilerServices.TaskAwaiter`1<System.String> [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter`1<System.String> AtomForge.Infrastructure.Services.Game.GameLauncherService/ :: ⁣ ->   
+	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.Game.GameLauncherService/ :: ⁯ ->   
+	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Infrastructure.Services.Game.GameLauncherService/ :: 　 ->   
+	AtomForge.Infrastructure.Services.Game.GameLauncherService [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameLauncherService AtomForge.Infrastructure.Services.Game.GameLauncherService/ ::   ->   
+	System.Runtime.CompilerServices.TaskAwaiter`1<System.String> [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter`1<System.String> AtomForge.Infrastructure.Services.Game.GameLauncherService/ ::   ->  ​
 }
 
 [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService/  -> [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService/ 
@@ -441,15 +444,15 @@ Renamed Types:
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService/ ::MoveNext[0]( ) skipped:  external base class or interface
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService/ ::SetStateMachine[1]( [System.Runtime]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
 
-	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService/ :: ⁤ ->   
-	System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Byte[]> [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Byte[]> AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService/ :: ⁪ ->   
-	AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService/ :: ⁫ ->   
-	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService/ :: ⁬ ->   
-	System.Threading.CancellationToken [AtomForge.Infrastructure]System.Threading.CancellationToken AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService/ :: ⁭ ->   
-	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService/ :: ⁮ ->   
-	System.Byte[] [AtomForge.Infrastructure]System.Byte[] AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService/ :: ⁯ ->   
-	System.Runtime.CompilerServices.TaskAwaiter`1<System.Byte[]> [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter`1<System.Byte[]> AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService/ :: 　 ->   
-	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService/ ::   ->   
+	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService/ ::   ->  ‐
+	System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Byte[]> [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Byte[]> AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService/ ::   ->  ‑
+	AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService/ ::   ->  ‒
+	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService/ ::   ->  –
+	System.Threading.CancellationToken [AtomForge.Infrastructure]System.Threading.CancellationToken AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService/ ::   ->  —
+	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService/ ::   ->  ―
+	System.Byte[] [AtomForge.Infrastructure]System.Byte[] AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService/ ::   ->  •
+	System.Runtime.CompilerServices.TaskAwaiter`1<System.Byte[]> [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter`1<System.Byte[]> AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService/ ::   ->  ․
+	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService/ ::   ->  ‥
 }
 
 [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService/  -> [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService/ 
@@ -458,12 +461,12 @@ Renamed Types:
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService/ ::MoveNext[0]( ) skipped:  external base class or interface
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService/ ::SetStateMachine[1]( [System.Runtime]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
 
-	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService/ ::   ->  ​
-	System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Windows.Media.Imaging.BitmapImage> [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Windows.Media.Imaging.BitmapImage> AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService/ ::   ->  ‐
-	AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService/ ::   ->  ‑
-	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService/ ::   ->  ‒
-	System.Threading.CancellationToken [AtomForge.Infrastructure]System.Threading.CancellationToken AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService/ ::   ->  –
-	System.Runtime.CompilerServices.TaskAwaiter`1<System.Byte[]> [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter`1<System.Byte[]> AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService/ ::   ->  —
+	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService/ ::   ->  ‧
+	System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Windows.Media.Imaging.BitmapImage> [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Windows.Media.Imaging.BitmapImage> AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService/ ::   ->   
+	AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService/ :: ​ ->   
+	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService/ :: ‐ ->  ‪
+	System.Threading.CancellationToken [AtomForge.Infrastructure]System.Threading.CancellationToken AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService/ :: ‑ ->  ‫
+	System.Runtime.CompilerServices.TaskAwaiter`1<System.Byte[]> [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter`1<System.Byte[]> AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService/ :: ‒ ->  ‬
 }
 
 [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService/  -> [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService/ 
@@ -472,15 +475,15 @@ Renamed Types:
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService/ ::MoveNext[0]( ) skipped:  external base class or interface
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService/ ::SetStateMachine[1]( [System.Runtime]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
 
-	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService/ ::   ->  ―
-	System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.String> [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.String> AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService/ ::   ->  •
-	AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService/ ::   ->  ․
-	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService/ ::   ->  ‥
-	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService/ ::   ->  ‧
-	System.Threading.CancellationToken [AtomForge.Infrastructure]System.Threading.CancellationToken AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService/ ::   ->   
-	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService/ :: ​ ->   
-	System.Runtime.CompilerServices.TaskAwaiter`1<System.Byte[]> [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter`1<System.Byte[]> AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService/ :: ‐ ->  ‪
-	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService/ :: ‑ ->  ‫
+	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService/ :: – ->  ‭
+	System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.String> [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.String> AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService/ :: — ->  ‮
+	AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService/ :: ― ->   
+	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService/ :: • ->  ′
+	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService/ :: ․ ->  ‵
+	System.Threading.CancellationToken [AtomForge.Infrastructure]System.Threading.CancellationToken AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService/ :: ‥ ->  ″
+	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService/ :: ‧ ->  ‶
+	System.Runtime.CompilerServices.TaskAwaiter`1<System.Byte[]> [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter`1<System.Byte[]> AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService/ ::   ->  ‾
+	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService/ ::   ->  ⁇
 }
 
 [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService/  -> [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService/ 
@@ -489,12 +492,12 @@ Renamed Types:
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService/ ::MoveNext[0]( ) skipped:  external base class or interface
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService/ ::SetStateMachine[1]( [System.Runtime]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
 
-	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService/ :: ‒ ->  ‬
-	System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.String> [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.String> AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService/ :: – ->  ‭
-	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService/ :: — ->  ‮
-	AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService/ :: ― ->   
-	System.Threading.CancellationToken [AtomForge.Infrastructure]System.Threading.CancellationToken AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService/ :: • ->  ′
-	System.Runtime.CompilerServices.TaskAwaiter`1<System.String> [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter`1<System.String> AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService/ :: ․ ->  ‵
+	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService/ :: ‪ ->  ⁈
+	System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.String> [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.String> AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService/ :: ‫ ->  ⁉
+	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService/ :: ‬ ->  ⁊
+	AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService/ :: ‭ ->  ⁋
+	System.Threading.CancellationToken [AtomForge.Infrastructure]System.Threading.CancellationToken AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService/ :: ‮ ->  ⁌
+	System.Runtime.CompilerServices.TaskAwaiter`1<System.String> [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter`1<System.String> AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService/ ::   ->  ⁍
 }
 
 [AtomForge.AppHost]AtomForge.AppHost.ApplicationHostService/  -> [AtomForge.AppHost]AtomForge.AppHost.ApplicationHostService/ 
@@ -503,10 +506,10 @@ Renamed Types:
 	[AtomForge.AppHost]AtomForge.AppHost.ApplicationHostService/ ::MoveNext[0]( ) skipped:  external base class or interface
 	[AtomForge.AppHost]AtomForge.AppHost.ApplicationHostService/ ::SetStateMachine[1]( [System.Runtime]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
 
-	System.Int32 [AtomForge.AppHost]System.Int32 AtomForge.AppHost.ApplicationHostService/ :: ‫ ->  ⁌
-	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.AppHost]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.AppHost.ApplicationHostService/ :: ‬ ->  ⁍
-	AtomForge.AppHost.ApplicationHostService [AtomForge.AppHost]AtomForge.AppHost.ApplicationHostService AtomForge.AppHost.ApplicationHostService/ :: ‭ ->  ⁎
-	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.AppHost]System.Runtime.CompilerServices.TaskAwaiter AtomForge.AppHost.ApplicationHostService/ :: ‮ ->  ⁏
+	System.Int32 [AtomForge.AppHost]System.Int32 AtomForge.AppHost.ApplicationHostService/ :: ⁇ ->  ⁖
+	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.AppHost]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.AppHost.ApplicationHostService/ :: ⁈ ->  ⁗
+	AtomForge.AppHost.ApplicationHostService [AtomForge.AppHost]AtomForge.AppHost.ApplicationHostService AtomForge.AppHost.ApplicationHostService/ :: ⁉ ->  ⁘
+	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.AppHost]System.Runtime.CompilerServices.TaskAwaiter AtomForge.AppHost.ApplicationHostService/ :: ⁊ ->  ⁙
 }
 
 [AtomForge.AppHost]AtomForge.AppHost.ApplicationHostService/  -> [AtomForge.AppHost]AtomForge.AppHost.ApplicationHostService/ 
@@ -515,10 +518,10 @@ Renamed Types:
 	[AtomForge.AppHost]AtomForge.AppHost.ApplicationHostService/ ::MoveNext[0]( ) skipped:  external base class or interface
 	[AtomForge.AppHost]AtomForge.AppHost.ApplicationHostService/ ::SetStateMachine[1]( [System.Runtime]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
 
-	System.Int32 [AtomForge.AppHost]System.Int32 AtomForge.AppHost.ApplicationHostService/ ::   ->  ⁐
-	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.AppHost]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.AppHost.ApplicationHostService/ :: ′ ->  ⁑
-	AtomForge.AppHost.ApplicationHostService [AtomForge.AppHost]AtomForge.AppHost.ApplicationHostService AtomForge.AppHost.ApplicationHostService/ :: ‵ ->  ⁒
-	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.AppHost]System.Runtime.CompilerServices.TaskAwaiter AtomForge.AppHost.ApplicationHostService/ :: ″ ->  ⁓
+	System.Int32 [AtomForge.AppHost]System.Int32 AtomForge.AppHost.ApplicationHostService/ :: ⁋ ->  ⁚
+	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.AppHost]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.AppHost.ApplicationHostService/ :: ⁌ ->  ⁛
+	AtomForge.AppHost.ApplicationHostService [AtomForge.AppHost]AtomForge.AppHost.ApplicationHostService AtomForge.AppHost.ApplicationHostService/ :: ⁍ ->  ⁜
+	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.AppHost]System.Runtime.CompilerServices.TaskAwaiter AtomForge.AppHost.ApplicationHostService/ :: ⁎ ->  ⁝
 }
 
 [AtomForge.AppHost]AtomForge.AppHost.ApplicationHostService/  -> [AtomForge.AppHost]AtomForge.AppHost.ApplicationHostService/ 
@@ -527,9 +530,9 @@ Renamed Types:
 	[AtomForge.AppHost]AtomForge.AppHost.ApplicationHostService/ ::MoveNext[0]( ) skipped:  external base class or interface
 	[AtomForge.AppHost]AtomForge.AppHost.ApplicationHostService/ ::SetStateMachine[1]( [System.Runtime]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
 
-	System.Int32 [AtomForge.AppHost]System.Int32 AtomForge.AppHost.ApplicationHostService/ :: ‶ ->  ⁔
-	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.AppHost]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.AppHost.ApplicationHostService/ :: ‾ ->  ⁕
-	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.AppHost]System.Runtime.CompilerServices.TaskAwaiter AtomForge.AppHost.ApplicationHostService/ :: ⁇ ->  ⁖
+	System.Int32 [AtomForge.AppHost]System.Int32 AtomForge.AppHost.ApplicationHostService/ :: ⁏ ->  ⁞
+	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.AppHost]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.AppHost.ApplicationHostService/ :: ⁐ ->   
+	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.AppHost]System.Runtime.CompilerServices.TaskAwaiter AtomForge.AppHost.ApplicationHostService/ :: ⁑ ->  ⁠
 }
 
 [AtomForge.AppHost]AtomForge.AppHost.HostedAppManager/  -> [AtomForge.AppHost]AtomForge.AppHost.HostedAppManager/ 
@@ -540,7 +543,7 @@ Renamed Types:
 	[AtomForge.AppHost]AtomForge.AppHost.HostedAppManager/ ::.cctor[0]( ) skipped:  special name
 	[AtomForge.AppHost]AtomForge.AppHost.HostedAppManager/ ::.ctor[0]( ) skipped:  special name
 
-	AtomForge.AppHost.HostedAppManager/  [AtomForge.AppHost]AtomForge.AppHost.HostedAppManager/  AtomForge.AppHost.HostedAppManager/ :: ⁈ ->  ⁗
+	AtomForge.AppHost.HostedAppManager/  [AtomForge.AppHost]AtomForge.AppHost.HostedAppManager/  AtomForge.AppHost.HostedAppManager/ :: ⁒ ->  ⁡
 }
 
 [SkachatRust]SkachatRust.App/  -> [SkachatRust]SkachatRust.App/ 
@@ -549,8 +552,8 @@ Renamed Types:
 	[SkachatRust]SkachatRust.App/ ::MoveNext[0]( ) skipped:  external base class or interface
 	[SkachatRust]SkachatRust.App/ ::SetStateMachine[1]( [System.Runtime]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
 
-	System.Int32 [SkachatRust]System.Int32 SkachatRust.App/ :: ⁊ ->  ⁜
-	System.Runtime.CompilerServices.AsyncVoidMethodBuilder [SkachatRust]System.Runtime.CompilerServices.AsyncVoidMethodBuilder SkachatRust.App/ :: ⁋ ->  ⁝
+	System.Int32 [SkachatRust]System.Int32 SkachatRust.App/ :: ⁔ ->  ⁫
+	System.Runtime.CompilerServices.AsyncVoidMethodBuilder [SkachatRust]System.Runtime.CompilerServices.AsyncVoidMethodBuilder SkachatRust.App/ :: ⁕ ->  ⁬
 }
 
 Skipped Types:
@@ -910,21 +913,21 @@ Skipped Types:
 	[AtomForge.Application]AtomForge.Application.ViewModels.Windows.MainWindowViewModel::SetDispatcher[1]( [WindowsBase]System.Windows.Threading.Dispatcher ) skipped:  KeepPublicApi option in configuration
 	[AtomForge.Application]AtomForge.Application.ViewModels.Windows.MainWindowViewModel::OpenGameFolder[0]( ) skipped:  KeepPublicApi option in configuration
 
-	AtomForge.Application.Interfaces.Services.Game.IGameLauncherService [AtomForge.Application]AtomForge.Application.Interfaces.Services.Game.IGameLauncherService AtomForge.Application.ViewModels.Windows.MainWindowViewModel::⁪ -> ⁭
-	AtomForge.Application.Interfaces.Services.IAppSettings [AtomForge.Application]AtomForge.Application.Interfaces.Services.IAppSettings AtomForge.Application.ViewModels.Windows.MainWindowViewModel::⁫ -> ⁮
-	AtomForge.Application.ViewModels.Windows.MainWindow.GameStateViewModel [AtomForge.Application]AtomForge.Application.ViewModels.Windows.MainWindow.GameStateViewModel AtomForge.Application.ViewModels.Windows.MainWindowViewModel::⁬ -> ⁯
-	AtomForge.Application.ViewModels.Windows.MainWindow.UIVisibilityViewModel [AtomForge.Application]AtomForge.Application.ViewModels.Windows.MainWindow.UIVisibilityViewModel AtomForge.Application.ViewModels.Windows.MainWindowViewModel::⁭ -> 　
-	AtomForge.Application.Interfaces.Services.Steam.ISteamBasic [AtomForge.Application]AtomForge.Application.Interfaces.Services.Steam.ISteamBasic AtomForge.Application.ViewModels.Windows.MainWindowViewModel::⁮ ->   
-	System.Windows.Threading.Dispatcher [AtomForge.Application]System.Windows.Threading.Dispatcher AtomForge.Application.ViewModels.Windows.MainWindowViewModel::⁯ ->   
-	System.EventHandler [AtomForge.Application]System.EventHandler AtomForge.Application.ViewModels.Windows.MainWindowViewModel::　 ->   
-	System.Collections.ObjectModel.ObservableCollection`1<Wpf.Ui.Controls.MenuItem> [AtomForge.Application]System.Collections.ObjectModel.ObservableCollection`1<Wpf.Ui.Controls.MenuItem> AtomForge.Application.ViewModels.Windows.MainWindowViewModel::   ->   
-	System.Windows.Input.ICommand [AtomForge.Application]System.Windows.Input.ICommand AtomForge.Application.ViewModels.Windows.MainWindowViewModel::   ->   
-	System.Windows.Input.ICommand [AtomForge.Application]System.Windows.Input.ICommand AtomForge.Application.ViewModels.Windows.MainWindowViewModel::   ->   
-	System.String [AtomForge.Application]System.String AtomForge.Application.ViewModels.Windows.MainWindowViewModel::   ->   
-	System.String [AtomForge.Application]System.String AtomForge.Application.ViewModels.Windows.MainWindowViewModel::   ->   
+	AtomForge.Application.Interfaces.Services.Game.IGameLauncherService [AtomForge.Application]AtomForge.Application.Interfaces.Services.Game.IGameLauncherService AtomForge.Application.ViewModels.Windows.MainWindowViewModel::⁬ -> ⁯
+	AtomForge.Application.Interfaces.Services.IAppSettings [AtomForge.Application]AtomForge.Application.Interfaces.Services.IAppSettings AtomForge.Application.ViewModels.Windows.MainWindowViewModel::⁭ -> 　
+	AtomForge.Application.ViewModels.Windows.MainWindow.GameStateViewModel [AtomForge.Application]AtomForge.Application.ViewModels.Windows.MainWindow.GameStateViewModel AtomForge.Application.ViewModels.Windows.MainWindowViewModel::⁮ ->   
+	AtomForge.Application.ViewModels.Windows.MainWindow.UIVisibilityViewModel [AtomForge.Application]AtomForge.Application.ViewModels.Windows.MainWindow.UIVisibilityViewModel AtomForge.Application.ViewModels.Windows.MainWindowViewModel::⁯ ->   
+	AtomForge.Application.Interfaces.Services.Steam.ISteamBasic [AtomForge.Application]AtomForge.Application.Interfaces.Services.Steam.ISteamBasic AtomForge.Application.ViewModels.Windows.MainWindowViewModel::　 ->   
+	System.Windows.Threading.Dispatcher [AtomForge.Application]System.Windows.Threading.Dispatcher AtomForge.Application.ViewModels.Windows.MainWindowViewModel::   ->   
+	System.EventHandler [AtomForge.Application]System.EventHandler AtomForge.Application.ViewModels.Windows.MainWindowViewModel::   ->   
+	System.Collections.ObjectModel.ObservableCollection`1<Wpf.Ui.Controls.MenuItem> [AtomForge.Application]System.Collections.ObjectModel.ObservableCollection`1<Wpf.Ui.Controls.MenuItem> AtomForge.Application.ViewModels.Windows.MainWindowViewModel::   ->   
+	System.Windows.Input.ICommand [AtomForge.Application]System.Windows.Input.ICommand AtomForge.Application.ViewModels.Windows.MainWindowViewModel::   ->   
+	System.Windows.Input.ICommand [AtomForge.Application]System.Windows.Input.ICommand AtomForge.Application.ViewModels.Windows.MainWindowViewModel::   ->   
 	System.String [AtomForge.Application]System.String AtomForge.Application.ViewModels.Windows.MainWindowViewModel::   ->   
 	System.String [AtomForge.Application]System.String AtomForge.Application.ViewModels.Windows.MainWindowViewModel::   ->   
 	System.String [AtomForge.Application]System.String AtomForge.Application.ViewModels.Windows.MainWindowViewModel::   ->   
+	System.String [AtomForge.Application]System.String AtomForge.Application.ViewModels.Windows.MainWindowViewModel::   ->   
+	System.String [AtomForge.Application]System.String AtomForge.Application.ViewModels.Windows.MainWindowViewModel::   ->   
 
 
 	System.Collections.ObjectModel.ObservableCollection`1<Wpf.Ui.Controls.MenuItem> [AtomForge.Application]System.Collections.ObjectModel.ObservableCollection`1<Wpf.Ui.Controls.MenuItem> AtomForge.Application.ViewModels.Windows.MainWindowViewModel::TrayMenuItems skipped:  KeepPublicApi option in configuration
@@ -961,10 +964,10 @@ Skipped Types:
 	[AtomForge.Application]AtomForge.Application.ViewModels.Windows.MainWindow.GameStateViewModel::get_TextPlayButton[0]( ) skipped:  skip by property
 	[AtomForge.Application]AtomForge.Application.ViewModels.Windows.MainWindow.GameStateViewModel::.ctor[0]( ) skipped:  special name
 
-	AtomForge.Domain.Enums.EGameStatus [AtomForge.Application]AtomForge.Domain.Enums.EGameStatus AtomForge.Application.ViewModels.Windows.MainWindow.GameStateViewModel::   ->   
-	AtomForge.Domain.Enums.EGameStartProgress [AtomForge.Application]AtomForge.Domain.Enums.EGameStartProgress AtomForge.Application.ViewModels.Windows.MainWindow.GameStateViewModel::   ->   
-	System.DateTime [AtomForge.Application]System.DateTime AtomForge.Application.ViewModels.Windows.MainWindow.GameStateViewModel::   ->  ​
-	System.Double [AtomForge.Application]System.Double AtomForge.Application.ViewModels.Windows.MainWindow.GameStateViewModel::   ->  ‐
+	AtomForge.Domain.Enums.EGameStatus [AtomForge.Application]AtomForge.Domain.Enums.EGameStatus AtomForge.Application.ViewModels.Windows.MainWindow.GameStateViewModel::   ->  ​
+	AtomForge.Domain.Enums.EGameStartProgress [AtomForge.Application]AtomForge.Domain.Enums.EGameStartProgress AtomForge.Application.ViewModels.Windows.MainWindow.GameStateViewModel::   ->  ‐
+	System.DateTime [AtomForge.Application]System.DateTime AtomForge.Application.ViewModels.Windows.MainWindow.GameStateViewModel::   ->  ‑
+	System.Double [AtomForge.Application]System.Double AtomForge.Application.ViewModels.Windows.MainWindow.GameStateViewModel:: ​ ->  ‒
 
 
 	AtomForge.Domain.Enums.EGameStatus [AtomForge.Application]AtomForge.Domain.Enums.EGameStatus AtomForge.Application.ViewModels.Windows.MainWindow.GameStateViewModel::GameFilesStatus skipped:  KeepPublicApi option in configuration
@@ -987,8 +990,8 @@ Skipped Types:
 	[AtomForge.Application]AtomForge.Application.ViewModels.Windows.MainWindow.UIVisibilityViewModel::UpdateStatus[1]( [AtomForge.Domain]AtomForge.Domain.Enums.EGameStartProgress ) skipped:  KeepPublicApi option in configuration
 	[AtomForge.Application]AtomForge.Application.ViewModels.Windows.MainWindow.UIVisibilityViewModel::.ctor[0]( ) skipped:  special name
 
-	System.Windows.Visibility [AtomForge.Application]System.Windows.Visibility AtomForge.Application.ViewModels.Windows.MainWindow.UIVisibilityViewModel::   ->  ‑
-	System.Windows.Visibility [AtomForge.Application]System.Windows.Visibility AtomForge.Application.ViewModels.Windows.MainWindow.UIVisibilityViewModel:: ​ ->  ‒
+	System.Windows.Visibility [AtomForge.Application]System.Windows.Visibility AtomForge.Application.ViewModels.Windows.MainWindow.UIVisibilityViewModel:: ‐ ->  –
+	System.Windows.Visibility [AtomForge.Application]System.Windows.Visibility AtomForge.Application.ViewModels.Windows.MainWindow.UIVisibilityViewModel:: ‑ ->  —
 
 
 	System.Windows.Visibility [AtomForge.Application]System.Windows.Visibility AtomForge.Application.ViewModels.Windows.MainWindow.UIVisibilityViewModel::IsVisibilityLoadingScreen skipped:  KeepPublicApi option in configuration
@@ -1014,14 +1017,14 @@ Skipped Types:
 	[AtomForge.Application]AtomForge.Application.ViewModels.Pages.ServersViewModel::remove_PageServerClicked[1]( [System.Runtime]System.EventHandler ) skipped:  skip by event
 	[AtomForge.Application]AtomForge.Application.ViewModels.Pages.ServersViewModel::.ctor[4]( [AtomForge.Application]AtomForge.Application.Interfaces.Services.IApiDataService, [System.ComponentModel]System.IServiceProvider, [AtomForge.Application]AtomForge.Application.Interfaces.Services.IClipboardService, [Wpf.Ui]Wpf.Ui.IContentDialogService ) skipped:  special name
 
-	System.IServiceProvider [AtomForge.Application]System.IServiceProvider AtomForge.Application.ViewModels.Pages.ServersViewModel:: ‐ ->  –
-	AtomForge.Application.Interfaces.Services.IApiDataService [AtomForge.Application]AtomForge.Application.Interfaces.Services.IApiDataService AtomForge.Application.ViewModels.Pages.ServersViewModel:: ‑ ->  —
-	AtomForge.Application.Interfaces.Services.IClipboardService [AtomForge.Application]AtomForge.Application.Interfaces.Services.IClipboardService AtomForge.Application.ViewModels.Pages.ServersViewModel:: ‒ ->  ―
-	Wpf.Ui.IContentDialogService [AtomForge.Application]Wpf.Ui.IContentDialogService AtomForge.Application.ViewModels.Pages.ServersViewModel:: – ->  •
-	System.EventHandler [AtomForge.Application]System.EventHandler AtomForge.Application.ViewModels.Pages.ServersViewModel:: — ->  ․
-	System.Collections.ObjectModel.ObservableCollection`1<AtomForge.Domain.Models.ServerInfoModel> [AtomForge.Application]System.Collections.ObjectModel.ObservableCollection`1<AtomForge.Domain.Models.ServerInfoModel> AtomForge.Application.ViewModels.Pages.ServersViewModel:: ― ->  ‥
-	System.Int32 [AtomForge.Application]System.Int32 AtomForge.Application.ViewModels.Pages.ServersViewModel:: • ->  ‧
-	System.Int32 [AtomForge.Application]System.Int32 AtomForge.Application.ViewModels.Pages.ServersViewModel:: ․ ->   
+	System.IServiceProvider [AtomForge.Application]System.IServiceProvider AtomForge.Application.ViewModels.Pages.ServersViewModel:: ‒ ->  ―
+	AtomForge.Application.Interfaces.Services.IApiDataService [AtomForge.Application]AtomForge.Application.Interfaces.Services.IApiDataService AtomForge.Application.ViewModels.Pages.ServersViewModel:: – ->  •
+	AtomForge.Application.Interfaces.Services.IClipboardService [AtomForge.Application]AtomForge.Application.Interfaces.Services.IClipboardService AtomForge.Application.ViewModels.Pages.ServersViewModel:: — ->  ․
+	Wpf.Ui.IContentDialogService [AtomForge.Application]Wpf.Ui.IContentDialogService AtomForge.Application.ViewModels.Pages.ServersViewModel:: ― ->  ‥
+	System.EventHandler [AtomForge.Application]System.EventHandler AtomForge.Application.ViewModels.Pages.ServersViewModel:: • ->  ‧
+	System.Collections.ObjectModel.ObservableCollection`1<AtomForge.Domain.Models.ServerInfoModel> [AtomForge.Application]System.Collections.ObjectModel.ObservableCollection`1<AtomForge.Domain.Models.ServerInfoModel> AtomForge.Application.ViewModels.Pages.ServersViewModel:: ․ ->   
+	System.Int32 [AtomForge.Application]System.Int32 AtomForge.Application.ViewModels.Pages.ServersViewModel:: ‥ ->   
+	System.Int32 [AtomForge.Application]System.Int32 AtomForge.Application.ViewModels.Pages.ServersViewModel:: ‧ ->  ‪
 
 
 	System.Collections.ObjectModel.ObservableCollection`1<AtomForge.Domain.Models.ServerInfoModel> [AtomForge.Application]System.Collections.ObjectModel.ObservableCollection`1<AtomForge.Domain.Models.ServerInfoModel> AtomForge.Application.ViewModels.Pages.ServersViewModel::Servers skipped:  KeepPublicApi option in configuration
@@ -1034,6 +1037,7 @@ Skipped Types:
 
 [AtomForge.Application]AtomForge.Application.ViewModels.Pages.SettingsViewModel skipped:  KeepPublicApi option in configuration
 {
+	[AtomForge.Application]AtomForge.Application.ViewModels.Pages.SettingsViewModel:: [1]( [AtomForge.Domain]AtomForge.Domain.Models.Config.GameConfig ) ->  
 	[AtomForge.Application]AtomForge.Application.ViewModels.Pages.SettingsViewModel:: [2]( [AtomForge.Domain]AtomForge.Domain.Enums.EGameStartProgress, [System.Runtime]System.Double ) ->  
 	[AtomForge.Application]AtomForge.Application.ViewModels.Pages.SettingsViewModel:: [0]( ) ->  
 	[AtomForge.Application]AtomForge.Application.ViewModels.Pages.SettingsViewModel:: [1]( [System.Runtime]System.String ) ->  
@@ -1046,16 +1050,20 @@ Skipped Types:
 	[AtomForge.Application]AtomForge.Application.ViewModels.Pages.SettingsViewModel::set_ForceUpdate[1]( [System.Runtime]System.Boolean ) skipped:  skip by property
 	[AtomForge.Application]AtomForge.Application.ViewModels.Pages.SettingsViewModel::get_ChooseGameFolderCommand[0]( ) skipped:  skip by property
 	[AtomForge.Application]AtomForge.Application.ViewModels.Pages.SettingsViewModel::get_SaveParametersCommand[0]( ) skipped:  skip by property
-	[AtomForge.Application]AtomForge.Application.ViewModels.Pages.SettingsViewModel::.ctor[2]( [AtomForge.Application]AtomForge.Application.Interfaces.Services.Managers.IConfigManager, [AtomForge.Application]AtomForge.Application.Interfaces.Services.Game.IGameLauncherService ) skipped:  special name
-	[AtomForge.Application]AtomForge.Application.ViewModels.Pages.SettingsViewModel::ParseConfig[0]( ) skipped:  KeepPublicApi option in configuration
+	[AtomForge.Application]AtomForge.Application.ViewModels.Pages.SettingsViewModel::get_Version[0]( ) skipped:  skip by property
+	[AtomForge.Application]AtomForge.Application.ViewModels.Pages.SettingsViewModel::set_Version[1]( [System.Runtime]System.String ) skipped:  skip by property
+	[AtomForge.Application]AtomForge.Application.ViewModels.Pages.SettingsViewModel::.ctor[3]( [AtomForge.Application]AtomForge.Application.Interfaces.Services.IAppSettings, [AtomForge.Application]AtomForge.Application.Interfaces.Services.Managers.IConfigManager, [AtomForge.Application]AtomForge.Application.Interfaces.Services.Game.IGameLauncherService ) skipped:  special name
+	[AtomForge.Application]AtomForge.Application.ViewModels.Pages.SettingsViewModel::ParseConfig[1]( [AtomForge.Domain]AtomForge.Domain.Models.Config.GameConfig ) skipped:  KeepPublicApi option in configuration
 	[AtomForge.Application]AtomForge.Application.ViewModels.Pages.SettingsViewModel::SetLanguage[1]( [System.Runtime]System.String ) skipped:  KeepPublicApi option in configuration
 
-	AtomForge.Application.Interfaces.Services.Managers.IConfigManager [AtomForge.Application]AtomForge.Application.Interfaces.Services.Managers.IConfigManager AtomForge.Application.ViewModels.Pages.SettingsViewModel:: ‥ ->   
-	AtomForge.Application.Interfaces.Services.Game.IGameLauncherService [AtomForge.Application]AtomForge.Application.Interfaces.Services.Game.IGameLauncherService AtomForge.Application.ViewModels.Pages.SettingsViewModel:: ‧ ->  ‪
-	AtomForge.Domain.Models.Config.GameConfig [AtomForge.Application]AtomForge.Domain.Models.Config.GameConfig AtomForge.Application.ViewModels.Pages.SettingsViewModel::   ->  ‫
-	System.Boolean [AtomForge.Application]System.Boolean AtomForge.Application.ViewModels.Pages.SettingsViewModel::   ->  ‬
-	System.Windows.Input.ICommand [AtomForge.Application]System.Windows.Input.ICommand AtomForge.Application.ViewModels.Pages.SettingsViewModel:: ‪ ->  ‭
-	System.Windows.Input.ICommand [AtomForge.Application]System.Windows.Input.ICommand AtomForge.Application.ViewModels.Pages.SettingsViewModel:: ‫ ->  ‮
+	AtomForge.Application.Interfaces.Services.Managers.IConfigManager [AtomForge.Application]AtomForge.Application.Interfaces.Services.Managers.IConfigManager AtomForge.Application.ViewModels.Pages.SettingsViewModel::   ->  ‫
+	AtomForge.Application.Interfaces.Services.Game.IGameLauncherService [AtomForge.Application]AtomForge.Application.Interfaces.Services.Game.IGameLauncherService AtomForge.Application.ViewModels.Pages.SettingsViewModel::   ->  ‬
+	AtomForge.Application.Interfaces.Services.IAppSettings [AtomForge.Application]AtomForge.Application.Interfaces.Services.IAppSettings AtomForge.Application.ViewModels.Pages.SettingsViewModel:: ‪ ->  ‭
+	System.String [AtomForge.Application]System.String AtomForge.Application.ViewModels.Pages.SettingsViewModel:: ‫ ->  ‮
+	AtomForge.Domain.Models.Config.GameConfig [AtomForge.Application]AtomForge.Domain.Models.Config.GameConfig AtomForge.Application.ViewModels.Pages.SettingsViewModel:: ‬ ->   
+	System.Boolean [AtomForge.Application]System.Boolean AtomForge.Application.ViewModels.Pages.SettingsViewModel:: ‭ ->  ′
+	System.Windows.Input.ICommand [AtomForge.Application]System.Windows.Input.ICommand AtomForge.Application.ViewModels.Pages.SettingsViewModel:: ‮ ->  ‵
+	System.Windows.Input.ICommand [AtomForge.Application]System.Windows.Input.ICommand AtomForge.Application.ViewModels.Pages.SettingsViewModel::   ->  ″
 
 
 	System.String [AtomForge.Application]System.String AtomForge.Application.ViewModels.Pages.SettingsViewModel::GameFolder skipped:  KeepPublicApi option in configuration
@@ -1063,6 +1071,7 @@ Skipped Types:
 	System.Boolean [AtomForge.Application]System.Boolean AtomForge.Application.ViewModels.Pages.SettingsViewModel::ForceUpdate skipped:  KeepPublicApi option in configuration
 	System.Windows.Input.ICommand [AtomForge.Application]System.Windows.Input.ICommand AtomForge.Application.ViewModels.Pages.SettingsViewModel::ChooseGameFolderCommand skipped:  KeepPublicApi option in configuration
 	System.Windows.Input.ICommand [AtomForge.Application]System.Windows.Input.ICommand AtomForge.Application.ViewModels.Pages.SettingsViewModel::SaveParametersCommand skipped:  KeepPublicApi option in configuration
+	System.String [AtomForge.Application]System.String AtomForge.Application.ViewModels.Pages.SettingsViewModel::Version skipped:  KeepPublicApi option in configuration
 }
 
 [AtomForge.Application]AtomForge.Application.ViewModels.Pages.Popup.GameFolderPopupViewModel skipped:  KeepPublicApi option in configuration
@@ -1092,14 +1101,14 @@ Skipped Types:
 	[AtomForge.Application]AtomForge.Application.ViewModels.Pages.Popup.GameFolderPopupViewModel::.ctor[1]( [AtomForge.Application]AtomForge.Application.Interfaces.Services.Managers.IConfigManager ) skipped:  special name
 	[AtomForge.Application]AtomForge.Application.ViewModels.Pages.Popup.GameFolderPopupViewModel::Save[0]( ) skipped:  KeepPublicApi option in configuration
 
-	AtomForge.Application.Interfaces.Services.Managers.IConfigManager [AtomForge.Application]AtomForge.Application.Interfaces.Services.Managers.IConfigManager AtomForge.Application.ViewModels.Pages.Popup.GameFolderPopupViewModel:: ‬ ->   
-	System.Collections.ObjectModel.ObservableCollection`1<AtomForge.Domain.Models.Pages.DriveInfoModel> [AtomForge.Application]System.Collections.ObjectModel.ObservableCollection`1<AtomForge.Domain.Models.Pages.DriveInfoModel> AtomForge.Application.ViewModels.Pages.Popup.GameFolderPopupViewModel:: ‭ ->  ′
-	AtomForge.Domain.Models.Pages.DriveInfoModel [AtomForge.Application]AtomForge.Domain.Models.Pages.DriveInfoModel AtomForge.Application.ViewModels.Pages.Popup.GameFolderPopupViewModel:: ‮ ->  ‵
-	System.String [AtomForge.Application]System.String AtomForge.Application.ViewModels.Pages.Popup.GameFolderPopupViewModel::   ->  ″
-	System.String [AtomForge.Application]System.String AtomForge.Application.ViewModels.Pages.Popup.GameFolderPopupViewModel:: ′ ->  ‶
-	System.Boolean [AtomForge.Application]System.Boolean AtomForge.Application.ViewModels.Pages.Popup.GameFolderPopupViewModel:: ‵ ->  ‾
-	System.Windows.Input.ICommand [AtomForge.Application]System.Windows.Input.ICommand AtomForge.Application.ViewModels.Pages.Popup.GameFolderPopupViewModel:: ″ ->  ⁇
-	System.Windows.Input.ICommand [AtomForge.Application]System.Windows.Input.ICommand AtomForge.Application.ViewModels.Pages.Popup.GameFolderPopupViewModel:: ‶ ->  ⁈
+	AtomForge.Application.Interfaces.Services.Managers.IConfigManager [AtomForge.Application]AtomForge.Application.Interfaces.Services.Managers.IConfigManager AtomForge.Application.ViewModels.Pages.Popup.GameFolderPopupViewModel:: ′ ->  ‶
+	System.Collections.ObjectModel.ObservableCollection`1<AtomForge.Domain.Models.Pages.DriveInfoModel> [AtomForge.Application]System.Collections.ObjectModel.ObservableCollection`1<AtomForge.Domain.Models.Pages.DriveInfoModel> AtomForge.Application.ViewModels.Pages.Popup.GameFolderPopupViewModel:: ‵ ->  ‾
+	AtomForge.Domain.Models.Pages.DriveInfoModel [AtomForge.Application]AtomForge.Domain.Models.Pages.DriveInfoModel AtomForge.Application.ViewModels.Pages.Popup.GameFolderPopupViewModel:: ″ ->  ⁇
+	System.String [AtomForge.Application]System.String AtomForge.Application.ViewModels.Pages.Popup.GameFolderPopupViewModel:: ‶ ->  ⁈
+	System.String [AtomForge.Application]System.String AtomForge.Application.ViewModels.Pages.Popup.GameFolderPopupViewModel:: ‾ ->  ⁉
+	System.Boolean [AtomForge.Application]System.Boolean AtomForge.Application.ViewModels.Pages.Popup.GameFolderPopupViewModel:: ⁇ ->  ⁊
+	System.Windows.Input.ICommand [AtomForge.Application]System.Windows.Input.ICommand AtomForge.Application.ViewModels.Pages.Popup.GameFolderPopupViewModel:: ⁈ ->  ⁋
+	System.Windows.Input.ICommand [AtomForge.Application]System.Windows.Input.ICommand AtomForge.Application.ViewModels.Pages.Popup.GameFolderPopupViewModel:: ⁉ ->  ⁌
 
 
 	System.Collections.ObjectModel.ObservableCollection`1<AtomForge.Domain.Models.Pages.DriveInfoModel> [AtomForge.Application]System.Collections.ObjectModel.ObservableCollection`1<AtomForge.Domain.Models.Pages.DriveInfoModel> AtomForge.Application.ViewModels.Pages.Popup.GameFolderPopupViewModel::AvailableDrives skipped:  KeepPublicApi option in configuration
@@ -1127,13 +1136,16 @@ Skipped Types:
 	[AtomForge.Application]AtomForge.Application.ViewModels.Pages.Popup.RequiredSteamPopupViewModel::set_NotificationMessage[1]( [System.Runtime]System.String ) skipped:  skip by property
 	[AtomForge.Application]AtomForge.Application.ViewModels.Pages.Popup.RequiredSteamPopupViewModel::get_ButtonContent[0]( ) skipped:  skip by property
 	[AtomForge.Application]AtomForge.Application.ViewModels.Pages.Popup.RequiredSteamPopupViewModel::set_ButtonContent[1]( [System.Runtime]System.String ) skipped:  skip by property
-	[AtomForge.Application]AtomForge.Application.ViewModels.Pages.Popup.RequiredSteamPopupViewModel::.ctor[1]( [AtomForge.Application]AtomForge.Application.Interfaces.Services.Steam.ISteamBasic ) skipped:  special name
+	[AtomForge.Application]AtomForge.Application.ViewModels.Pages.Popup.RequiredSteamPopupViewModel::.ctor[4]( [Microsoft.Extensions.Logging.Abstractions]Microsoft.Extensions.Logging.ILogger`1<[AtomForge.Application]AtomForge.Application.ViewModels.Pages.Popup.RequiredSteamPopupViewModel>, [AtomForge.Application]AtomForge.Application.Interfaces.Services.IAppSettings, [AtomForge.Application]AtomForge.Application.Interfaces.Services.Steam.ISteamBasic, [Wpf.Ui]Wpf.Ui.ISnackbarService ) skipped:  special name
 	[AtomForge.Application]AtomForge.Application.ViewModels.Pages.Popup.RequiredSteamPopupViewModel::CheckSteamStatus[0]( ) skipped:  KeepPublicApi option in configuration
 
-	System.String [AtomForge.Application]System.String AtomForge.Application.ViewModels.Pages.Popup.RequiredSteamPopupViewModel:: ‾ ->  ⁉
-	System.String [AtomForge.Application]System.String AtomForge.Application.ViewModels.Pages.Popup.RequiredSteamPopupViewModel:: ⁇ ->  ⁊
-	AtomForge.Application.Interfaces.Services.Steam.ISteamBasic [AtomForge.Application]AtomForge.Application.Interfaces.Services.Steam.ISteamBasic AtomForge.Application.ViewModels.Pages.Popup.RequiredSteamPopupViewModel:: ⁈ ->  ⁋
-	System.Windows.Input.ICommand [AtomForge.Application]System.Windows.Input.ICommand AtomForge.Application.ViewModels.Pages.Popup.RequiredSteamPopupViewModel:: ⁉ ->  ⁌
+	System.String [AtomForge.Application]System.String AtomForge.Application.ViewModels.Pages.Popup.RequiredSteamPopupViewModel:: ⁊ ->  ⁍
+	System.String [AtomForge.Application]System.String AtomForge.Application.ViewModels.Pages.Popup.RequiredSteamPopupViewModel:: ⁋ ->  ⁎
+	AtomForge.Application.Interfaces.Services.Steam.ISteamBasic [AtomForge.Application]AtomForge.Application.Interfaces.Services.Steam.ISteamBasic AtomForge.Application.ViewModels.Pages.Popup.RequiredSteamPopupViewModel:: ⁌ ->  ⁏
+	Wpf.Ui.ISnackbarService [AtomForge.Application]Wpf.Ui.ISnackbarService AtomForge.Application.ViewModels.Pages.Popup.RequiredSteamPopupViewModel:: ⁍ ->  ⁐
+	AtomForge.Application.Interfaces.Services.IAppSettings [AtomForge.Application]AtomForge.Application.Interfaces.Services.IAppSettings AtomForge.Application.ViewModels.Pages.Popup.RequiredSteamPopupViewModel:: ⁎ ->  ⁑
+	Microsoft.Extensions.Logging.ILogger [AtomForge.Application]Microsoft.Extensions.Logging.ILogger AtomForge.Application.ViewModels.Pages.Popup.RequiredSteamPopupViewModel:: ⁏ ->  ⁒
+	System.Windows.Input.ICommand [AtomForge.Application]System.Windows.Input.ICommand AtomForge.Application.ViewModels.Pages.Popup.RequiredSteamPopupViewModel:: ⁐ ->  ⁓
 
 
 	System.Windows.Input.ICommand [AtomForge.Application]System.Windows.Input.ICommand AtomForge.Application.ViewModels.Pages.Popup.RequiredSteamPopupViewModel::SteamCommand skipped:  KeepPublicApi option in configuration
@@ -1157,12 +1169,12 @@ Skipped Types:
 	[AtomForge.Application]AtomForge.Application.ViewModels.Pages.Popup.ServerPagePopupViewModel::set_MapImage[1]( [PresentationCore]System.Windows.Media.Imaging.BitmapImage ) skipped:  skip by property
 	[AtomForge.Application]AtomForge.Application.ViewModels.Pages.Popup.ServerPagePopupViewModel::.ctor[4]( [Microsoft.Extensions.Logging.Abstractions]Microsoft.Extensions.Logging.ILogger`1<[AtomForge.Application]AtomForge.Application.ViewModels.Pages.Popup.ServerPagePopupViewModel>, [AtomForge.Application]AtomForge.Application.Interfaces.Services.IApiDataService, [AtomForge.Application]AtomForge.Application.Interfaces.Services.Downloaders.IDownloaderImageService, [AtomForge.Domain]AtomForge.Domain.Models.ServerInfoModel ) skipped:  special name
 
-	AtomForge.Application.Interfaces.Services.IApiDataService [AtomForge.Application]AtomForge.Application.Interfaces.Services.IApiDataService AtomForge.Application.ViewModels.Pages.Popup.ServerPagePopupViewModel:: ⁊ ->  ⁍
-	AtomForge.Application.Interfaces.Services.Downloaders.IDownloaderImageService [AtomForge.Application]AtomForge.Application.Interfaces.Services.Downloaders.IDownloaderImageService AtomForge.Application.ViewModels.Pages.Popup.ServerPagePopupViewModel:: ⁋ ->  ⁎
-	Microsoft.Extensions.Logging.ILogger`1<AtomForge.Application.ViewModels.Pages.Popup.ServerPagePopupViewModel> [AtomForge.Application]Microsoft.Extensions.Logging.ILogger`1<AtomForge.Application.ViewModels.Pages.Popup.ServerPagePopupViewModel> AtomForge.Application.ViewModels.Pages.Popup.ServerPagePopupViewModel:: ⁌ ->  ⁏
-	AtomForge.Domain.Models.ServerInfoModel [AtomForge.Application]AtomForge.Domain.Models.ServerInfoModel AtomForge.Application.ViewModels.Pages.Popup.ServerPagePopupViewModel:: ⁍ ->  ⁐
-	System.Windows.Media.Imaging.BitmapImage [AtomForge.Application]System.Windows.Media.Imaging.BitmapImage AtomForge.Application.ViewModels.Pages.Popup.ServerPagePopupViewModel:: ⁎ ->  ⁑
-	System.Windows.Media.Imaging.BitmapImage [AtomForge.Application]System.Windows.Media.Imaging.BitmapImage AtomForge.Application.ViewModels.Pages.Popup.ServerPagePopupViewModel:: ⁏ ->  ⁒
+	AtomForge.Application.Interfaces.Services.IApiDataService [AtomForge.Application]AtomForge.Application.Interfaces.Services.IApiDataService AtomForge.Application.ViewModels.Pages.Popup.ServerPagePopupViewModel:: ⁑ ->  ⁔
+	AtomForge.Application.Interfaces.Services.Downloaders.IDownloaderImageService [AtomForge.Application]AtomForge.Application.Interfaces.Services.Downloaders.IDownloaderImageService AtomForge.Application.ViewModels.Pages.Popup.ServerPagePopupViewModel:: ⁒ ->  ⁕
+	Microsoft.Extensions.Logging.ILogger`1<AtomForge.Application.ViewModels.Pages.Popup.ServerPagePopupViewModel> [AtomForge.Application]Microsoft.Extensions.Logging.ILogger`1<AtomForge.Application.ViewModels.Pages.Popup.ServerPagePopupViewModel> AtomForge.Application.ViewModels.Pages.Popup.ServerPagePopupViewModel:: ⁓ ->  ⁖
+	AtomForge.Domain.Models.ServerInfoModel [AtomForge.Application]AtomForge.Domain.Models.ServerInfoModel AtomForge.Application.ViewModels.Pages.Popup.ServerPagePopupViewModel:: ⁔ ->  ⁗
+	System.Windows.Media.Imaging.BitmapImage [AtomForge.Application]System.Windows.Media.Imaging.BitmapImage AtomForge.Application.ViewModels.Pages.Popup.ServerPagePopupViewModel:: ⁕ ->  ⁘
+	System.Windows.Media.Imaging.BitmapImage [AtomForge.Application]System.Windows.Media.Imaging.BitmapImage AtomForge.Application.ViewModels.Pages.Popup.ServerPagePopupViewModel:: ⁖ ->  ⁙
 
 
 	AtomForge.Domain.Models.ServerInfoModel [AtomForge.Application]AtomForge.Domain.Models.ServerInfoModel AtomForge.Application.ViewModels.Pages.Popup.ServerPagePopupViewModel::Server skipped:  KeepPublicApi option in configuration
@@ -1183,13 +1195,13 @@ Skipped Types:
 	[AtomForge.Application]AtomForge.Application.Commands.PlayCommand::CanExecute[1]( [System.Runtime]System.Object ) skipped:  external base class or interface
 	[AtomForge.Application]AtomForge.Application.Commands.PlayCommand::Execute[1]( [System.Runtime]System.Object ) skipped:  external base class or interface
 
-	AtomForge.Application.Interfaces.Services.Game.IGameLauncherService [AtomForge.Application]AtomForge.Application.Interfaces.Services.Game.IGameLauncherService AtomForge.Application.Commands.PlayCommand:: ⁐ ->  ⁓
-	AtomForge.Application.Interfaces.Services.Steam.ISteamBasic [AtomForge.Application]AtomForge.Application.Interfaces.Services.Steam.ISteamBasic AtomForge.Application.Commands.PlayCommand:: ⁑ ->  ⁔
-	AtomForge.Application.ViewModels.Windows.MainWindowViewModel [AtomForge.Application]AtomForge.Application.ViewModels.Windows.MainWindowViewModel AtomForge.Application.Commands.PlayCommand:: ⁒ ->  ⁕
-	AtomForge.Application.ViewModels.Windows.MainWindow.GameStateViewModel [AtomForge.Application]AtomForge.Application.ViewModels.Windows.MainWindow.GameStateViewModel AtomForge.Application.Commands.PlayCommand:: ⁓ ->  ⁖
-	AtomForge.Application.ViewModels.Windows.MainWindow.UIVisibilityViewModel [AtomForge.Application]AtomForge.Application.ViewModels.Windows.MainWindow.UIVisibilityViewModel AtomForge.Application.Commands.PlayCommand:: ⁔ ->  ⁗
-	AtomForge.Application.ViewModels.Pages.Popup.GameFolderPopupViewModel [AtomForge.Application]AtomForge.Application.ViewModels.Pages.Popup.GameFolderPopupViewModel AtomForge.Application.Commands.PlayCommand:: ⁕ ->  ⁘
-	System.EventHandler [AtomForge.Application]System.EventHandler AtomForge.Application.Commands.PlayCommand:: ⁖ ->  ⁙
+	AtomForge.Application.Interfaces.Services.Game.IGameLauncherService [AtomForge.Application]AtomForge.Application.Interfaces.Services.Game.IGameLauncherService AtomForge.Application.Commands.PlayCommand:: ⁗ ->  ⁚
+	AtomForge.Application.Interfaces.Services.Steam.ISteamBasic [AtomForge.Application]AtomForge.Application.Interfaces.Services.Steam.ISteamBasic AtomForge.Application.Commands.PlayCommand:: ⁘ ->  ⁛
+	AtomForge.Application.ViewModels.Windows.MainWindowViewModel [AtomForge.Application]AtomForge.Application.ViewModels.Windows.MainWindowViewModel AtomForge.Application.Commands.PlayCommand:: ⁙ ->  ⁜
+	AtomForge.Application.ViewModels.Windows.MainWindow.GameStateViewModel [AtomForge.Application]AtomForge.Application.ViewModels.Windows.MainWindow.GameStateViewModel AtomForge.Application.Commands.PlayCommand:: ⁚ ->  ⁝
+	AtomForge.Application.ViewModels.Windows.MainWindow.UIVisibilityViewModel [AtomForge.Application]AtomForge.Application.ViewModels.Windows.MainWindow.UIVisibilityViewModel AtomForge.Application.Commands.PlayCommand:: ⁛ ->  ⁞
+	AtomForge.Application.ViewModels.Pages.Popup.GameFolderPopupViewModel [AtomForge.Application]AtomForge.Application.ViewModels.Pages.Popup.GameFolderPopupViewModel AtomForge.Application.Commands.PlayCommand:: ⁜ ->   
+	System.EventHandler [AtomForge.Application]System.EventHandler AtomForge.Application.Commands.PlayCommand:: ⁝ ->  ⁠
 
 
 	System.EventHandler [AtomForge.Application]System.EventHandler AtomForge.Application.Commands.PlayCommand::CanExecuteChanged skipped:  KeepPublicApi option in configuration
@@ -1206,8 +1218,8 @@ Skipped Types:
 	[AtomForge.Application]AtomForge.Application.Actions.PopupActions::OpenRequiredSteam[1]( [WindowsBase]System.Windows.Threading.Dispatcher ) skipped:  KeepPublicApi option in configuration
 	[AtomForge.Application]AtomForge.Application.Actions.PopupActions::.ctor[0]( ) skipped:  special name
 
-	System.Action [AtomForge.Application]System.Action AtomForge.Application.Actions.PopupActions:: ⁗ ->  ⁚
-	System.Action`1<System.Windows.Threading.Dispatcher> [AtomForge.Application]System.Action`1<System.Windows.Threading.Dispatcher> AtomForge.Application.Actions.PopupActions:: ⁘ ->  ⁛
+	System.Action [AtomForge.Application]System.Action AtomForge.Application.Actions.PopupActions:: ⁞ ->  ⁡
+	System.Action`1<System.Windows.Threading.Dispatcher> [AtomForge.Application]System.Action`1<System.Windows.Threading.Dispatcher> AtomForge.Application.Actions.PopupActions::   ->  ⁢
 
 
 	System.Action [AtomForge.Application]System.Action AtomForge.Application.Actions.PopupActions::OpenGameFolderPopup skipped:  KeepPublicApi option in configuration
@@ -1222,10 +1234,24 @@ Skipped Types:
 	[AtomForge.Application]AtomForge.Application.Actions.ProgressActions::UpdateProgress[2]( [AtomForge.Domain]AtomForge.Domain.Enums.EGameStartProgress, [System.Runtime]System.Double ) skipped:  KeepPublicApi option in configuration
 	[AtomForge.Application]AtomForge.Application.Actions.ProgressActions::.ctor[0]( ) skipped:  special name
 
-	System.Action`2<AtomForge.Domain.Enums.EGameStartProgress,System.Double> [AtomForge.Application]System.Action`2<AtomForge.Domain.Enums.EGameStartProgress,System.Double> AtomForge.Application.Actions.ProgressActions:: ⁙ ->  ⁜
+	System.Action`2<AtomForge.Domain.Enums.EGameStartProgress,System.Double> [AtomForge.Application]System.Action`2<AtomForge.Domain.Enums.EGameStartProgress,System.Double> AtomForge.Application.Actions.ProgressActions:: ⁠ ->  ⁣
 
 
 	System.Action`2<AtomForge.Domain.Enums.EGameStartProgress,System.Double> [AtomForge.Application]System.Action`2<AtomForge.Domain.Enums.EGameStartProgress,System.Double> AtomForge.Application.Actions.ProgressActions::ProgressUpdated skipped:  KeepPublicApi option in configuration
+}
+
+[AtomForge.Application]AtomForge.Application.Actions.SettingsAction skipped:  KeepPublicApi option in configuration
+{
+
+	[AtomForge.Application]AtomForge.Application.Actions.SettingsAction::add_GameConfigUpdated[1]( [System.Runtime]System.Action`1<[AtomForge.Domain]AtomForge.Domain.Models.Config.GameConfig> ) skipped:  skip by event
+	[AtomForge.Application]AtomForge.Application.Actions.SettingsAction::remove_GameConfigUpdated[1]( [System.Runtime]System.Action`1<[AtomForge.Domain]AtomForge.Domain.Models.Config.GameConfig> ) skipped:  skip by event
+	[AtomForge.Application]AtomForge.Application.Actions.SettingsAction::Update[1]( [AtomForge.Domain]AtomForge.Domain.Models.Config.GameConfig ) skipped:  KeepPublicApi option in configuration
+	[AtomForge.Application]AtomForge.Application.Actions.SettingsAction::.ctor[0]( ) skipped:  special name
+
+	System.Action`1<AtomForge.Domain.Models.Config.GameConfig> [AtomForge.Application]System.Action`1<AtomForge.Domain.Models.Config.GameConfig> AtomForge.Application.Actions.SettingsAction:: ⁡ ->  ⁤
+
+
+	System.Action`1<AtomForge.Domain.Models.Config.GameConfig> [AtomForge.Application]System.Action`1<AtomForge.Domain.Models.Config.GameConfig> AtomForge.Application.Actions.SettingsAction::GameConfigUpdated skipped:  KeepPublicApi option in configuration
 }
 
 [AtomForge.Application]Refit.Implementation.Generated/AtomForgeApplicationInterfacesRefitIWebApiLauncherRefit skipped:  attribute
@@ -1307,8 +1333,8 @@ Skipped Types:
 	[AtomForge.Presentation]AtomForge.Presentation.Views.Windows.LoadingWindow::.ctor[1]( [AtomForge.Application]AtomForge.Application.ViewModels.Windows.LoadingViewModel ) skipped:  special name
 	[AtomForge.Presentation]AtomForge.Presentation.Views.Windows.LoadingWindow::InitializeComponent[0]( ) skipped:  external base class or interface
 
-	AtomForge.Application.ViewModels.Windows.LoadingViewModel [AtomForge.Presentation]AtomForge.Application.ViewModels.Windows.LoadingViewModel AtomForge.Presentation.Views.Windows.LoadingWindow:: ․ ->  ‫
-	System.Boolean [AtomForge.Presentation]System.Boolean AtomForge.Presentation.Views.Windows.LoadingWindow:: ‥ ->  ‬
+	AtomForge.Application.ViewModels.Windows.LoadingViewModel [AtomForge.Presentation]AtomForge.Application.ViewModels.Windows.LoadingViewModel AtomForge.Presentation.Views.Windows.LoadingWindow:: ‭ ->  ‶
+	System.Boolean [AtomForge.Presentation]System.Boolean AtomForge.Presentation.Views.Windows.LoadingWindow:: ‮ ->  ‾
 
 
 	AtomForge.Application.ViewModels.Windows.LoadingViewModel [AtomForge.Presentation]AtomForge.Application.ViewModels.Windows.LoadingViewModel AtomForge.Presentation.Views.Windows.LoadingWindow::ViewModel skipped:  KeepPublicApi option in configuration
@@ -1335,24 +1361,24 @@ Skipped Types:
 	[AtomForge.Presentation]AtomForge.Presentation.Views.Windows.MainWindow::OnClosed[1]( [System.Runtime]System.EventArgs ) skipped:  external base class or interface
 	[AtomForge.Presentation]AtomForge.Presentation.Views.Windows.MainWindow::SetServiceProvider[1]( [System.ComponentModel]System.IServiceProvider ) skipped:  external base class or interface
 
-	AtomForge.Application.ViewModels.Windows.MainWindowViewModel [AtomForge.Presentation]AtomForge.Application.ViewModels.Windows.MainWindowViewModel AtomForge.Presentation.Views.Windows.MainWindow:: ‧ ->  ‭
-	AtomForge.Application.ViewModels.Windows.MainWindow.GameStateViewModel [AtomForge.Presentation]AtomForge.Application.ViewModels.Windows.MainWindow.GameStateViewModel AtomForge.Presentation.Views.Windows.MainWindow::   ->  ‮
-	AtomForge.Application.ViewModels.Windows.MainWindow.UIVisibilityViewModel [AtomForge.Presentation]AtomForge.Application.ViewModels.Windows.MainWindow.UIVisibilityViewModel AtomForge.Presentation.Views.Windows.MainWindow::   ->   
-	AtomForge.Presentation.Views.Pages.Popup.GameFolderPopup [AtomForge.Presentation]AtomForge.Presentation.Views.Pages.Popup.GameFolderPopup AtomForge.Presentation.Views.Windows.MainWindow:: ‪ ->  ′
-	AtomForge.Presentation.Views.Pages.Popup.RequiredSteamPopup [AtomForge.Presentation]AtomForge.Presentation.Views.Pages.Popup.RequiredSteamPopup AtomForge.Presentation.Views.Windows.MainWindow:: ‫ ->  ‵
-	Wpf.Ui.IContentDialogService [AtomForge.Presentation]Wpf.Ui.IContentDialogService AtomForge.Presentation.Views.Windows.MainWindow:: ‬ ->  ″
-	Wpf.Ui.IThemeService [AtomForge.Presentation]Wpf.Ui.IThemeService AtomForge.Presentation.Views.Windows.MainWindow:: ‭ ->  ‶
-	System.Windows.Controls.Grid [AtomForge.Presentation]System.Windows.Controls.Grid AtomForge.Presentation.Views.Windows.MainWindow:: ‮ ->  ‾
-	System.Windows.Controls.Grid [AtomForge.Presentation]System.Windows.Controls.Grid AtomForge.Presentation.Views.Windows.MainWindow::   ->  ⁇
-	System.Windows.Controls.Grid [AtomForge.Presentation]System.Windows.Controls.Grid AtomForge.Presentation.Views.Windows.MainWindow:: ′ ->  ⁈
-	System.Windows.Controls.Grid [AtomForge.Presentation]System.Windows.Controls.Grid AtomForge.Presentation.Views.Windows.MainWindow:: ‵ ->  ⁉
-	Wpf.Ui.Controls.NavigationView [AtomForge.Presentation]Wpf.Ui.Controls.NavigationView AtomForge.Presentation.Views.Windows.MainWindow:: ″ ->  ⁊
-	Wpf.Ui.Controls.BreadcrumbBar [AtomForge.Presentation]Wpf.Ui.Controls.BreadcrumbBar AtomForge.Presentation.Views.Windows.MainWindow:: ‶ ->  ⁋
-	System.Windows.Controls.ContentPresenter [AtomForge.Presentation]System.Windows.Controls.ContentPresenter AtomForge.Presentation.Views.Windows.MainWindow:: ‾ ->  ⁌
-	Wpf.Ui.Controls.TitleBar [AtomForge.Presentation]Wpf.Ui.Controls.TitleBar AtomForge.Presentation.Views.Windows.MainWindow:: ⁇ ->  ⁍
-	System.Windows.Controls.Border [AtomForge.Presentation]System.Windows.Controls.Border AtomForge.Presentation.Views.Windows.MainWindow:: ⁈ ->  ⁎
-	Wpf.Ui.Controls.SnackbarPresenter [AtomForge.Presentation]Wpf.Ui.Controls.SnackbarPresenter AtomForge.Presentation.Views.Windows.MainWindow:: ⁉ ->  ⁏
-	System.Boolean [AtomForge.Presentation]System.Boolean AtomForge.Presentation.Views.Windows.MainWindow:: ⁊ ->  ⁐
+	AtomForge.Application.ViewModels.Windows.MainWindowViewModel [AtomForge.Presentation]AtomForge.Application.ViewModels.Windows.MainWindowViewModel AtomForge.Presentation.Views.Windows.MainWindow::   ->  ⁇
+	AtomForge.Application.ViewModels.Windows.MainWindow.GameStateViewModel [AtomForge.Presentation]AtomForge.Application.ViewModels.Windows.MainWindow.GameStateViewModel AtomForge.Presentation.Views.Windows.MainWindow:: ′ ->  ⁈
+	AtomForge.Application.ViewModels.Windows.MainWindow.UIVisibilityViewModel [AtomForge.Presentation]AtomForge.Application.ViewModels.Windows.MainWindow.UIVisibilityViewModel AtomForge.Presentation.Views.Windows.MainWindow:: ‵ ->  ⁉
+	AtomForge.Presentation.Views.Pages.Popup.GameFolderPopup [AtomForge.Presentation]AtomForge.Presentation.Views.Pages.Popup.GameFolderPopup AtomForge.Presentation.Views.Windows.MainWindow:: ″ ->  ⁊
+	AtomForge.Presentation.Views.Pages.Popup.RequiredSteamPopup [AtomForge.Presentation]AtomForge.Presentation.Views.Pages.Popup.RequiredSteamPopup AtomForge.Presentation.Views.Windows.MainWindow:: ‶ ->  ⁋
+	Wpf.Ui.IContentDialogService [AtomForge.Presentation]Wpf.Ui.IContentDialogService AtomForge.Presentation.Views.Windows.MainWindow:: ‾ ->  ⁌
+	Wpf.Ui.IThemeService [AtomForge.Presentation]Wpf.Ui.IThemeService AtomForge.Presentation.Views.Windows.MainWindow:: ⁇ ->  ⁍
+	System.Windows.Controls.Grid [AtomForge.Presentation]System.Windows.Controls.Grid AtomForge.Presentation.Views.Windows.MainWindow:: ⁈ ->  ⁎
+	System.Windows.Controls.Grid [AtomForge.Presentation]System.Windows.Controls.Grid AtomForge.Presentation.Views.Windows.MainWindow:: ⁉ ->  ⁏
+	System.Windows.Controls.Grid [AtomForge.Presentation]System.Windows.Controls.Grid AtomForge.Presentation.Views.Windows.MainWindow:: ⁊ ->  ⁐
+	System.Windows.Controls.Grid [AtomForge.Presentation]System.Windows.Controls.Grid AtomForge.Presentation.Views.Windows.MainWindow:: ⁋ ->  ⁑
+	Wpf.Ui.Controls.NavigationView [AtomForge.Presentation]Wpf.Ui.Controls.NavigationView AtomForge.Presentation.Views.Windows.MainWindow:: ⁌ ->  ⁒
+	Wpf.Ui.Controls.BreadcrumbBar [AtomForge.Presentation]Wpf.Ui.Controls.BreadcrumbBar AtomForge.Presentation.Views.Windows.MainWindow:: ⁍ ->  ⁓
+	System.Windows.Controls.ContentPresenter [AtomForge.Presentation]System.Windows.Controls.ContentPresenter AtomForge.Presentation.Views.Windows.MainWindow:: ⁎ ->  ⁔
+	Wpf.Ui.Controls.TitleBar [AtomForge.Presentation]Wpf.Ui.Controls.TitleBar AtomForge.Presentation.Views.Windows.MainWindow:: ⁏ ->  ⁕
+	System.Windows.Controls.Border [AtomForge.Presentation]System.Windows.Controls.Border AtomForge.Presentation.Views.Windows.MainWindow:: ⁐ ->  ⁖
+	Wpf.Ui.Controls.SnackbarPresenter [AtomForge.Presentation]Wpf.Ui.Controls.SnackbarPresenter AtomForge.Presentation.Views.Windows.MainWindow:: ⁑ ->  ⁗
+	System.Boolean [AtomForge.Presentation]System.Boolean AtomForge.Presentation.Views.Windows.MainWindow:: ⁒ ->  ⁘
 
 
 	AtomForge.Application.ViewModels.Windows.MainWindowViewModel [AtomForge.Presentation]AtomForge.Application.ViewModels.Windows.MainWindowViewModel AtomForge.Presentation.Views.Windows.MainWindow::ViewModel skipped:  KeepPublicApi option in configuration
@@ -1368,8 +1394,8 @@ Skipped Types:
 	[AtomForge.Presentation]AtomForge.Presentation.Views.Pages.ServersView::InitializeComponent[0]( ) skipped:  external base class or interface
 	[AtomForge.Presentation]AtomForge.Presentation.Views.Pages.ServersView::.ctor[2]( [AtomForge.Application]AtomForge.Application.ViewModels.Pages.ServersViewModel, [Wpf.Ui]Wpf.Ui.IContentDialogService ) skipped:  special name
 
-	Wpf.Ui.IContentDialogService [AtomForge.Presentation]Wpf.Ui.IContentDialogService AtomForge.Presentation.Views.Pages.ServersView:: ⁋ ->  ⁑
-	System.Boolean [AtomForge.Presentation]System.Boolean AtomForge.Presentation.Views.Pages.ServersView:: ⁌ ->  ⁒
+	Wpf.Ui.IContentDialogService [AtomForge.Presentation]Wpf.Ui.IContentDialogService AtomForge.Presentation.Views.Pages.ServersView:: ⁓ ->  ⁙
+	System.Boolean [AtomForge.Presentation]System.Boolean AtomForge.Presentation.Views.Pages.ServersView:: ⁔ ->  ⁚
 }
 
 [AtomForge.Presentation]AtomForge.Presentation.Views.Pages.SettingsView skipped:  KeepPublicApi option in configuration
@@ -1382,9 +1408,9 @@ Skipped Types:
 	[AtomForge.Presentation]AtomForge.Presentation.Views.Pages.SettingsView::InitializeComponent[0]( ) skipped:  external base class or interface
 	[AtomForge.Presentation]AtomForge.Presentation.Views.Pages.SettingsView::.ctor[1]( [AtomForge.Application]AtomForge.Application.ViewModels.Pages.SettingsViewModel ) skipped:  special name
 
-	AtomForge.Application.ViewModels.Pages.SettingsViewModel [AtomForge.Presentation]AtomForge.Application.ViewModels.Pages.SettingsViewModel AtomForge.Presentation.Views.Pages.SettingsView:: ⁍ ->  ⁓
-	Wpf.Ui.Controls.TextBox [AtomForge.Presentation]Wpf.Ui.Controls.TextBox AtomForge.Presentation.Views.Pages.SettingsView:: ⁎ ->  ⁔
-	System.Boolean [AtomForge.Presentation]System.Boolean AtomForge.Presentation.Views.Pages.SettingsView:: ⁏ ->  ⁕
+	AtomForge.Application.ViewModels.Pages.SettingsViewModel [AtomForge.Presentation]AtomForge.Application.ViewModels.Pages.SettingsViewModel AtomForge.Presentation.Views.Pages.SettingsView:: ⁕ ->  ⁛
+	Wpf.Ui.Controls.TextBox [AtomForge.Presentation]Wpf.Ui.Controls.TextBox AtomForge.Presentation.Views.Pages.SettingsView:: ⁖ ->  ⁜
+	System.Boolean [AtomForge.Presentation]System.Boolean AtomForge.Presentation.Views.Pages.SettingsView:: ⁗ ->  ⁝
 }
 
 [AtomForge.Presentation]AtomForge.Presentation.Views.Pages.Popup.GameFolderPopup skipped:  KeepPublicApi option in configuration
@@ -1395,9 +1421,9 @@ Skipped Types:
 	[AtomForge.Presentation]AtomForge.Presentation.Views.Pages.Popup.GameFolderPopup::InitializeComponent[0]( ) skipped:  external base class or interface
 	[AtomForge.Presentation]AtomForge.Presentation.Views.Pages.Popup.GameFolderPopup::.ctor[2]( [AtomForge.Application]AtomForge.Application.Interfaces.Services.Game.IGameLauncherService, [AtomForge.Application]AtomForge.Application.ViewModels.Pages.Popup.GameFolderPopupViewModel ) skipped:  special name
 
-	AtomForge.Application.ViewModels.Pages.Popup.GameFolderPopupViewModel [AtomForge.Presentation]AtomForge.Application.ViewModels.Pages.Popup.GameFolderPopupViewModel AtomForge.Presentation.Views.Pages.Popup.GameFolderPopup:: ⁐ ->  ⁖
-	AtomForge.Application.Interfaces.Services.Game.IGameLauncherService [AtomForge.Presentation]AtomForge.Application.Interfaces.Services.Game.IGameLauncherService AtomForge.Presentation.Views.Pages.Popup.GameFolderPopup:: ⁑ ->  ⁗
-	System.Boolean [AtomForge.Presentation]System.Boolean AtomForge.Presentation.Views.Pages.Popup.GameFolderPopup:: ⁒ ->  ⁘
+	AtomForge.Application.ViewModels.Pages.Popup.GameFolderPopupViewModel [AtomForge.Presentation]AtomForge.Application.ViewModels.Pages.Popup.GameFolderPopupViewModel AtomForge.Presentation.Views.Pages.Popup.GameFolderPopup:: ⁘ ->  ⁞
+	AtomForge.Application.Interfaces.Services.Game.IGameLauncherService [AtomForge.Presentation]AtomForge.Application.Interfaces.Services.Game.IGameLauncherService AtomForge.Presentation.Views.Pages.Popup.GameFolderPopup:: ⁙ ->   
+	System.Boolean [AtomForge.Presentation]System.Boolean AtomForge.Presentation.Views.Pages.Popup.GameFolderPopup:: ⁚ ->  ⁠
 }
 
 [AtomForge.Presentation]AtomForge.Presentation.Views.Pages.Popup.RequiredSteamPopup skipped:  KeepPublicApi option in configuration
@@ -1408,7 +1434,7 @@ Skipped Types:
 	[AtomForge.Presentation]AtomForge.Presentation.Views.Pages.Popup.RequiredSteamPopup::InitializeComponent[0]( ) skipped:  external base class or interface
 	[AtomForge.Presentation]AtomForge.Presentation.Views.Pages.Popup.RequiredSteamPopup::.ctor[1]( [AtomForge.Application]AtomForge.Application.ViewModels.Pages.Popup.RequiredSteamPopupViewModel ) skipped:  special name
 
-	System.Boolean [AtomForge.Presentation]System.Boolean AtomForge.Presentation.Views.Pages.Popup.RequiredSteamPopup:: ⁓ ->  ⁙
+	System.Boolean [AtomForge.Presentation]System.Boolean AtomForge.Presentation.Views.Pages.Popup.RequiredSteamPopup:: ⁛ ->  ⁡
 
 	AtomForge.Application.ViewModels.Pages.Popup.RequiredSteamPopupViewModel [AtomForge.Presentation]AtomForge.Application.ViewModels.Pages.Popup.RequiredSteamPopupViewModel AtomForge.Presentation.Views.Pages.Popup.RequiredSteamPopup::ViewModel skipped:  KeepPublicApi option in configuration
 }
@@ -1421,11 +1447,11 @@ Skipped Types:
 	[AtomForge.Presentation]AtomForge.Presentation.Views.Pages.Popup.ServerPagePopup::InitializeComponent[0]( ) skipped:  external base class or interface
 	[AtomForge.Presentation]AtomForge.Presentation.Views.Pages.Popup.ServerPagePopup::.ctor[1]( [AtomForge.Application]AtomForge.Application.ViewModels.Pages.Popup.ServerPagePopupViewModel ) skipped:  special name
 
-	AtomForge.Application.ViewModels.Pages.Popup.ServerPagePopupViewModel [AtomForge.Presentation]AtomForge.Application.ViewModels.Pages.Popup.ServerPagePopupViewModel AtomForge.Presentation.Views.Pages.Popup.ServerPagePopup:: ⁔ ->  ⁚
-	System.Windows.Controls.Image [AtomForge.Presentation]System.Windows.Controls.Image AtomForge.Presentation.Views.Pages.Popup.ServerPagePopup:: ⁕ ->  ⁛
-	System.Windows.Controls.TextBlock [AtomForge.Presentation]System.Windows.Controls.TextBlock AtomForge.Presentation.Views.Pages.Popup.ServerPagePopup:: ⁖ ->  ⁜
-	System.Windows.Controls.Image [AtomForge.Presentation]System.Windows.Controls.Image AtomForge.Presentation.Views.Pages.Popup.ServerPagePopup:: ⁗ ->  ⁝
-	System.Boolean [AtomForge.Presentation]System.Boolean AtomForge.Presentation.Views.Pages.Popup.ServerPagePopup:: ⁘ ->  ⁞
+	AtomForge.Application.ViewModels.Pages.Popup.ServerPagePopupViewModel [AtomForge.Presentation]AtomForge.Application.ViewModels.Pages.Popup.ServerPagePopupViewModel AtomForge.Presentation.Views.Pages.Popup.ServerPagePopup:: ⁜ ->  ⁢
+	System.Windows.Controls.Image [AtomForge.Presentation]System.Windows.Controls.Image AtomForge.Presentation.Views.Pages.Popup.ServerPagePopup:: ⁝ ->  ⁣
+	System.Windows.Controls.TextBlock [AtomForge.Presentation]System.Windows.Controls.TextBlock AtomForge.Presentation.Views.Pages.Popup.ServerPagePopup:: ⁞ ->  ⁤
+	System.Windows.Controls.Image [AtomForge.Presentation]System.Windows.Controls.Image AtomForge.Presentation.Views.Pages.Popup.ServerPagePopup::   ->  ⁪
+	System.Boolean [AtomForge.Presentation]System.Boolean AtomForge.Presentation.Views.Pages.Popup.ServerPagePopup:: ⁠ ->  ⁫
 }
 
 [AtomForge.Presentation]AtomForge.Presentation.Settings.ColorSettings skipped:  KeepPublicApi option in configuration
@@ -1441,10 +1467,10 @@ Skipped Types:
 	[AtomForge.Presentation]AtomForge.Presentation.Settings.ColorSettings::set_PressedColor[1]( [PresentationCore]System.Windows.Media.SolidColorBrush ) skipped:  skip by property
 	[AtomForge.Presentation]AtomForge.Presentation.Settings.ColorSettings::Init[1]( [Microsoft.Extensions.Configuration.Abstractions]Microsoft.Extensions.Configuration.IConfiguration ) skipped:  KeepPublicApi option in configuration
 
-	System.Windows.Media.SolidColorBrush [AtomForge.Presentation]System.Windows.Media.SolidColorBrush AtomForge.Presentation.Settings.ColorSettings:: ⁙ ->   
-	System.Windows.Media.SolidColorBrush [AtomForge.Presentation]System.Windows.Media.SolidColorBrush AtomForge.Presentation.Settings.ColorSettings:: ⁚ ->  ⁠
-	System.Windows.Media.SolidColorBrush [AtomForge.Presentation]System.Windows.Media.SolidColorBrush AtomForge.Presentation.Settings.ColorSettings:: ⁛ ->  ⁡
-	System.Windows.Media.SolidColorBrush [AtomForge.Presentation]System.Windows.Media.SolidColorBrush AtomForge.Presentation.Settings.ColorSettings:: ⁜ ->  ⁢
+	System.Windows.Media.SolidColorBrush [AtomForge.Presentation]System.Windows.Media.SolidColorBrush AtomForge.Presentation.Settings.ColorSettings:: ⁡ ->  ⁬
+	System.Windows.Media.SolidColorBrush [AtomForge.Presentation]System.Windows.Media.SolidColorBrush AtomForge.Presentation.Settings.ColorSettings:: ⁢ ->  ⁭
+	System.Windows.Media.SolidColorBrush [AtomForge.Presentation]System.Windows.Media.SolidColorBrush AtomForge.Presentation.Settings.ColorSettings:: ⁣ ->  ⁮
+	System.Windows.Media.SolidColorBrush [AtomForge.Presentation]System.Windows.Media.SolidColorBrush AtomForge.Presentation.Settings.ColorSettings:: ⁤ ->  ⁯
 
 
 	System.Windows.Media.SolidColorBrush [AtomForge.Presentation]System.Windows.Media.SolidColorBrush AtomForge.Presentation.Settings.ColorSettings::MainColor skipped:  KeepPublicApi option in configuration
@@ -1467,10 +1493,10 @@ Skipped Types:
 	[AtomForge.Presentation]AtomForge.Presentation.Settings.UISettings::Init[1]( [Microsoft.Extensions.Configuration.Abstractions]Microsoft.Extensions.Configuration.IConfiguration ) skipped:  KeepPublicApi option in configuration
 	[AtomForge.Presentation]AtomForge.Presentation.Settings.UISettings::.cctor[0]( ) skipped:  special name
 
-	System.Boolean [AtomForge.Presentation]System.Boolean AtomForge.Presentation.Settings.UISettings:: ⁝ ->  ⁣
-	System.Boolean [AtomForge.Presentation]System.Boolean AtomForge.Presentation.Settings.UISettings:: ⁞ ->  ⁤
-	System.Boolean [AtomForge.Presentation]System.Boolean AtomForge.Presentation.Settings.UISettings::   ->  ⁪
-	System.Boolean [AtomForge.Presentation]System.Boolean AtomForge.Presentation.Settings.UISettings:: ⁠ ->  ⁫
+	System.Boolean [AtomForge.Presentation]System.Boolean AtomForge.Presentation.Settings.UISettings:: ⁪ ->  　
+	System.Boolean [AtomForge.Presentation]System.Boolean AtomForge.Presentation.Settings.UISettings:: ⁫ ->   
+	System.Boolean [AtomForge.Presentation]System.Boolean AtomForge.Presentation.Settings.UISettings:: ⁬ ->   
+	System.Boolean [AtomForge.Presentation]System.Boolean AtomForge.Presentation.Settings.UISettings:: ⁭ ->   
 
 
 	System.Boolean [AtomForge.Presentation]System.Boolean AtomForge.Presentation.Settings.UISettings::UI_SelectGameFolder_SelectFolder skipped:  KeepPublicApi option in configuration
@@ -1487,7 +1513,7 @@ Skipped Types:
 	[AtomForge.Presentation]AtomForge.Presentation.Controls.ServerControl::InitializeComponent[0]( ) skipped:  external base class or interface
 	[AtomForge.Presentation]AtomForge.Presentation.Controls.ServerControl::.ctor[0]( ) skipped:  special name
 
-	System.Boolean [AtomForge.Presentation]System.Boolean AtomForge.Presentation.Controls.ServerControl:: ⁡ ->  ⁬
+	System.Boolean [AtomForge.Presentation]System.Boolean AtomForge.Presentation.Controls.ServerControl:: ⁮ ->   
 }
 
 [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.AppSettings skipped:  KeepPublicApi option in configuration
@@ -1502,13 +1528,13 @@ Skipped Types:
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.AppSettings::get_ShopSocialLink[0]( ) skipped:  skip by property
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.AppSettings::.ctor[1]( [Microsoft.Extensions.Configuration.Abstractions]Microsoft.Extensions.Configuration.IConfiguration ) skipped:  special name
 
-	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.AppSettings:: ⁢ ->  　
-	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.AppSettings:: ⁣ ->   
-	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.AppSettings:: ⁤ ->   
-	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.AppSettings:: ⁪ ->   
-	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.AppSettings:: ⁫ ->   
-	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.AppSettings:: ⁬ ->   
-	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.AppSettings:: ⁭ ->   
+	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.AppSettings:: ⁯ ->   
+	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.AppSettings:: 　 ->   
+	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.AppSettings::   ->   
+	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.AppSettings::   ->   
+	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.AppSettings::   ->   
+	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.AppSettings::   ->   
+	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.AppSettings::   ->  ​
 
 
 	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.AppSettings::AppName skipped:  KeepPublicApi option in configuration
@@ -1526,11 +1552,11 @@ Skipped Types:
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.InitializationLauncherService::.ctor[5]( [Microsoft.Extensions.Logging.Abstractions]Microsoft.Extensions.Logging.ILogger`1<[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.InitializationLauncherService>, [AtomForge.Application]AtomForge.Application.Interfaces.Services.IPopupHandlerSerivce, [AtomForge.Application]AtomForge.Application.Interfaces.Services.Managers.ILanguageManager, [AtomForge.Application]AtomForge.Application.Interfaces.Services.Managers.IConfigManager, [AtomForge.Application]AtomForge.Application.Interfaces.Services.IApiDataService ) skipped:  special name
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.InitializationLauncherService::ExecuteAsync[1]( [System.Runtime]System.Threading.CancellationToken ) skipped:  external base class or interface
 
-	Microsoft.Extensions.Logging.ILogger`1<AtomForge.Infrastructure.Services.InitializationLauncherService> [AtomForge.Infrastructure]Microsoft.Extensions.Logging.ILogger`1<AtomForge.Infrastructure.Services.InitializationLauncherService> AtomForge.Infrastructure.Services.InitializationLauncherService:: ⁮ ->   
-	AtomForge.Application.Interfaces.Services.IPopupHandlerSerivce [AtomForge.Infrastructure]AtomForge.Application.Interfaces.Services.IPopupHandlerSerivce AtomForge.Infrastructure.Services.InitializationLauncherService:: ⁯ ->   
-	AtomForge.Application.Interfaces.Services.Managers.ILanguageManager [AtomForge.Infrastructure]AtomForge.Application.Interfaces.Services.Managers.ILanguageManager AtomForge.Infrastructure.Services.InitializationLauncherService:: 　 ->   
-	AtomForge.Application.Interfaces.Services.Managers.IConfigManager [AtomForge.Infrastructure]AtomForge.Application.Interfaces.Services.Managers.IConfigManager AtomForge.Infrastructure.Services.InitializationLauncherService::   ->   
-	AtomForge.Application.Interfaces.Services.IApiDataService [AtomForge.Infrastructure]AtomForge.Application.Interfaces.Services.IApiDataService AtomForge.Infrastructure.Services.InitializationLauncherService::   ->   
+	Microsoft.Extensions.Logging.ILogger`1<AtomForge.Infrastructure.Services.InitializationLauncherService> [AtomForge.Infrastructure]Microsoft.Extensions.Logging.ILogger`1<AtomForge.Infrastructure.Services.InitializationLauncherService> AtomForge.Infrastructure.Services.InitializationLauncherService::   ->  ‐
+	AtomForge.Application.Interfaces.Services.IPopupHandlerSerivce [AtomForge.Infrastructure]AtomForge.Application.Interfaces.Services.IPopupHandlerSerivce AtomForge.Infrastructure.Services.InitializationLauncherService::   ->  ‑
+	AtomForge.Application.Interfaces.Services.Managers.ILanguageManager [AtomForge.Infrastructure]AtomForge.Application.Interfaces.Services.Managers.ILanguageManager AtomForge.Infrastructure.Services.InitializationLauncherService::   ->  ‒
+	AtomForge.Application.Interfaces.Services.Managers.IConfigManager [AtomForge.Infrastructure]AtomForge.Application.Interfaces.Services.Managers.IConfigManager AtomForge.Infrastructure.Services.InitializationLauncherService::   ->  –
+	AtomForge.Application.Interfaces.Services.IApiDataService [AtomForge.Infrastructure]AtomForge.Application.Interfaces.Services.IApiDataService AtomForge.Infrastructure.Services.InitializationLauncherService::   ->  —
 }
 
 [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.WebLauncherService skipped:  KeepPublicApi option in configuration
@@ -1542,15 +1568,15 @@ Skipped Types:
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.WebLauncherService::GetServers[0]( ) skipped:  KeepPublicApi option in configuration
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.WebLauncherService::GetGameInformation[0]( ) skipped:  KeepPublicApi option in configuration
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.WebLauncherService::FetchDataAsync[1]( [System.Runtime]System.Threading.CancellationToken ) skipped:  KeepPublicApi option in configuration
-	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.WebLauncherService::FetchTorrentAsync[2]( [System.Runtime]System.String, [System.Runtime]System.Threading.CancellationToken ) skipped:  KeepPublicApi option in configuration
+	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.WebLauncherService::FetchTorrentFileAsync[2]( [System.Runtime]System.String, [System.Runtime]System.Threading.CancellationToken ) skipped:  KeepPublicApi option in configuration
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.WebLauncherService::.ctor[3]( [Microsoft.Extensions.Logging.Abstractions]Microsoft.Extensions.Logging.ILogger`1<[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.WebLauncherService>, [AtomForge.Application]AtomForge.Application.Interfaces.Services.Downloaders.IDownloaderTorrentService, [System.ComponentModel]System.IServiceProvider ) skipped:  special name
 
-	Microsoft.Extensions.Logging.ILogger`1<AtomForge.Infrastructure.Services.WebLauncherService> [AtomForge.Infrastructure]Microsoft.Extensions.Logging.ILogger`1<AtomForge.Infrastructure.Services.WebLauncherService> AtomForge.Infrastructure.Services.WebLauncherService::   ->   
-	AtomForge.Application.Interfaces.Services.Downloaders.IDownloaderTorrentService [AtomForge.Infrastructure]AtomForge.Application.Interfaces.Services.Downloaders.IDownloaderTorrentService AtomForge.Infrastructure.Services.WebLauncherService::   ->   
-	System.IServiceProvider [AtomForge.Infrastructure]System.IServiceProvider AtomForge.Infrastructure.Services.WebLauncherService::   ->  ​
-	System.Collections.Generic.List`1<AtomForge.Domain.DTOs.ServerInformationJson> [AtomForge.Infrastructure]System.Collections.Generic.List`1<AtomForge.Domain.DTOs.ServerInformationJson> AtomForge.Infrastructure.Services.WebLauncherService::   ->  ‐
-	AtomForge.Domain.DTOs.GameClientInfoJson [AtomForge.Infrastructure]AtomForge.Domain.DTOs.GameClientInfoJson AtomForge.Infrastructure.Services.WebLauncherService::   ->  ‑
-	System.Threading.Tasks.TaskCompletionSource`1<System.Boolean> [AtomForge.Infrastructure]System.Threading.Tasks.TaskCompletionSource`1<System.Boolean> AtomForge.Infrastructure.Services.WebLauncherService::   ->  ‒
+	Microsoft.Extensions.Logging.ILogger`1<AtomForge.Infrastructure.Services.WebLauncherService> [AtomForge.Infrastructure]Microsoft.Extensions.Logging.ILogger`1<AtomForge.Infrastructure.Services.WebLauncherService> AtomForge.Infrastructure.Services.WebLauncherService::   ->  ―
+	AtomForge.Application.Interfaces.Services.Downloaders.IDownloaderTorrentService [AtomForge.Infrastructure]AtomForge.Application.Interfaces.Services.Downloaders.IDownloaderTorrentService AtomForge.Infrastructure.Services.WebLauncherService::   ->  •
+	System.IServiceProvider [AtomForge.Infrastructure]System.IServiceProvider AtomForge.Infrastructure.Services.WebLauncherService::   ->  ․
+	System.Collections.Generic.List`1<AtomForge.Domain.DTOs.ServerInformationJson> [AtomForge.Infrastructure]System.Collections.Generic.List`1<AtomForge.Domain.DTOs.ServerInformationJson> AtomForge.Infrastructure.Services.WebLauncherService:: ​ ->  ‥
+	AtomForge.Domain.DTOs.GameClientInfoJson [AtomForge.Infrastructure]AtomForge.Domain.DTOs.GameClientInfoJson AtomForge.Infrastructure.Services.WebLauncherService:: ‐ ->  ‧
+	System.Threading.Tasks.TaskCompletionSource`1<System.Boolean> [AtomForge.Infrastructure]System.Threading.Tasks.TaskCompletionSource`1<System.Boolean> AtomForge.Infrastructure.Services.WebLauncherService:: ‑ ->   
 }
 
 [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.WPF.ClipboardService skipped:  KeepPublicApi option in configuration
@@ -1561,10 +1587,10 @@ Skipped Types:
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.WPF.ClipboardService::Set[3]( [System.Runtime]System.String, [System.Runtime]System.Boolean, [System.Runtime]System.String ) skipped:  KeepPublicApi option in configuration
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.WPF.ClipboardService::.ctor[3]( [Microsoft.Extensions.Logging.Abstractions]Microsoft.Extensions.Logging.ILogger`1<[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.WPF.ClipboardService>, [AtomForge.Application]AtomForge.Application.Interfaces.Services.IAppSettings, [Wpf.Ui]Wpf.Ui.ISnackbarService ) skipped:  special name
 
-	Microsoft.Extensions.Logging.ILogger`1<AtomForge.Infrastructure.Services.WPF.ClipboardService> [AtomForge.Infrastructure]Microsoft.Extensions.Logging.ILogger`1<AtomForge.Infrastructure.Services.WPF.ClipboardService> AtomForge.Infrastructure.Services.WPF.ClipboardService::   ->  –
-	AtomForge.Application.Interfaces.Services.IAppSettings [AtomForge.Infrastructure]AtomForge.Application.Interfaces.Services.IAppSettings AtomForge.Infrastructure.Services.WPF.ClipboardService::   ->  —
-	Wpf.Ui.ISnackbarService [AtomForge.Infrastructure]Wpf.Ui.ISnackbarService AtomForge.Infrastructure.Services.WPF.ClipboardService::   ->  ―
-	AtomForge.Infrastructure.Services.WPF.ClipboardService/Copy [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.WPF.ClipboardService/Copy AtomForge.Infrastructure.Services.WPF.ClipboardService::   ->  •
+	Microsoft.Extensions.Logging.ILogger`1<AtomForge.Infrastructure.Services.WPF.ClipboardService> [AtomForge.Infrastructure]Microsoft.Extensions.Logging.ILogger`1<AtomForge.Infrastructure.Services.WPF.ClipboardService> AtomForge.Infrastructure.Services.WPF.ClipboardService:: ‒ ->   
+	AtomForge.Application.Interfaces.Services.IAppSettings [AtomForge.Infrastructure]AtomForge.Application.Interfaces.Services.IAppSettings AtomForge.Infrastructure.Services.WPF.ClipboardService:: – ->  ‪
+	Wpf.Ui.ISnackbarService [AtomForge.Infrastructure]Wpf.Ui.ISnackbarService AtomForge.Infrastructure.Services.WPF.ClipboardService:: — ->  ‫
+	AtomForge.Infrastructure.Services.WPF.ClipboardService/Copy [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.WPF.ClipboardService/Copy AtomForge.Infrastructure.Services.WPF.ClipboardService:: ― ->  ‬
 
 
 	AtomForge.Infrastructure.Services.WPF.ClipboardService/Copy [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.WPF.ClipboardService/Copy AtomForge.Infrastructure.Services.WPF.ClipboardService::CopyEvent skipped:  KeepPublicApi option in configuration
@@ -1577,14 +1603,15 @@ Skipped Types:
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.WPF.PageService::GetPage[0]( ) skipped:  external base class or interface
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.WPF.PageService::GetPage[1]( [System.Runtime]System.Type ) skipped:  external base class or interface
 
-	System.IServiceProvider [AtomForge.Infrastructure]System.IServiceProvider AtomForge.Infrastructure.Services.WPF.PageService::   ->  ․
+	System.IServiceProvider [AtomForge.Infrastructure]System.IServiceProvider AtomForge.Infrastructure.Services.WPF.PageService:: • ->  ‭
 }
 
 [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.TorrentServices.TorrentClient skipped:  KeepPublicApi option in configuration
 {
+	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.TorrentServices.TorrentClient:: [0]( ) ->  
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.TorrentServices.TorrentClient:: [1]( [System.Runtime]System.IO.StreamReader ) ->  
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.TorrentServices.TorrentClient:: [1]( [System.Runtime]System.String ) ->  
-	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.TorrentServices.TorrentClient:: [0]( ) ->  
+	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.TorrentServices.TorrentClient:: [0]( ) ->  
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.TorrentServices.TorrentClient:: [3]( [System.Runtime]System.String[], [System.Runtime]System.String, [System.Runtime]System.String ) ->  
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.TorrentServices.TorrentClient:: [3]( [AtomForge.Domain]AtomForge.Domain.Enums.ETorrentStatus, [System.Runtime]System.Double, [System.Runtime]System.Boolean ) ->  
 
@@ -1594,12 +1621,13 @@ Skipped Types:
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.TorrentServices.TorrentClient::.ctor[1]( [Microsoft.Extensions.Logging.Abstractions]Microsoft.Extensions.Logging.ILogger`1<[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.TorrentServices.TorrentClient> ) skipped:  special name
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.TorrentServices.TorrentClient::StartTorrentProcessAsync[2]( [System.Runtime]System.String, [System.Runtime]System.String ) skipped:  KeepPublicApi option in configuration
 
-	Microsoft.Extensions.Logging.ILogger`1<AtomForge.Infrastructure.Services.TorrentServices.TorrentClient> [AtomForge.Infrastructure]Microsoft.Extensions.Logging.ILogger`1<AtomForge.Infrastructure.Services.TorrentServices.TorrentClient> AtomForge.Infrastructure.Services.TorrentServices.TorrentClient:: ​ ->  ‥
-	AtomForge.Application.Interfaces.Services.TorrentServices.TorrentStatusEventHandler [AtomForge.Infrastructure]AtomForge.Application.Interfaces.Services.TorrentServices.TorrentStatusEventHandler AtomForge.Infrastructure.Services.TorrentServices.TorrentClient:: ‐ ->  ‧
-	System.Threading.CancellationTokenSource [AtomForge.Infrastructure]System.Threading.CancellationTokenSource AtomForge.Infrastructure.Services.TorrentServices.TorrentClient:: ‑ ->   
-	System.Diagnostics.Process [AtomForge.Infrastructure]System.Diagnostics.Process AtomForge.Infrastructure.Services.TorrentServices.TorrentClient:: ‒ ->   
-	System.Text.StringBuilder [AtomForge.Infrastructure]System.Text.StringBuilder AtomForge.Infrastructure.Services.TorrentServices.TorrentClient:: – ->  ‪
-	System.Boolean [AtomForge.Infrastructure]System.Boolean AtomForge.Infrastructure.Services.TorrentServices.TorrentClient:: — ->  ‫
+	Microsoft.Extensions.Logging.ILogger`1<AtomForge.Infrastructure.Services.TorrentServices.TorrentClient> [AtomForge.Infrastructure]Microsoft.Extensions.Logging.ILogger`1<AtomForge.Infrastructure.Services.TorrentServices.TorrentClient> AtomForge.Infrastructure.Services.TorrentServices.TorrentClient:: ․ ->  ‮
+	AtomForge.Application.Interfaces.Services.TorrentServices.TorrentStatusEventHandler [AtomForge.Infrastructure]AtomForge.Application.Interfaces.Services.TorrentServices.TorrentStatusEventHandler AtomForge.Infrastructure.Services.TorrentServices.TorrentClient:: ‥ ->   
+	System.Threading.CancellationTokenSource [AtomForge.Infrastructure]System.Threading.CancellationTokenSource AtomForge.Infrastructure.Services.TorrentServices.TorrentClient:: ‧ ->  ′
+	System.Diagnostics.Process [AtomForge.Infrastructure]System.Diagnostics.Process AtomForge.Infrastructure.Services.TorrentServices.TorrentClient::   ->  ‵
+	System.Text.StringBuilder [AtomForge.Infrastructure]System.Text.StringBuilder AtomForge.Infrastructure.Services.TorrentServices.TorrentClient::   ->  ″
+	System.Boolean [AtomForge.Infrastructure]System.Boolean AtomForge.Infrastructure.Services.TorrentServices.TorrentClient:: ‪ ->  ‶
+	System.Double [AtomForge.Infrastructure]System.Double AtomForge.Infrastructure.Services.TorrentServices.TorrentClient:: ‫ ->  ‾
 
 
 	AtomForge.Application.Interfaces.Services.TorrentServices.TorrentStatusEventHandler [AtomForge.Infrastructure]AtomForge.Application.Interfaces.Services.TorrentServices.TorrentStatusEventHandler AtomForge.Infrastructure.Services.TorrentServices.TorrentClient::StatusChanged skipped:  KeepPublicApi option in configuration
@@ -1611,7 +1639,7 @@ Skipped Types:
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Popup.InitializerPopupHandler::.ctor[1]( [AtomForge.Application]AtomForge.Application.Interfaces.Services.IPopupHandlerSerivce ) skipped:  special name
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Popup.InitializerPopupHandler::Configure[1]( [System.Runtime]System.Action`1<[Microsoft.AspNetCore.Http.Abstractions]Microsoft.AspNetCore.Builder.IApplicationBuilder> ) skipped:  external base class or interface
 
-	AtomForge.Application.Interfaces.Services.IPopupHandlerSerivce [AtomForge.Infrastructure]AtomForge.Application.Interfaces.Services.IPopupHandlerSerivce AtomForge.Infrastructure.Services.Popup.InitializerPopupHandler:: ― ->  ‬
+	AtomForge.Application.Interfaces.Services.IPopupHandlerSerivce [AtomForge.Infrastructure]AtomForge.Application.Interfaces.Services.IPopupHandlerSerivce AtomForge.Infrastructure.Services.Popup.InitializerPopupHandler:: ‬ ->  ⁇
 }
 
 [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Popup.PopupHandlerSerivce skipped:  KeepPublicApi option in configuration
@@ -1622,10 +1650,10 @@ Skipped Types:
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Popup.PopupHandlerSerivce::PopupActions_OpenRequiredSteamPopup[1]( [WindowsBase]System.Windows.Threading.Dispatcher ) skipped:  KeepPublicApi option in configuration
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Popup.PopupHandlerSerivce::.ctor[4]( [Microsoft.Extensions.Logging.Abstractions]Microsoft.Extensions.Logging.ILogger`1<[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Popup.PopupHandlerSerivce>, [Wpf.Ui]Wpf.Ui.IContentDialogService, [AtomForge.Presentation]AtomForge.Presentation.Views.Pages.Popup.GameFolderPopup, [AtomForge.Presentation]AtomForge.Presentation.Views.Pages.Popup.RequiredSteamPopup ) skipped:  special name
 
-	AtomForge.Presentation.Views.Pages.Popup.GameFolderPopup [AtomForge.Infrastructure]AtomForge.Presentation.Views.Pages.Popup.GameFolderPopup AtomForge.Infrastructure.Services.Popup.PopupHandlerSerivce:: • ->  ‭
-	AtomForge.Presentation.Views.Pages.Popup.RequiredSteamPopup [AtomForge.Infrastructure]AtomForge.Presentation.Views.Pages.Popup.RequiredSteamPopup AtomForge.Infrastructure.Services.Popup.PopupHandlerSerivce:: ․ ->  ‮
-	Wpf.Ui.IContentDialogService [AtomForge.Infrastructure]Wpf.Ui.IContentDialogService AtomForge.Infrastructure.Services.Popup.PopupHandlerSerivce:: ‥ ->   
-	Microsoft.Extensions.Logging.ILogger [AtomForge.Infrastructure]Microsoft.Extensions.Logging.ILogger AtomForge.Infrastructure.Services.Popup.PopupHandlerSerivce:: ‧ ->  ′
+	AtomForge.Presentation.Views.Pages.Popup.GameFolderPopup [AtomForge.Infrastructure]AtomForge.Presentation.Views.Pages.Popup.GameFolderPopup AtomForge.Infrastructure.Services.Popup.PopupHandlerSerivce:: ‭ ->  ⁈
+	AtomForge.Presentation.Views.Pages.Popup.RequiredSteamPopup [AtomForge.Infrastructure]AtomForge.Presentation.Views.Pages.Popup.RequiredSteamPopup AtomForge.Infrastructure.Services.Popup.PopupHandlerSerivce:: ‮ ->  ⁉
+	Wpf.Ui.IContentDialogService [AtomForge.Infrastructure]Wpf.Ui.IContentDialogService AtomForge.Infrastructure.Services.Popup.PopupHandlerSerivce::   ->  ⁊
+	Microsoft.Extensions.Logging.ILogger [AtomForge.Infrastructure]Microsoft.Extensions.Logging.ILogger AtomForge.Infrastructure.Services.Popup.PopupHandlerSerivce:: ′ ->  ⁋
 }
 
 [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.ConfigManager skipped:  KeepPublicApi option in configuration
@@ -1658,10 +1686,10 @@ Skipped Types:
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.ConfigManager:: [0]( ) skipped:  special name
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.ConfigManager::.cctor[0]( ) skipped:  special name
 
-	Microsoft.Extensions.Logging.ILogger`1<AtomForge.Infrastructure.Services.Managers.ConfigManager> [AtomForge.Infrastructure]Microsoft.Extensions.Logging.ILogger`1<AtomForge.Infrastructure.Services.Managers.ConfigManager> AtomForge.Infrastructure.Services.Managers.ConfigManager::   ->  ‵
-	AtomForge.Application.Interfaces.Services.Managers.IDirectoryManager [AtomForge.Infrastructure]AtomForge.Application.Interfaces.Services.Managers.IDirectoryManager AtomForge.Infrastructure.Services.Managers.ConfigManager::   ->  ″
-	System.Text.Json.JsonSerializerOptions [AtomForge.Infrastructure]System.Text.Json.JsonSerializerOptions AtomForge.Infrastructure.Services.Managers.ConfigManager:: ‪ ->  ‶
-	AtomForge.Domain.Models.Config.BaseConfig [AtomForge.Infrastructure]AtomForge.Domain.Models.Config.BaseConfig AtomForge.Infrastructure.Services.Managers.ConfigManager:: ‫ ->  ‾
+	Microsoft.Extensions.Logging.ILogger`1<AtomForge.Infrastructure.Services.Managers.ConfigManager> [AtomForge.Infrastructure]Microsoft.Extensions.Logging.ILogger`1<AtomForge.Infrastructure.Services.Managers.ConfigManager> AtomForge.Infrastructure.Services.Managers.ConfigManager:: ‵ ->  ⁌
+	AtomForge.Application.Interfaces.Services.Managers.IDirectoryManager [AtomForge.Infrastructure]AtomForge.Application.Interfaces.Services.Managers.IDirectoryManager AtomForge.Infrastructure.Services.Managers.ConfigManager:: ″ ->  ⁍
+	System.Text.Json.JsonSerializerOptions [AtomForge.Infrastructure]System.Text.Json.JsonSerializerOptions AtomForge.Infrastructure.Services.Managers.ConfigManager:: ‶ ->  ⁎
+	AtomForge.Domain.Models.Config.BaseConfig [AtomForge.Infrastructure]AtomForge.Domain.Models.Config.BaseConfig AtomForge.Infrastructure.Services.Managers.ConfigManager:: ‾ ->  ⁏
 }
 
 [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.LanguageManager skipped:  KeepPublicApi option in configuration
@@ -1673,8 +1701,8 @@ Skipped Types:
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.LanguageManager::.ctor[2]( [Microsoft.Extensions.Logging.Abstractions]Microsoft.Extensions.Logging.ILogger`1<[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.InitializationLauncherService>, [AtomForge.Application]AtomForge.Application.Interfaces.Services.Managers.IConfigManager ) skipped:  special name
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.LanguageManager::Configure[0]( ) skipped:  KeepPublicApi option in configuration
 
-	Microsoft.Extensions.Logging.ILogger`1<AtomForge.Infrastructure.Services.InitializationLauncherService> [AtomForge.Infrastructure]Microsoft.Extensions.Logging.ILogger`1<AtomForge.Infrastructure.Services.InitializationLauncherService> AtomForge.Infrastructure.Services.Managers.LanguageManager:: ‬ ->  ⁇
-	AtomForge.Application.Interfaces.Services.Managers.IConfigManager [AtomForge.Infrastructure]AtomForge.Application.Interfaces.Services.Managers.IConfigManager AtomForge.Infrastructure.Services.Managers.LanguageManager:: ‭ ->  ⁈
+	Microsoft.Extensions.Logging.ILogger`1<AtomForge.Infrastructure.Services.InitializationLauncherService> [AtomForge.Infrastructure]Microsoft.Extensions.Logging.ILogger`1<AtomForge.Infrastructure.Services.InitializationLauncherService> AtomForge.Infrastructure.Services.Managers.LanguageManager:: ⁇ ->  ⁐
+	AtomForge.Application.Interfaces.Services.Managers.IConfigManager [AtomForge.Infrastructure]AtomForge.Application.Interfaces.Services.Managers.IConfigManager AtomForge.Infrastructure.Services.Managers.LanguageManager:: ⁈ ->  ⁑
 }
 
 [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameLauncherService skipped:  KeepPublicApi option in configuration
@@ -1687,6 +1715,8 @@ Skipped Types:
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameLauncherService:: [0]( ) ->  
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameLauncherService:: [0]( ) ->  
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameLauncherService:: [0]( ) ->  
+	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameLauncherService:: [0]( ) ->  
+	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameLauncherService:: [0]( ) ->  
 
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameLauncherService::get_ForceUpdate[0]( ) skipped:  skip by property
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameLauncherService::set_ForceUpdate[1]( [System.Runtime]System.Boolean ) skipped:  skip by property
@@ -1698,16 +1728,16 @@ Skipped Types:
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameLauncherService::ExistsGameFolder[0]( ) skipped:  KeepPublicApi option in configuration
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameLauncherService::.ctor[6]( [Microsoft.Extensions.Logging.Abstractions]Microsoft.Extensions.Logging.ILogger`1<[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameLauncherService>, [AtomForge.Application]AtomForge.Application.Interfaces.Services.Game.IGameDownloader, [AtomForge.Application]AtomForge.Application.Interfaces.Services.Managers.IDirectoryManager, [AtomForge.Application]AtomForge.Application.Interfaces.Services.Managers.IConfigManager, [AtomForge.Application]AtomForge.Application.Interfaces.Services.IApiDataService, [AtomForge.Application]AtomForge.Application.Interfaces.Services.Game.IGameStarter ) skipped:  special name
 
-	Microsoft.Extensions.Logging.ILogger`1<AtomForge.Infrastructure.Services.Game.GameLauncherService> [AtomForge.Infrastructure]Microsoft.Extensions.Logging.ILogger`1<AtomForge.Infrastructure.Services.Game.GameLauncherService> AtomForge.Infrastructure.Services.Game.GameLauncherService:: ″ ->  ⁍
-	AtomForge.Application.Interfaces.Services.Game.IGameDownloader [AtomForge.Infrastructure]AtomForge.Application.Interfaces.Services.Game.IGameDownloader AtomForge.Infrastructure.Services.Game.GameLauncherService:: ‶ ->  ⁎
-	AtomForge.Application.Interfaces.Services.Managers.IDirectoryManager [AtomForge.Infrastructure]AtomForge.Application.Interfaces.Services.Managers.IDirectoryManager AtomForge.Infrastructure.Services.Game.GameLauncherService:: ‾ ->  ⁏
-	AtomForge.Application.Interfaces.Services.Managers.IConfigManager [AtomForge.Infrastructure]AtomForge.Application.Interfaces.Services.Managers.IConfigManager AtomForge.Infrastructure.Services.Game.GameLauncherService:: ⁇ ->  ⁐
-	AtomForge.Application.Interfaces.Services.IApiDataService [AtomForge.Infrastructure]AtomForge.Application.Interfaces.Services.IApiDataService AtomForge.Infrastructure.Services.Game.GameLauncherService:: ⁈ ->  ⁑
-	AtomForge.Application.Interfaces.Services.Game.IGameStarter [AtomForge.Infrastructure]AtomForge.Application.Interfaces.Services.Game.IGameStarter AtomForge.Infrastructure.Services.Game.GameLauncherService:: ⁉ ->  ⁒
-	AtomForge.Domain.DTOs.GameClientInfoJson [AtomForge.Infrastructure]AtomForge.Domain.DTOs.GameClientInfoJson AtomForge.Infrastructure.Services.Game.GameLauncherService:: ⁊ ->  ⁓
-	AtomForge.Domain.Models.Config.GameConfig [AtomForge.Infrastructure]AtomForge.Domain.Models.Config.GameConfig AtomForge.Infrastructure.Services.Game.GameLauncherService:: ⁋ ->  ⁔
-	System.Boolean [AtomForge.Infrastructure]System.Boolean AtomForge.Infrastructure.Services.Game.GameLauncherService:: ⁌ ->  ⁕
-	AtomForge.Application.ViewModels.Windows.MainWindow.GameStateViewModel [AtomForge.Infrastructure]AtomForge.Application.ViewModels.Windows.MainWindow.GameStateViewModel AtomForge.Infrastructure.Services.Game.GameLauncherService:: ⁍ ->  ⁖
+	Microsoft.Extensions.Logging.ILogger`1<AtomForge.Infrastructure.Services.Game.GameLauncherService> [AtomForge.Infrastructure]Microsoft.Extensions.Logging.ILogger`1<AtomForge.Infrastructure.Services.Game.GameLauncherService> AtomForge.Infrastructure.Services.Game.GameLauncherService:: ⁎ ->  ⁗
+	AtomForge.Application.Interfaces.Services.Game.IGameDownloader [AtomForge.Infrastructure]AtomForge.Application.Interfaces.Services.Game.IGameDownloader AtomForge.Infrastructure.Services.Game.GameLauncherService:: ⁏ ->  ⁘
+	AtomForge.Application.Interfaces.Services.Managers.IDirectoryManager [AtomForge.Infrastructure]AtomForge.Application.Interfaces.Services.Managers.IDirectoryManager AtomForge.Infrastructure.Services.Game.GameLauncherService:: ⁐ ->  ⁙
+	AtomForge.Application.Interfaces.Services.Managers.IConfigManager [AtomForge.Infrastructure]AtomForge.Application.Interfaces.Services.Managers.IConfigManager AtomForge.Infrastructure.Services.Game.GameLauncherService:: ⁑ ->  ⁚
+	AtomForge.Application.Interfaces.Services.IApiDataService [AtomForge.Infrastructure]AtomForge.Application.Interfaces.Services.IApiDataService AtomForge.Infrastructure.Services.Game.GameLauncherService:: ⁒ ->  ⁛
+	AtomForge.Application.Interfaces.Services.Game.IGameStarter [AtomForge.Infrastructure]AtomForge.Application.Interfaces.Services.Game.IGameStarter AtomForge.Infrastructure.Services.Game.GameLauncherService:: ⁓ ->  ⁜
+	AtomForge.Domain.DTOs.GameClientInfoJson [AtomForge.Infrastructure]AtomForge.Domain.DTOs.GameClientInfoJson AtomForge.Infrastructure.Services.Game.GameLauncherService:: ⁔ ->  ⁝
+	AtomForge.Domain.Models.Config.GameConfig [AtomForge.Infrastructure]AtomForge.Domain.Models.Config.GameConfig AtomForge.Infrastructure.Services.Game.GameLauncherService:: ⁕ ->  ⁞
+	System.Boolean [AtomForge.Infrastructure]System.Boolean AtomForge.Infrastructure.Services.Game.GameLauncherService:: ⁖ ->   
+	AtomForge.Application.ViewModels.Windows.MainWindow.GameStateViewModel [AtomForge.Infrastructure]AtomForge.Application.ViewModels.Windows.MainWindow.GameStateViewModel AtomForge.Infrastructure.Services.Game.GameLauncherService:: ⁗ ->  ⁠
 
 
 	System.Boolean [AtomForge.Infrastructure]System.Boolean AtomForge.Infrastructure.Services.Game.GameLauncherService::ForceUpdate skipped:  KeepPublicApi option in configuration
@@ -1721,7 +1751,7 @@ Skipped Types:
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameStarter::StartGame[3]( [System.Runtime]System.String, [System.Runtime]System.String, [System.Runtime]System.String ) skipped:  KeepPublicApi option in configuration
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameStarter::.ctor[1]( [Microsoft.Extensions.Logging.Abstractions]Microsoft.Extensions.Logging.ILogger`1<[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameStarter> ) skipped:  special name
 
-	Microsoft.Extensions.Logging.ILogger`1<AtomForge.Infrastructure.Services.Game.GameStarter> [AtomForge.Infrastructure]Microsoft.Extensions.Logging.ILogger`1<AtomForge.Infrastructure.Services.Game.GameStarter> AtomForge.Infrastructure.Services.Game.GameStarter:: ⁎ ->  ⁗
+	Microsoft.Extensions.Logging.ILogger`1<AtomForge.Infrastructure.Services.Game.GameStarter> [AtomForge.Infrastructure]Microsoft.Extensions.Logging.ILogger`1<AtomForge.Infrastructure.Services.Game.GameStarter> AtomForge.Infrastructure.Services.Game.GameStarter:: ⁘ ->  ⁡
 }
 
 [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService skipped:  KeepPublicApi option in configuration
@@ -1733,10 +1763,10 @@ Skipped Types:
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService::FetchBitmapImageAsync[2]( [System.Runtime]System.String, [System.Runtime]System.Threading.CancellationToken ) skipped:  KeepPublicApi option in configuration
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService::.ctor[2]( [Microsoft.Extensions.Logging.Abstractions]Microsoft.Extensions.Logging.ILogger`1<[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService>, [System.Net.Http]System.Net.Http.HttpClient ) skipped:  special name
 
-	Microsoft.Extensions.Logging.ILogger`1<AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService> [AtomForge.Infrastructure]Microsoft.Extensions.Logging.ILogger`1<AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService> AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService:: ⁏ ->  ⁘
-	System.Net.Http.HttpClient [AtomForge.Infrastructure]System.Net.Http.HttpClient AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService:: ⁐ ->  ⁙
-	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService:: ⁑ ->  ⁚
-	System.TimeSpan [AtomForge.Infrastructure]System.TimeSpan AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService:: ⁒ ->  ⁛
+	Microsoft.Extensions.Logging.ILogger`1<AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService> [AtomForge.Infrastructure]Microsoft.Extensions.Logging.ILogger`1<AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService> AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService:: ⁙ ->  ⁢
+	System.Net.Http.HttpClient [AtomForge.Infrastructure]System.Net.Http.HttpClient AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService:: ⁚ ->  ⁣
+	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService:: ⁛ ->  ⁤
+	System.TimeSpan [AtomForge.Infrastructure]System.TimeSpan AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService:: ⁜ ->  ⁪
 }
 
 [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService skipped:  KeepPublicApi option in configuration
@@ -1747,9 +1777,9 @@ Skipped Types:
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService::GetFileTorrent[1]( [System.Runtime]System.String ) skipped:  KeepPublicApi option in configuration
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService::.ctor[2]( [Microsoft.Extensions.Logging.Abstractions]Microsoft.Extensions.Logging.ILogger`1<[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService>, [System.Net.Http]System.Net.Http.HttpClient ) skipped:  special name
 
-	Microsoft.Extensions.Logging.ILogger`1<AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService> [AtomForge.Infrastructure]Microsoft.Extensions.Logging.ILogger`1<AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService> AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService:: ⁓ ->  ⁜
-	System.Net.Http.HttpClient [AtomForge.Infrastructure]System.Net.Http.HttpClient AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService:: ⁔ ->  ⁝
-	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService:: ⁕ ->  ⁞
+	Microsoft.Extensions.Logging.ILogger`1<AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService> [AtomForge.Infrastructure]Microsoft.Extensions.Logging.ILogger`1<AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService> AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService:: ⁝ ->  ⁫
+	System.Net.Http.HttpClient [AtomForge.Infrastructure]System.Net.Http.HttpClient AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService:: ⁞ ->  ⁬
+	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService::   ->  ⁭
 }
 
 [AtomForge.AppHost]AtomForge.AppHost.ApplicationHostService skipped:  KeepPublicApi option in configuration
@@ -1761,9 +1791,9 @@ Skipped Types:
 	[AtomForge.AppHost]AtomForge.AppHost.ApplicationHostService::StartAsync[1]( [System.Runtime]System.Threading.CancellationToken ) skipped:  external base class or interface
 	[AtomForge.AppHost]AtomForge.AppHost.ApplicationHostService::StopAsync[1]( [System.Runtime]System.Threading.CancellationToken ) skipped:  external base class or interface
 
-	System.IServiceProvider [AtomForge.AppHost]System.IServiceProvider AtomForge.AppHost.ApplicationHostService:: ‥ ->  ″
-	AtomForge.Application.Interfaces.Services.IApiDataService [AtomForge.AppHost]AtomForge.Application.Interfaces.Services.IApiDataService AtomForge.AppHost.ApplicationHostService:: ‧ ->  ‶
-	Wpf.Ui.INavigationWindow [AtomForge.AppHost]Wpf.Ui.INavigationWindow AtomForge.AppHost.ApplicationHostService::   ->  ‾
+	System.IServiceProvider [AtomForge.AppHost]System.IServiceProvider AtomForge.AppHost.ApplicationHostService:: ′ ->  ⁎
+	AtomForge.Application.Interfaces.Services.IApiDataService [AtomForge.AppHost]AtomForge.Application.Interfaces.Services.IApiDataService AtomForge.AppHost.ApplicationHostService:: ‵ ->  ⁏
+	Wpf.Ui.INavigationWindow [AtomForge.AppHost]Wpf.Ui.INavigationWindow AtomForge.AppHost.ApplicationHostService:: ″ ->  ⁐
 }
 
 [AtomForge.AppHost]AtomForge.AppHost.HostedAppManager skipped:  KeepPublicApi option in configuration
@@ -1782,8 +1812,8 @@ Skipped Types:
 	[AtomForge.AppHost]AtomForge.AppHost.HostedAppManager::Stop[0]( ) skipped:  KeepPublicApi option in configuration
 	[AtomForge.AppHost]AtomForge.AppHost.HostedAppManager::.cctor[0]( ) skipped:  special name
 
-	System.String [AtomForge.AppHost]System.String AtomForge.AppHost.HostedAppManager::   ->  ⁇
-	Microsoft.Extensions.Hosting.IHost [AtomForge.AppHost]Microsoft.Extensions.Hosting.IHost AtomForge.AppHost.HostedAppManager:: ‪ ->  ⁈
+	System.String [AtomForge.AppHost]System.String AtomForge.AppHost.HostedAppManager:: ‶ ->  ⁑
+	Microsoft.Extensions.Hosting.IHost [AtomForge.AppHost]Microsoft.Extensions.Hosting.IHost AtomForge.AppHost.HostedAppManager:: ‾ ->  ⁒
 }
 
 [SkachatRust]SkachatRust.App skipped:  KeepPublicApi option in configuration
@@ -1795,7 +1825,7 @@ Skipped Types:
 	[SkachatRust]SkachatRust.App::Main[0]( ) skipped:  KeepPublicApi option in configuration
 	[SkachatRust]SkachatRust.App::.ctor[0]( ) skipped:  special name
 
-	System.Boolean [SkachatRust]System.Boolean SkachatRust.App:: ⁉ ->  ⁘
+	System.Boolean [SkachatRust]System.Boolean SkachatRust.App:: ⁓ ->  ⁢
 }
 
 [AtomForge.Application]AtomForge.Application.Interfaces.Services.IAppSettings skipped:  KeepPublicApi option in configuration
@@ -1827,6 +1857,7 @@ Skipped Types:
 	[AtomForge.Application]AtomForge.Application.Interfaces.Services.Managers.IDirectoryManager::get_PathToCache[0]( ) skipped:  skip by property
 	[AtomForge.Application]AtomForge.Application.Interfaces.Services.Managers.IDirectoryManager::get_IsInitialized[0]( ) skipped:  skip by property
 	[AtomForge.Application]AtomForge.Application.Interfaces.Services.Managers.IDirectoryManager::ChooseGameFolder[2]( [AtomForge.Domain]AtomForge.Domain.Models.Config.GameConfig, [System.Runtime]System.String ) skipped:  KeepPublicApi option in configuration
+	[AtomForge.Application]AtomForge.Application.Interfaces.Services.Managers.IDirectoryManager::DeleteMetadata[0]( ) skipped:  KeepPublicApi option in configuration
 
 
 	System.String [AtomForge.Application]System.String AtomForge.Application.Interfaces.Services.Managers.IDirectoryManager::PathToDirectory skipped:  KeepPublicApi option in configuration
@@ -1859,15 +1890,18 @@ Skipped Types:
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.DirectoryManager::get_PathToDirectory[0]( ) skipped:  skip by property
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.DirectoryManager::get_PathToConfig[0]( ) skipped:  skip by property
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.DirectoryManager::get_PathToCache[0]( ) skipped:  skip by property
+	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.DirectoryManager::get_PathToCacheMetadata[0]( ) skipped:  skip by property
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.DirectoryManager::get_PathToLanguage[0]( ) skipped:  skip by property
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.DirectoryManager::get_IsInitialized[0]( ) skipped:  skip by property
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.DirectoryManager::ChooseGameFolder[2]( [AtomForge.Domain]AtomForge.Domain.Models.Config.GameConfig, [System.Runtime]System.String ) skipped:  KeepPublicApi option in configuration
+	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.DirectoryManager::DeleteMetadata[0]( ) skipped:  KeepPublicApi option in configuration
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.DirectoryManager::.ctor[0]( ) skipped:  special name
 
 
 	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.Managers.DirectoryManager::PathToDirectory skipped:  KeepPublicApi option in configuration
 	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.Managers.DirectoryManager::PathToConfig skipped:  KeepPublicApi option in configuration
 	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.Managers.DirectoryManager::PathToCache skipped:  KeepPublicApi option in configuration
+	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.Managers.DirectoryManager::PathToCacheMetadata skipped:  KeepPublicApi option in configuration
 	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.Managers.DirectoryManager::PathToLanguage skipped:  KeepPublicApi option in configuration
 	System.Boolean [AtomForge.Infrastructure]System.Boolean AtomForge.Infrastructure.Services.Managers.DirectoryManager::IsInitialized skipped:  KeepPublicApi option in configuration
 }
@@ -1922,7 +1956,7 @@ Skipped Types:
 	[AtomForge.Application]AtomForge.Application.Interfaces.Services.IApiDataService::GetServers[0]( ) skipped:  KeepPublicApi option in configuration
 	[AtomForge.Application]AtomForge.Application.Interfaces.Services.IApiDataService::GetGameInformation[0]( ) skipped:  KeepPublicApi option in configuration
 	[AtomForge.Application]AtomForge.Application.Interfaces.Services.IApiDataService::FetchDataAsync[1]( [System.Runtime]System.Threading.CancellationToken ) skipped:  KeepPublicApi option in configuration
-	[AtomForge.Application]AtomForge.Application.Interfaces.Services.IApiDataService::FetchTorrentAsync[2]( [System.Runtime]System.String, [System.Runtime]System.Threading.CancellationToken ) skipped:  KeepPublicApi option in configuration
+	[AtomForge.Application]AtomForge.Application.Interfaces.Services.IApiDataService::FetchTorrentFileAsync[2]( [System.Runtime]System.String, [System.Runtime]System.Threading.CancellationToken ) skipped:  KeepPublicApi option in configuration
 }
 
 [AtomForge.Application]AtomForge.Application.Interfaces.Services.IClipboardService skipped:  KeepPublicApi option in configuration
