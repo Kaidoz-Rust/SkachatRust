@@ -2104,6 +2104,13 @@ Skipped Types:
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.IServiceCollectionExtensions::AddInfrastructureLayer[2]( [Microsoft.Extensions.DependencyInjection.Abstractions]Microsoft.Extensions.DependencyInjection.IServiceCollection, [Microsoft.Extensions.Configuration.Abstractions]Microsoft.Extensions.Configuration.IConfiguration ) skipped:  KeepPublicApi option in configuration
 }
 
+[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.WPF.DialogService skipped:  KeepPublicApi option in configuration
+{
+
+	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.WPF.DialogService::SelectGameFolder[3]( [System.Runtime]System.String, [System.Runtime]System.String, [System.Runtime]System.String& ) skipped:  KeepPublicApi option in configuration
+	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.WPF.DialogService::.ctor[0]( ) skipped:  special name
+}
+
 [AtomForge.Infrastructure]AtomForge.Infrastructure.Extensions.ImageExtConvertor skipped:  KeepPublicApi option in configuration
 {
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Extensions.ImageExtConvertor:: [1]( [System.Runtime]System.IntPtr ) ->  
