@@ -1,0 +1,37 @@
+{
+  "Windows.Main.Popups.GameFolderPopup.Choices.ChooseDisk": {
+    "en": "default text : Disk selection",
+    "ru": "default text : Disk selection",
+    "uk": "default text : Disk selection"
+  },
+  "Windows.Main.Popups.GameFolderPopup.Choices.ChooseFolder": {
+    "en": "default text : Folder selection",
+    "ru": "default text : Folder selection",
+    "uk": "default text : Folder selection"
+  },
+  "Windows.Main.Popups.GameFolderPopup.ChooseDisk.DiskInformation": {
+    "en": "default text : Close",
+    "ru": "default text : Close",
+    "uk": "default text : Close"
+  },
+  "Windows.Main.Popups.GameFolderPopup.ChooseDisk.SelectDisk": {
+    "en": "default text : Selection a disk:",
+    "ru": "default text : Selection a disk:",
+    "uk": "default text : Selection a disk:"
+  },
+  "Windows.Main.Popups.GameFolderPopup.ChooseFolder.Select": {
+    "en": "default text : Select folder",
+    "ru": "default text : Select folder",
+    "uk": "default text : Select folder"
+  },
+  "Windows.Main.Popups.GameFolderPopup.ChooseFolder.SelectFolder": {
+    "en": "default text : Selection a folder",
+    "ru": "default text : Selection a folder",
+    "uk": "default text : Selection a folder"
+  },
+  "Windows.Main.Popups.Popup.Install": {
+    "en": "default text : Install",
+    "ru": "default text : Install",
+    "uk": "default text : Install"
+  }
+}

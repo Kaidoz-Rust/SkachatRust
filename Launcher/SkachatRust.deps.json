@@ -886,7 +886,8 @@
         "dependencies": {
           "AtomForge.Domain": "1.0.0",
           "MonoTorrent": "3.0.2",
-          "System.Management": "9.0.1"
+          "System.Management": "9.0.1",
+          "System.Text.Json": "9.0.1"
         },
         "runtime": {
           "ClientTorrent.dll": {
