@@ -15,6 +15,11 @@
       "ru": "Новости",
       "uk": "Новини"
     },
+    "Servers": {
+      "en": "Servers",
+      "ru": "Сервера",
+      "uk": "Сервера"
+    },
     "Settings": {
       "en": "Settings",
       "ru": "Настройки",
@@ -55,52 +60,106 @@
       }
     },
     "GameStatus": {
-      "Actual": {
-        "en": "You have up-to-date game client",
-        "ru": "У вас актуальный клиент игры",
-        "uk": "У вас актуальний клієнт гри"
+      "Description": {
+        "Actual": {
+          "en": "You have up-to-date game client",
+          "ru": "У вас актуальный клиент игры",
+          "uk": "У вас актуальний клієнт гри"
+        },
+        "NeedUpdate": {
+          "en": "Need update game client",
+          "ru": "Необходимо установить обновление",
+          "uk": "Необхідно встановити оновлення"
+        },
+        "NeedInstal": {
+          "en": "Need install game client",
+          "ru": "Необходимо установить клиент игры",
+          "uk": "Необхідно встановити клієнт гри"
+        },
+        "Downloading": {
+          "en": "Downloading {0}",
+          "ru": "Скачивание {0}",
+          "uk": "Pавантаження {0}"
+        },
+        "InitializingDownload": {
+          "en": "Game is in the process of initialization",
+          "ru": "Игра в процессе инициализации",
+          "uk": "Гра в процесі ініціалізації"
+        },
+        "Error": {
+          "en": "An error occurred. Check logs",
+          "ru": "Произошла ошибка. Проверьте логи",
+          "uk": "Сталася помилка. Перевірте логи"
+        }
       },
-      "NeedUpdate": {
-        "en": "Need update game client",
-        "ru": "Необходимо установить обновление",
-        "uk": "Необхідно встановити оновлення"
-      },
-      "NeedInstal": {
-        "en": "Need install game client",
-        "ru": "Необходимо установить клиент игры",
-        "uk": "Необхідно встановити клієнт гри"
-      },
-      "Downloading": {
-        "en": "Game is in the process of downloading",
-        "ru": "Игра в процессе скачивания",
-        "uk": "Гра в процесі завантаження"
-      },
-      "Error": {
-        "en": "An error occurred. Check logs",
-        "ru": "Произошла ошибка. Проверьте логи",
-        "uk": "Сталася помилка. Перевірте логи"
+      "Information": {
+        "ProgressDownload": {
+          "en": "{0}GB / {1}GB",
+          "ru": "{0}GB / {1}GB",
+          "uk": "{0}GB / {1}GB"
+        },
+        "SpeedDownload": {
+          "en": "{0}MB / sec",
+          "ru": "{0}МБ / сек",
+          "uk": "{0}МБ / сек"
+        },
+        "Times": {
+          "Format": {
+            "en": "{0} {1}, {2} {3}",
+            "ru": "{0} {1}, {2} {3}",
+            "uk": "{0} {1}, {2} {3}"
+          },
+          "Hours": {
+            "en": "hours",
+            "ru": "час(часа,часов)",
+            "uk": "година(години,годин)"
+          },
+          "Minutes": {
+            "en": "minutes",
+            "ru": "минута(минуты,минут)",
+            "uk": "хвилина(хвилини,хвилин)"
+          },
+          "Seconds": {
+            "en": "seconds",
+            "ru": "секунда(секунды,секунд)",
+            "uk": "секунда(секунди,секунд)"
+          }
+        }
       }
+
     }
   },
   "Windows": {
     "Main": {
-      "Servers": {
-        "Headers": {
-          "Servers": {
-            "en": "Servers",
-            "ru": "Сервера",
-            "uk": "Сервери"
-          },
-          "Online": {
-            "en": "Online",
-            "ru": "Онлайн",
-            "uk": "Онлайн"
-          },
-          "Players": {
-            "en": "Project players",
-            "ru": "Игроков проекта",
-            "uk": "Гравців проекту"
-          }
+      "Hello": {
+        "Message": {
+          "en": "We are glad to see you on",
+          "ru": "Рады видеть вас на",
+          "uk": "Раді бачити вас на"
+        },
+        "ServersButton": {
+          "en": "Open server list",
+          "ru": "Открыть список серверов",
+          "uk": "Відкрити список серверів"
+        }
+      }
+    },
+    "Servers": {
+      "Headers": {
+        "Servers": {
+          "en": "Servers",
+          "ru": "Серверов",
+          "uk": "Серверов"
+        },
+        "Online": {
+          "en": "Players",
+          "ru": "Игроков",
+          "uk": "Игроков"
+        },
+        "Players": {
+          "en": "Project players",
+          "ru": "Игроков проекта",
+          "uk": "Гравців проекту"
         }
       },
       "Popups": {
@@ -134,8 +193,8 @@
         "RequiredSteamPopup": {
           "SteamNotInstalled": {
             "NotificationMessage": {
-              "en": "Steam is not installed. \nInstall Steam to run the game.",
-              "ru": "Steam не установлен. \nУстановите Steam для работы игры.",
+              "en": "Steam is not installed. \nInstall Steam for correctly work launcher and game.",
+              "ru": "Steam не установлен. \nУстановите Steam для работы лаунчера и игры.",
               "uk": "Steam не встановлено. \nВстановіть Steam для запуску гри."
             },
             "ButtonContent": {
@@ -146,9 +205,9 @@
           },
           "SteamNotRunning": {
             "NotificationMessage": {
-              "en": "Steam is installed but not running. \nLaunch Steam to run the game.",
-              "ru": "Steam установлен, но не запущен. \nЗапустите Steam для работы игры.",
-              "uk": "Steam встановлено, але не запущено. \nЗапустіть Steam для запуску гри."
+              "en": "Steam is installed but not running. \nLaunch Steam and restart launcher.",
+              "ru": "Steam установлен, но не запущен. \nЗапустите Steam и перезапустите лаунчер.",
+              "uk": "Steam встановлено, але не запущено. \nЗапустіть Steam і перезапустіть лаунчер."
             },
             "ButtonContent": {
               "en": "Launch Steam",
