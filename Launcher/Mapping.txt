@@ -510,11 +510,11 @@ Renamed Types:
 	[AtomForge.Infrastructure] . ::SeedGameAsync[2]( [System.Runtime]System.String, [System.Runtime]System.String ) skipped:  KeepPublicApi option in configuration
 	[AtomForge.Infrastructure] . ::.ctor[3]( [AtomForge.Application]AtomForge.Application.Interfaces.Services.TorrentServices.ITorrentClient, [AtomForge.Application]AtomForge.Application.Interfaces.Services.Downloaders.IDownloaderTorrentService, [Microsoft.Extensions.Logging.Abstractions]Microsoft.Extensions.Logging.ILogger`1<[AtomForge.Infrastructure] . > ) skipped:  special name
 
-	AtomForge.Application.Interfaces.Services.TorrentServices.ITorrentClient [AtomForge.Infrastructure]AtomForge.Application.Interfaces.Services.TorrentServices.ITorrentClient  . :: ⁢ ->   
-	AtomForge.Application.Interfaces.Services.Downloaders.IDownloaderTorrentService [AtomForge.Infrastructure]AtomForge.Application.Interfaces.Services.Downloaders.IDownloaderTorrentService  . :: ⁣ ->   
-	System.Double [AtomForge.Infrastructure]System.Double  . :: ⁤ ->   
-	Microsoft.Extensions.Logging.ILogger`1< . > [AtomForge.Infrastructure]Microsoft.Extensions.Logging.ILogger`1< . >  . :: ⁪ ->   
-	System.Double [AtomForge.Infrastructure]System.Double  . :: ⁫ ->   
+	AtomForge.Application.Interfaces.Services.TorrentServices.ITorrentClient [AtomForge.Infrastructure]AtomForge.Application.Interfaces.Services.TorrentServices.ITorrentClient  . :: ⁣ ->   
+	AtomForge.Application.Interfaces.Services.Downloaders.IDownloaderTorrentService [AtomForge.Infrastructure]AtomForge.Application.Interfaces.Services.Downloaders.IDownloaderTorrentService  . :: ⁤ ->   
+	System.Double [AtomForge.Infrastructure]System.Double  . :: ⁪ ->   
+	Microsoft.Extensions.Logging.ILogger`1< . > [AtomForge.Infrastructure]Microsoft.Extensions.Logging.ILogger`1< . >  . :: ⁫ ->   
+	System.Double [AtomForge.Infrastructure]System.Double  . :: ⁬ ->   
 }
 
 [AtomForge.Infrastructure]AtomForge.Infrastructure.IServiceCollectionExtensions/  -> [AtomForge.Infrastructure]AtomForge.Infrastructure.IServiceCollectionExtensions/ 
@@ -524,8 +524,8 @@ Renamed Types:
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.IServiceCollectionExtensions/ ::.cctor[0]( ) skipped:  special name
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.IServiceCollectionExtensions/ ::.ctor[0]( ) skipped:  special name
 
-	AtomForge.Infrastructure.IServiceCollectionExtensions/  [AtomForge.Infrastructure]AtomForge.Infrastructure.IServiceCollectionExtensions/  AtomForge.Infrastructure.IServiceCollectionExtensions/ :: ― ->  ″
-	System.Action`1<System.Net.Http.HttpClient> [AtomForge.Infrastructure]System.Action`1<System.Net.Http.HttpClient> AtomForge.Infrastructure.IServiceCollectionExtensions/ :: • ->  ‶
+	AtomForge.Infrastructure.IServiceCollectionExtensions/  [AtomForge.Infrastructure]AtomForge.Infrastructure.IServiceCollectionExtensions/  AtomForge.Infrastructure.IServiceCollectionExtensions/ :: • ->  ‶
+	System.Action`1<System.Net.Http.HttpClient> [AtomForge.Infrastructure]System.Action`1<System.Net.Http.HttpClient> AtomForge.Infrastructure.IServiceCollectionExtensions/ :: ․ ->  ‾
 }
 
 [AtomForge.Infrastructure]AtomForge.Infrastructure.IServiceCollectionExtensions/  -> [AtomForge.Infrastructure]AtomForge.Infrastructure.IServiceCollectionExtensions/ 
@@ -535,7 +535,7 @@ Renamed Types:
 
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.IServiceCollectionExtensions/ ::.ctor[0]( ) skipped:  special name
 
-	Microsoft.Extensions.Configuration.IConfiguration [AtomForge.Infrastructure]Microsoft.Extensions.Configuration.IConfiguration AtomForge.Infrastructure.IServiceCollectionExtensions/ :: ․ ->  ‾
+	Microsoft.Extensions.Configuration.IConfiguration [AtomForge.Infrastructure]Microsoft.Extensions.Configuration.IConfiguration AtomForge.Infrastructure.IServiceCollectionExtensions/ :: ‥ ->  ⁇
 }
 
 [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.InitializationLauncherService/  -> [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.InitializationLauncherService/ 
@@ -544,11 +544,11 @@ Renamed Types:
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.InitializationLauncherService/ ::MoveNext[0]( ) skipped:  external base class or interface
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.InitializationLauncherService/ ::SetStateMachine[1]( [System.Runtime]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
 
-	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.InitializationLauncherService/ :: ‥ ->  ⁇
-	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Infrastructure.Services.InitializationLauncherService/ :: ‧ ->  ⁈
-	AtomForge.Infrastructure.Services.InitializationLauncherService [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.InitializationLauncherService AtomForge.Infrastructure.Services.InitializationLauncherService/ ::   ->  ⁉
-	System.Threading.CancellationToken [AtomForge.Infrastructure]System.Threading.CancellationToken AtomForge.Infrastructure.Services.InitializationLauncherService/ ::   ->  ⁊
-	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter AtomForge.Infrastructure.Services.InitializationLauncherService/ :: ‪ ->  ⁋
+	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.InitializationLauncherService/ :: ‧ ->  ⁈
+	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Infrastructure.Services.InitializationLauncherService/ ::   ->  ⁉
+	AtomForge.Infrastructure.Services.InitializationLauncherService [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.InitializationLauncherService AtomForge.Infrastructure.Services.InitializationLauncherService/ ::   ->  ⁊
+	System.Threading.CancellationToken [AtomForge.Infrastructure]System.Threading.CancellationToken AtomForge.Infrastructure.Services.InitializationLauncherService/ :: ‪ ->  ⁋
+	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter AtomForge.Infrastructure.Services.InitializationLauncherService/ :: ‫ ->  ⁌
 }
 
 [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.WebLauncherService/  -> [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.WebLauncherService/ 
@@ -557,10 +557,10 @@ Renamed Types:
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.WebLauncherService/ ::MoveNext[0]( ) skipped:  external base class or interface
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.WebLauncherService/ ::SetStateMachine[1]( [System.Runtime]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
 
-	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.WebLauncherService/ :: ‫ ->  ⁌
-	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Infrastructure.Services.WebLauncherService/ :: ‬ ->  ⁍
-	AtomForge.Infrastructure.Services.WebLauncherService [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.WebLauncherService AtomForge.Infrastructure.Services.WebLauncherService/ :: ‭ ->  ⁎
-	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter AtomForge.Infrastructure.Services.WebLauncherService/ :: ‮ ->  ⁏
+	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.WebLauncherService/ :: ‬ ->  ⁍
+	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Infrastructure.Services.WebLauncherService/ :: ‭ ->  ⁎
+	AtomForge.Infrastructure.Services.WebLauncherService [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.WebLauncherService AtomForge.Infrastructure.Services.WebLauncherService/ :: ‮ ->  ⁏
+	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter AtomForge.Infrastructure.Services.WebLauncherService/ ::   ->  ⁐
 }
 
 [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.WebLauncherService/  -> [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.WebLauncherService/ 
@@ -569,11 +569,11 @@ Renamed Types:
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.WebLauncherService/ ::MoveNext[0]( ) skipped:  external base class or interface
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.WebLauncherService/ ::SetStateMachine[1]( [System.Runtime]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
 
-	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.WebLauncherService/ ::   ->  ⁐
-	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Infrastructure.Services.WebLauncherService/ :: ′ ->  ⁑
-	AtomForge.Application.Interfaces.Refit.IWebApiLauncherRefit [AtomForge.Infrastructure]AtomForge.Application.Interfaces.Refit.IWebApiLauncherRefit AtomForge.Infrastructure.Services.WebLauncherService/ :: ‵ ->  ⁒
-	AtomForge.Infrastructure.Services.WebLauncherService [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.WebLauncherService AtomForge.Infrastructure.Services.WebLauncherService/ :: ″ ->  ⁓
-	System.Runtime.CompilerServices.TaskAwaiter`1<AtomForge.Domain.DTOs.GameClientInfoDto> [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter`1<AtomForge.Domain.DTOs.GameClientInfoDto> AtomForge.Infrastructure.Services.WebLauncherService/ :: ‶ ->  ⁔
+	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.WebLauncherService/ :: ′ ->  ⁑
+	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Infrastructure.Services.WebLauncherService/ :: ‵ ->  ⁒
+	AtomForge.Application.Interfaces.Refit.IWebApiLauncherRefit [AtomForge.Infrastructure]AtomForge.Application.Interfaces.Refit.IWebApiLauncherRefit AtomForge.Infrastructure.Services.WebLauncherService/ :: ″ ->  ⁓
+	AtomForge.Infrastructure.Services.WebLauncherService [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.WebLauncherService AtomForge.Infrastructure.Services.WebLauncherService/ :: ‶ ->  ⁔
+	System.Runtime.CompilerServices.TaskAwaiter`1<AtomForge.Domain.DTOs.GameClientInfoDto> [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter`1<AtomForge.Domain.DTOs.GameClientInfoDto> AtomForge.Infrastructure.Services.WebLauncherService/ :: ‾ ->  ⁕
 }
 
 [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.WebLauncherService/  -> [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.WebLauncherService/ 
@@ -582,11 +582,11 @@ Renamed Types:
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.WebLauncherService/ ::MoveNext[0]( ) skipped:  external base class or interface
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.WebLauncherService/ ::SetStateMachine[1]( [System.Runtime]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
 
-	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.WebLauncherService/ :: ‾ ->  ⁕
-	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Infrastructure.Services.WebLauncherService/ :: ⁇ ->  ⁖
-	AtomForge.Application.Interfaces.Refit.IWebApiLauncherRefit [AtomForge.Infrastructure]AtomForge.Application.Interfaces.Refit.IWebApiLauncherRefit AtomForge.Infrastructure.Services.WebLauncherService/ :: ⁈ ->  ⁗
-	AtomForge.Infrastructure.Services.WebLauncherService [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.WebLauncherService AtomForge.Infrastructure.Services.WebLauncherService/ :: ⁉ ->  ⁘
-	System.Runtime.CompilerServices.TaskAwaiter`1<System.Collections.Generic.List`1<AtomForge.Domain.DTOs.ServerInformationDto>> [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter`1<System.Collections.Generic.List`1<AtomForge.Domain.DTOs.ServerInformationDto>> AtomForge.Infrastructure.Services.WebLauncherService/ :: ⁊ ->  ⁙
+	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.WebLauncherService/ :: ⁇ ->  ⁖
+	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Infrastructure.Services.WebLauncherService/ :: ⁈ ->  ⁗
+	AtomForge.Application.Interfaces.Refit.IWebApiLauncherRefit [AtomForge.Infrastructure]AtomForge.Application.Interfaces.Refit.IWebApiLauncherRefit AtomForge.Infrastructure.Services.WebLauncherService/ :: ⁉ ->  ⁘
+	AtomForge.Infrastructure.Services.WebLauncherService [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.WebLauncherService AtomForge.Infrastructure.Services.WebLauncherService/ :: ⁊ ->  ⁙
+	System.Runtime.CompilerServices.TaskAwaiter`1<System.Collections.Generic.List`1<AtomForge.Domain.DTOs.ServerInformationDto>> [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter`1<System.Collections.Generic.List`1<AtomForge.Domain.DTOs.ServerInformationDto>> AtomForge.Infrastructure.Services.WebLauncherService/ :: ⁋ ->  ⁚
 }
 
 [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.WebLauncherService/  -> [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.WebLauncherService/ 
@@ -595,10 +595,10 @@ Renamed Types:
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.WebLauncherService/ ::MoveNext[0]( ) skipped:  external base class or interface
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.WebLauncherService/ ::SetStateMachine[1]( [System.Runtime]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
 
-	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.WebLauncherService/ :: ⁋ ->  ⁚
-	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Infrastructure.Services.WebLauncherService/ :: ⁌ ->  ⁛
-	AtomForge.Infrastructure.Services.WebLauncherService [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.WebLauncherService AtomForge.Infrastructure.Services.WebLauncherService/ :: ⁍ ->  ⁜
-	System.Runtime.CompilerServices.TaskAwaiter`1<System.Boolean> [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter`1<System.Boolean> AtomForge.Infrastructure.Services.WebLauncherService/ :: ⁎ ->  ⁝
+	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.WebLauncherService/ :: ⁌ ->  ⁛
+	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Infrastructure.Services.WebLauncherService/ :: ⁍ ->  ⁜
+	AtomForge.Infrastructure.Services.WebLauncherService [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.WebLauncherService AtomForge.Infrastructure.Services.WebLauncherService/ :: ⁎ ->  ⁝
+	System.Runtime.CompilerServices.TaskAwaiter`1<System.Boolean> [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter`1<System.Boolean> AtomForge.Infrastructure.Services.WebLauncherService/ :: ⁏ ->  ⁞
 }
 
 [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/  -> [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ 
@@ -607,12 +607,12 @@ Renamed Types:
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ ::MoveNext[0]( ) skipped:  external base class or interface
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ ::SetStateMachine[1]( [System.Runtime]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
 
-	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ :: ⁏ ->  ⁞
-	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ :: ⁐ ->   
-	AtomForge.Infrastructure.Services.TorrentServices.TorrentClient [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.TorrentServices.TorrentClient AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ :: ⁑ ->  ⁠
-	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ :: ⁒ ->  ⁡
+	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ :: ⁐ ->   
+	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ :: ⁑ ->  ⁠
+	AtomForge.Infrastructure.Services.TorrentServices.TorrentClient [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.TorrentServices.TorrentClient AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ :: ⁒ ->  ⁡
 	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ :: ⁓ ->  ⁢
-	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ :: ⁔ ->  ⁣
+	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ :: ⁔ ->  ⁣
+	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ :: ⁕ ->  ⁤
 }
 
 [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/  -> [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ 
@@ -621,14 +621,14 @@ Renamed Types:
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ ::MoveNext[0]( ) skipped:  external base class or interface
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ ::SetStateMachine[1]( [System.Runtime]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
 
-	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ :: ⁕ ->  ⁤
-	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ :: ⁖ ->  ⁪
-	System.IO.StreamReader [AtomForge.Infrastructure]System.IO.StreamReader AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ :: ⁗ ->  ⁫
-	AtomForge.Infrastructure.Services.TorrentServices.TorrentClient [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.TorrentServices.TorrentClient AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ :: ⁘ ->  ⁬
-	System.Boolean [AtomForge.Infrastructure]System.Boolean AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ :: ⁙ ->  ⁭
-	System.Text.StringBuilder [AtomForge.Infrastructure]System.Text.StringBuilder AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ :: ⁚ ->  ⁮
-	System.Char[] [AtomForge.Infrastructure]System.Char[] AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ :: ⁛ ->  ⁯
-	System.Runtime.CompilerServices.TaskAwaiter`1<System.Int32> [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter`1<System.Int32> AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ :: ⁜ ->  　
+	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ :: ⁖ ->  ⁪
+	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ :: ⁗ ->  ⁫
+	System.IO.StreamReader [AtomForge.Infrastructure]System.IO.StreamReader AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ :: ⁘ ->  ⁬
+	AtomForge.Infrastructure.Services.TorrentServices.TorrentClient [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.TorrentServices.TorrentClient AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ :: ⁙ ->  ⁭
+	System.Boolean [AtomForge.Infrastructure]System.Boolean AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ :: ⁚ ->  ⁮
+	System.Text.StringBuilder [AtomForge.Infrastructure]System.Text.StringBuilder AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ :: ⁛ ->  ⁯
+	System.Char[] [AtomForge.Infrastructure]System.Char[] AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ :: ⁜ ->  　
+	System.Runtime.CompilerServices.TaskAwaiter`1<System.Int32> [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter`1<System.Int32> AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ :: ⁝ ->   
 }
 
 [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/  -> [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ 
@@ -637,12 +637,12 @@ Renamed Types:
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ ::MoveNext[0]( ) skipped:  external base class or interface
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ ::SetStateMachine[1]( [System.Runtime]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
 
-	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ :: ⁝ ->   
-	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ :: ⁞ ->   
-	AtomForge.Infrastructure.Services.TorrentServices.TorrentClient [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.TorrentServices.TorrentClient AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ ::   ->   
-	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ :: ⁠ ->   
+	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ :: ⁞ ->   
+	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ ::   ->   
+	AtomForge.Infrastructure.Services.TorrentServices.TorrentClient [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.TorrentServices.TorrentClient AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ :: ⁠ ->   
 	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ :: ⁡ ->   
-	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ :: ⁢ ->   
+	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ :: ⁢ ->   
+	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ :: ⁣ ->   
 }
 
 [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/  -> [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ 
@@ -651,15 +651,15 @@ Renamed Types:
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ ::MoveNext[0]( ) skipped:  external base class or interface
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ ::SetStateMachine[1]( [System.Runtime]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
 
-	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ :: ⁣ ->   
-	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ :: ⁤ ->   
-	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ :: ⁪ ->   
+	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ :: ⁤ ->   
+	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ :: ⁪ ->   
 	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ :: ⁫ ->   
 	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ :: ⁬ ->   
-	AtomForge.Infrastructure.Services.TorrentServices.TorrentClient [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.TorrentServices.TorrentClient AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ :: ⁭ ->   
-	System.Boolean [AtomForge.Infrastructure]System.Boolean AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ :: ⁮ ->   
-	System.Runtime.CompilerServices.TaskAwaiter`1<System.Threading.Tasks.Task> [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter`1<System.Threading.Tasks.Task> AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ :: ⁯ ->  ​
-	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ :: 　 ->  ‐
+	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ :: ⁭ ->   
+	AtomForge.Infrastructure.Services.TorrentServices.TorrentClient [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.TorrentServices.TorrentClient AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ :: ⁮ ->   
+	System.Boolean [AtomForge.Infrastructure]System.Boolean AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ :: ⁯ ->  ​
+	System.Runtime.CompilerServices.TaskAwaiter`1<System.Threading.Tasks.Task> [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter`1<System.Threading.Tasks.Task> AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ :: 　 ->  ‐
+	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter AtomForge.Infrastructure.Services.TorrentServices.TorrentClient/ ::   ->  ‑
 }
 
 [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Steam.SteamProfile/  -> [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Steam.SteamProfile/ 
@@ -668,12 +668,12 @@ Renamed Types:
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Steam.SteamProfile/ ::MoveNext[0]( ) skipped:  external base class or interface
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Steam.SteamProfile/ ::SetStateMachine[1]( [System.Runtime]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
 
-	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.Steam.SteamProfile/ ::   ->  ‑
-	System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Drawing.Image> [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Drawing.Image> AtomForge.Infrastructure.Services.Steam.SteamProfile/ ::   ->  ‒
-	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.Steam.SteamProfile/ ::   ->  –
-	AtomForge.Infrastructure.Services.Steam.SteamProfile [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Steam.SteamProfile AtomForge.Infrastructure.Services.Steam.SteamProfile/ ::   ->  —
-	System.Net.WebClient [AtomForge.Infrastructure]System.Net.WebClient AtomForge.Infrastructure.Services.Steam.SteamProfile/ ::   ->  ―
-	System.Runtime.CompilerServices.TaskAwaiter`1<System.Byte[]> [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter`1<System.Byte[]> AtomForge.Infrastructure.Services.Steam.SteamProfile/ ::   ->  •
+	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.Steam.SteamProfile/ ::   ->  ‒
+	System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Drawing.Image> [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Drawing.Image> AtomForge.Infrastructure.Services.Steam.SteamProfile/ ::   ->  –
+	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.Steam.SteamProfile/ ::   ->  —
+	AtomForge.Infrastructure.Services.Steam.SteamProfile [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Steam.SteamProfile AtomForge.Infrastructure.Services.Steam.SteamProfile/ ::   ->  ―
+	System.Net.WebClient [AtomForge.Infrastructure]System.Net.WebClient AtomForge.Infrastructure.Services.Steam.SteamProfile/ ::   ->  •
+	System.Runtime.CompilerServices.TaskAwaiter`1<System.Byte[]> [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter`1<System.Byte[]> AtomForge.Infrastructure.Services.Steam.SteamProfile/ ::   ->  ․
 }
 
 [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Steam.SteamProfile/  -> [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Steam.SteamProfile/ 
@@ -682,10 +682,10 @@ Renamed Types:
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Steam.SteamProfile/ ::MoveNext[0]( ) skipped:  external base class or interface
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Steam.SteamProfile/ ::SetStateMachine[1]( [System.Runtime]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
 
-	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.Steam.SteamProfile/ ::   ->  ․
-	System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Windows.Media.Imaging.BitmapImage> [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Windows.Media.Imaging.BitmapImage> AtomForge.Infrastructure.Services.Steam.SteamProfile/ ::   ->  ‥
-	AtomForge.Infrastructure.Services.Steam.SteamProfile [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Steam.SteamProfile AtomForge.Infrastructure.Services.Steam.SteamProfile/ ::   ->  ‧
-	System.Runtime.CompilerServices.TaskAwaiter`1<System.Windows.Media.Imaging.BitmapImage> [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter`1<System.Windows.Media.Imaging.BitmapImage> AtomForge.Infrastructure.Services.Steam.SteamProfile/ ::   ->   
+	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.Steam.SteamProfile/ ::   ->  ‥
+	System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Windows.Media.Imaging.BitmapImage> [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Windows.Media.Imaging.BitmapImage> AtomForge.Infrastructure.Services.Steam.SteamProfile/ ::   ->  ‧
+	AtomForge.Infrastructure.Services.Steam.SteamProfile [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Steam.SteamProfile AtomForge.Infrastructure.Services.Steam.SteamProfile/ ::   ->   
+	System.Runtime.CompilerServices.TaskAwaiter`1<System.Windows.Media.Imaging.BitmapImage> [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter`1<System.Windows.Media.Imaging.BitmapImage> AtomForge.Infrastructure.Services.Steam.SteamProfile/ ::   ->   
 }
 
 [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Steam.SteamProfile/  -> [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Steam.SteamProfile/ 
@@ -694,10 +694,10 @@ Renamed Types:
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Steam.SteamProfile/ ::MoveNext[0]( ) skipped:  external base class or interface
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Steam.SteamProfile/ ::SetStateMachine[1]( [System.Runtime]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
 
-	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.Steam.SteamProfile/ ::   ->   
-	System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Windows.Media.Imaging.BitmapImage> [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Windows.Media.Imaging.BitmapImage> AtomForge.Infrastructure.Services.Steam.SteamProfile/ ::   ->  ‪
-	AtomForge.Infrastructure.Services.Steam.SteamProfile [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Steam.SteamProfile AtomForge.Infrastructure.Services.Steam.SteamProfile/ ::   ->  ‫
-	System.Runtime.CompilerServices.TaskAwaiter`1<System.Nullable`1<Steamworks.Data.Image>> [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter`1<System.Nullable`1<Steamworks.Data.Image>> AtomForge.Infrastructure.Services.Steam.SteamProfile/ :: ​ ->  ‬
+	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.Steam.SteamProfile/ ::   ->  ‪
+	System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Windows.Media.Imaging.BitmapImage> [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Windows.Media.Imaging.BitmapImage> AtomForge.Infrastructure.Services.Steam.SteamProfile/ ::   ->  ‫
+	AtomForge.Infrastructure.Services.Steam.SteamProfile [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Steam.SteamProfile AtomForge.Infrastructure.Services.Steam.SteamProfile/ :: ​ ->  ‬
+	System.Runtime.CompilerServices.TaskAwaiter`1<System.Nullable`1<Steamworks.Data.Image>> [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter`1<System.Nullable`1<Steamworks.Data.Image>> AtomForge.Infrastructure.Services.Steam.SteamProfile/ :: ‐ ->  ‭
 }
 
 [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Popup.PopupHandlerSerivce/  -> [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Popup.PopupHandlerSerivce/ 
@@ -706,8 +706,8 @@ Renamed Types:
 
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Popup.PopupHandlerSerivce/ ::.ctor[0]( ) skipped:  special name
 
-	AtomForge.Infrastructure.Services.Popup.PopupHandlerSerivce [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Popup.PopupHandlerSerivce AtomForge.Infrastructure.Services.Popup.PopupHandlerSerivce/ :: ‐ ->  ‭
-	Wpf.Ui.Controls.ContentDialog [AtomForge.Infrastructure]Wpf.Ui.Controls.ContentDialog AtomForge.Infrastructure.Services.Popup.PopupHandlerSerivce/ :: ‑ ->  ‮
+	AtomForge.Infrastructure.Services.Popup.PopupHandlerSerivce [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Popup.PopupHandlerSerivce AtomForge.Infrastructure.Services.Popup.PopupHandlerSerivce/ :: ‑ ->  ‮
+	Wpf.Ui.Controls.ContentDialog [AtomForge.Infrastructure]Wpf.Ui.Controls.ContentDialog AtomForge.Infrastructure.Services.Popup.PopupHandlerSerivce/ :: ‒ ->   
 }
 
 [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.ConfigManager/  -> [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.ConfigManager/ 
@@ -716,11 +716,11 @@ Renamed Types:
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.ConfigManager/ ::MoveNext[0]( ) skipped:  external base class or interface
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.ConfigManager/ ::SetStateMachine[1]( [System.Runtime]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
 
-	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.Managers.ConfigManager/ :: ‒ ->   
-	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Infrastructure.Services.Managers.ConfigManager/ :: – ->  ′
-	AtomForge.Infrastructure.Services.Managers.ConfigManager [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.ConfigManager AtomForge.Infrastructure.Services.Managers.ConfigManager/ :: — ->  ‵
-	System.Threading.CancellationTokenSource [AtomForge.Infrastructure]System.Threading.CancellationTokenSource AtomForge.Infrastructure.Services.Managers.ConfigManager/ :: ― ->  ″
-	System.Runtime.CompilerServices.TaskAwaiter`1<System.String> [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter`1<System.String> AtomForge.Infrastructure.Services.Managers.ConfigManager/ :: • ->  ‶
+	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.Managers.ConfigManager/ :: – ->  ′
+	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Infrastructure.Services.Managers.ConfigManager/ :: — ->  ‵
+	AtomForge.Infrastructure.Services.Managers.ConfigManager [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.ConfigManager AtomForge.Infrastructure.Services.Managers.ConfigManager/ :: ― ->  ″
+	System.Threading.CancellationTokenSource [AtomForge.Infrastructure]System.Threading.CancellationTokenSource AtomForge.Infrastructure.Services.Managers.ConfigManager/ :: • ->  ‶
+	System.Runtime.CompilerServices.TaskAwaiter`1<System.String> [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter`1<System.String> AtomForge.Infrastructure.Services.Managers.ConfigManager/ :: ․ ->  ‾
 }
 
 [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.ConfigManager/  -> [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.ConfigManager/ 
@@ -729,10 +729,10 @@ Renamed Types:
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.ConfigManager/ ::MoveNext[0]( ) skipped:  external base class or interface
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.ConfigManager/ ::SetStateMachine[1]( [System.Runtime]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
 
-	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.Managers.ConfigManager/ :: ․ ->  ‾
-	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Infrastructure.Services.Managers.ConfigManager/ :: ‥ ->  ⁇
-	AtomForge.Infrastructure.Services.Managers.ConfigManager [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.ConfigManager AtomForge.Infrastructure.Services.Managers.ConfigManager/ :: ‧ ->  ⁈
-	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter AtomForge.Infrastructure.Services.Managers.ConfigManager/ ::   ->  ⁉
+	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.Managers.ConfigManager/ :: ‥ ->  ⁇
+	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Infrastructure.Services.Managers.ConfigManager/ :: ‧ ->  ⁈
+	AtomForge.Infrastructure.Services.Managers.ConfigManager [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.ConfigManager AtomForge.Infrastructure.Services.Managers.ConfigManager/ ::   ->  ⁉
+	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter AtomForge.Infrastructure.Services.Managers.ConfigManager/ ::   ->  ⁊
 }
 
 [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.ConfigManager/  -> [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.ConfigManager/ 
@@ -741,11 +741,11 @@ Renamed Types:
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.ConfigManager/ ::MoveNext[0]( ) skipped:  external base class or interface
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.ConfigManager/ ::SetStateMachine[1]( [System.Runtime]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
 
-	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.Managers.ConfigManager/ ::   ->  ⁊
-	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Infrastructure.Services.Managers.ConfigManager/ :: ‪ ->  ⁋
-	AtomForge.Infrastructure.Services.Managers.ConfigManager [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.ConfigManager AtomForge.Infrastructure.Services.Managers.ConfigManager/ :: ‫ ->  ⁌
-	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.Managers.ConfigManager/ :: ‬ ->  ⁍
-	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter AtomForge.Infrastructure.Services.Managers.ConfigManager/ :: ‭ ->  ⁎
+	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.Managers.ConfigManager/ :: ‪ ->  ⁋
+	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Infrastructure.Services.Managers.ConfigManager/ :: ‫ ->  ⁌
+	AtomForge.Infrastructure.Services.Managers.ConfigManager [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.ConfigManager AtomForge.Infrastructure.Services.Managers.ConfigManager/ :: ‬ ->  ⁍
+	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.Managers.ConfigManager/ :: ‭ ->  ⁎
+	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter AtomForge.Infrastructure.Services.Managers.ConfigManager/ :: ‮ ->  ⁏
 }
 
 [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.ConfigManager/  -> [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.ConfigManager/ 
@@ -754,11 +754,11 @@ Renamed Types:
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.ConfigManager/ ::MoveNext[0]( ) skipped:  external base class or interface
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.ConfigManager/ ::SetStateMachine[1]( [System.Runtime]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
 
-	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.Managers.ConfigManager/ :: ‮ ->  ⁏
-	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Infrastructure.Services.Managers.ConfigManager/ ::   ->  ⁐
-	AtomForge.Infrastructure.Services.Managers.ConfigManager [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.ConfigManager AtomForge.Infrastructure.Services.Managers.ConfigManager/ :: ′ ->  ⁑
-	AtomForge.Domain.Enums.Game.EGameVersion [AtomForge.Infrastructure]AtomForge.Domain.Enums.Game.EGameVersion AtomForge.Infrastructure.Services.Managers.ConfigManager/ :: ‵ ->  ⁒
-	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter AtomForge.Infrastructure.Services.Managers.ConfigManager/ :: ″ ->  ⁓
+	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.Managers.ConfigManager/ ::   ->  ⁐
+	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Infrastructure.Services.Managers.ConfigManager/ :: ′ ->  ⁑
+	AtomForge.Infrastructure.Services.Managers.ConfigManager [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.ConfigManager AtomForge.Infrastructure.Services.Managers.ConfigManager/ :: ‵ ->  ⁒
+	AtomForge.Domain.Enums.Game.EGameVersion [AtomForge.Infrastructure]AtomForge.Domain.Enums.Game.EGameVersion AtomForge.Infrastructure.Services.Managers.ConfigManager/ :: ″ ->  ⁓
+	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter AtomForge.Infrastructure.Services.Managers.ConfigManager/ :: ‶ ->  ⁔
 }
 
 [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.GameConfigManager/  -> [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.GameConfigManager/ 
@@ -767,7 +767,7 @@ Renamed Types:
 
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.GameConfigManager/ ::.ctor[0]( ) skipped:  special name
 
-	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.Managers.GameConfigManager/ :: ‶ ->  ⁔
+	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.Managers.GameConfigManager/ :: ‾ ->  ⁕
 }
 
 [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.GameConfigManager/  -> [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.GameConfigManager/ 
@@ -776,7 +776,7 @@ Renamed Types:
 
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.GameConfigManager/ ::.ctor[0]( ) skipped:  special name
 
-	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.Managers.GameConfigManager/ :: ‾ ->  ⁕
+	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.Managers.GameConfigManager/ :: ⁇ ->  ⁖
 }
 
 [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.GameConfigManager/  -> [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.GameConfigManager/ 
@@ -785,11 +785,11 @@ Renamed Types:
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.GameConfigManager/ ::MoveNext[0]( ) skipped:  external base class or interface
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.GameConfigManager/ ::SetStateMachine[1]( [System.Runtime]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
 
-	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.Managers.GameConfigManager/ :: ⁇ ->  ⁖
-	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Infrastructure.Services.Managers.GameConfigManager/ :: ⁈ ->  ⁗
-	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.Managers.GameConfigManager/ :: ⁉ ->  ⁘
-	AtomForge.Infrastructure.Services.Managers.GameConfigManager [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.GameConfigManager AtomForge.Infrastructure.Services.Managers.GameConfigManager/ :: ⁊ ->  ⁙
-	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter AtomForge.Infrastructure.Services.Managers.GameConfigManager/ :: ⁋ ->  ⁚
+	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.Managers.GameConfigManager/ :: ⁈ ->  ⁗
+	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Infrastructure.Services.Managers.GameConfigManager/ :: ⁉ ->  ⁘
+	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.Managers.GameConfigManager/ :: ⁊ ->  ⁙
+	AtomForge.Infrastructure.Services.Managers.GameConfigManager [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.GameConfigManager AtomForge.Infrastructure.Services.Managers.GameConfigManager/ :: ⁋ ->  ⁚
+	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter AtomForge.Infrastructure.Services.Managers.GameConfigManager/ :: ⁌ ->  ⁛
 }
 
 [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.GameConfigManager/  -> [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.GameConfigManager/ 
@@ -798,11 +798,11 @@ Renamed Types:
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.GameConfigManager/ ::MoveNext[0]( ) skipped:  external base class or interface
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.GameConfigManager/ ::SetStateMachine[1]( [System.Runtime]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
 
-	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.Managers.GameConfigManager/ :: ⁌ ->  ⁛
-	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Infrastructure.Services.Managers.GameConfigManager/ :: ⁍ ->  ⁜
-	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.Managers.GameConfigManager/ :: ⁎ ->  ⁝
-	AtomForge.Infrastructure.Services.Managers.GameConfigManager [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.GameConfigManager AtomForge.Infrastructure.Services.Managers.GameConfigManager/ :: ⁏ ->  ⁞
-	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter AtomForge.Infrastructure.Services.Managers.GameConfigManager/ :: ⁐ ->   
+	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.Managers.GameConfigManager/ :: ⁍ ->  ⁜
+	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Infrastructure.Services.Managers.GameConfigManager/ :: ⁎ ->  ⁝
+	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.Managers.GameConfigManager/ :: ⁏ ->  ⁞
+	AtomForge.Infrastructure.Services.Managers.GameConfigManager [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.GameConfigManager AtomForge.Infrastructure.Services.Managers.GameConfigManager/ :: ⁐ ->   
+	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter AtomForge.Infrastructure.Services.Managers.GameConfigManager/ :: ⁑ ->  ⁠
 }
 
 [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.GameConfigManager/  -> [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.GameConfigManager/ 
@@ -811,16 +811,16 @@ Renamed Types:
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.GameConfigManager/ ::MoveNext[0]( ) skipped:  external base class or interface
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.GameConfigManager/ ::SetStateMachine[1]( [System.Runtime]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
 
-	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.Managers.GameConfigManager/ :: ⁑ ->  ⁠
-	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Infrastructure.Services.Managers.GameConfigManager/ :: ⁒ ->  ⁡
-	AtomForge.Infrastructure.Services.Managers.GameConfigManager [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.GameConfigManager AtomForge.Infrastructure.Services.Managers.GameConfigManager/ :: ⁓ ->  ⁢
-	System.Action`1<AtomForge.Domain.Models.Config.GameConfig> [AtomForge.Infrastructure]System.Action`1<AtomForge.Domain.Models.Config.GameConfig> AtomForge.Infrastructure.Services.Managers.GameConfigManager/ :: ⁔ ->  ⁣
-	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter AtomForge.Infrastructure.Services.Managers.GameConfigManager/ :: ⁕ ->  ⁤
+	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.Managers.GameConfigManager/ :: ⁒ ->  ⁡
+	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Infrastructure.Services.Managers.GameConfigManager/ :: ⁓ ->  ⁢
+	AtomForge.Infrastructure.Services.Managers.GameConfigManager [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.GameConfigManager AtomForge.Infrastructure.Services.Managers.GameConfigManager/ :: ⁔ ->  ⁣
+	System.Action`1<AtomForge.Domain.Models.Config.GameConfig> [AtomForge.Infrastructure]System.Action`1<AtomForge.Domain.Models.Config.GameConfig> AtomForge.Infrastructure.Services.Managers.GameConfigManager/ :: ⁕ ->  ⁤
+	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter AtomForge.Infrastructure.Services.Managers.GameConfigManager/ :: ⁖ ->  ⁪
 }
 
 [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.LanguageManager/  -> [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.LanguageManager/ 
 {
-	System.EventHandler`1<CodingSeb.Localization.LocalizationMissingTranslationEventArgs> [AtomForge.Infrastructure]System.EventHandler`1<CodingSeb.Localization.LocalizationMissingTranslationEventArgs> AtomForge.Infrastructure.Services.Managers.LanguageManager/ :: ⁖ ->  ⁪
+	System.EventHandler`1<CodingSeb.Localization.LocalizationMissingTranslationEventArgs> [AtomForge.Infrastructure]System.EventHandler`1<CodingSeb.Localization.LocalizationMissingTranslationEventArgs> AtomForge.Infrastructure.Services.Managers.LanguageManager/ :: ⁗ ->  ⁫
 }
 
 [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.LanguageManager/  -> [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.LanguageManager/ 
@@ -829,7 +829,7 @@ Renamed Types:
 
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.LanguageManager/ ::.ctor[0]( ) skipped:  special name
 
-	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.Managers.LanguageManager/ :: ⁗ ->  ⁫
+	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.Managers.LanguageManager/ :: ⁘ ->  ⁬
 }
 
 [AtomForge.Infrastructure] . /  -> [AtomForge.Infrastructure] . / 
@@ -838,12 +838,12 @@ Renamed Types:
 	[AtomForge.Infrastructure] . / ::MoveNext[0]( ) skipped:  external base class or interface
 	[AtomForge.Infrastructure] . / ::SetStateMachine[1]( [System.Runtime]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
 
-	System.Int32 [AtomForge.Infrastructure]System.Int32  . / :: ⁘ ->  ⁬
-	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder  . / :: ⁙ ->  ⁭
-	 .  [AtomForge.Infrastructure] .   . / :: ⁚ ->  ⁮
-	System.String [AtomForge.Infrastructure]System.String  . / :: ⁛ ->  ⁯
+	System.Int32 [AtomForge.Infrastructure]System.Int32  . / :: ⁙ ->  ⁭
+	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder  . / :: ⁚ ->  ⁮
+	 .  [AtomForge.Infrastructure] .   . / :: ⁛ ->  ⁯
 	System.String [AtomForge.Infrastructure]System.String  . / :: ⁜ ->  　
-	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter  . / :: ⁝ ->   
+	System.String [AtomForge.Infrastructure]System.String  . / :: ⁝ ->   
+	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter  . / :: ⁞ ->   
 }
 
 [AtomForge.Infrastructure] . /  -> [AtomForge.Infrastructure] . / 
@@ -852,12 +852,12 @@ Renamed Types:
 	[AtomForge.Infrastructure] . / ::MoveNext[0]( ) skipped:  external base class or interface
 	[AtomForge.Infrastructure] . / ::SetStateMachine[1]( [System.Runtime]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
 
-	System.Int32 [AtomForge.Infrastructure]System.Int32  . / :: ⁞ ->   
-	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder  . / ::   ->   
-	 .  [AtomForge.Infrastructure] .   . / :: ⁠ ->   
-	System.String [AtomForge.Infrastructure]System.String  . / :: ⁡ ->   
+	System.Int32 [AtomForge.Infrastructure]System.Int32  . / ::   ->   
+	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder  . / :: ⁠ ->   
+	 .  [AtomForge.Infrastructure] .   . / :: ⁡ ->   
 	System.String [AtomForge.Infrastructure]System.String  . / :: ⁢ ->   
-	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter  . / :: ⁣ ->   
+	System.String [AtomForge.Infrastructure]System.String  . / :: ⁣ ->   
+	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter  . / :: ⁤ ->   
 }
 
 [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameLauncherService/  -> [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameLauncherService/ 
@@ -868,9 +868,9 @@ Renamed Types:
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameLauncherService/ ::.cctor[0]( ) skipped:  special name
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameLauncherService/ ::.ctor[0]( ) skipped:  special name
 
-	AtomForge.Infrastructure.Services.Game.GameLauncherService/  [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameLauncherService/  AtomForge.Infrastructure.Services.Game.GameLauncherService/ :: ⁤ ->   
-	System.Action`1<AtomForge.Domain.Models.Config.GameConfig> [AtomForge.Infrastructure]System.Action`1<AtomForge.Domain.Models.Config.GameConfig> AtomForge.Infrastructure.Services.Game.GameLauncherService/ :: ⁪ ->   
+	AtomForge.Infrastructure.Services.Game.GameLauncherService/  [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameLauncherService/  AtomForge.Infrastructure.Services.Game.GameLauncherService/ :: ⁪ ->   
 	System.Action`1<AtomForge.Domain.Models.Config.GameConfig> [AtomForge.Infrastructure]System.Action`1<AtomForge.Domain.Models.Config.GameConfig> AtomForge.Infrastructure.Services.Game.GameLauncherService/ :: ⁫ ->   
+	System.Action`1<AtomForge.Domain.Models.Config.GameConfig> [AtomForge.Infrastructure]System.Action`1<AtomForge.Domain.Models.Config.GameConfig> AtomForge.Infrastructure.Services.Game.GameLauncherService/ :: ⁬ ->   
 }
 
 [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameLauncherService/  -> [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameLauncherService/ 
@@ -879,10 +879,10 @@ Renamed Types:
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameLauncherService/ ::MoveNext[0]( ) skipped:  external base class or interface
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameLauncherService/ ::SetStateMachine[1]( [System.Runtime]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
 
-	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.Game.GameLauncherService/ :: ⁬ ->   
-	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Infrastructure.Services.Game.GameLauncherService/ :: ⁭ ->   
-	AtomForge.Infrastructure.Services.Game.GameLauncherService [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameLauncherService AtomForge.Infrastructure.Services.Game.GameLauncherService/ :: ⁮ ->   
-	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter AtomForge.Infrastructure.Services.Game.GameLauncherService/ :: ⁯ ->  ​
+	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.Game.GameLauncherService/ :: ⁭ ->   
+	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Infrastructure.Services.Game.GameLauncherService/ :: ⁮ ->   
+	AtomForge.Infrastructure.Services.Game.GameLauncherService [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameLauncherService AtomForge.Infrastructure.Services.Game.GameLauncherService/ :: ⁯ ->  ​
+	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter AtomForge.Infrastructure.Services.Game.GameLauncherService/ :: 　 ->  ‐
 }
 
 [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameLauncherService/  -> [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameLauncherService/ 
@@ -891,11 +891,11 @@ Renamed Types:
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameLauncherService/ ::MoveNext[0]( ) skipped:  external base class or interface
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameLauncherService/ ::SetStateMachine[1]( [System.Runtime]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
 
-	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.Game.GameLauncherService/ :: 　 ->  ‐
-	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Infrastructure.Services.Game.GameLauncherService/ ::   ->  ‑
-	AtomForge.Infrastructure.Services.Game.GameLauncherService [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameLauncherService AtomForge.Infrastructure.Services.Game.GameLauncherService/ ::   ->  ‒
-	System.Runtime.CompilerServices.TaskAwaiter`1<System.String> [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter`1<System.String> AtomForge.Infrastructure.Services.Game.GameLauncherService/ ::   ->  –
-	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter AtomForge.Infrastructure.Services.Game.GameLauncherService/ ::   ->  —
+	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.Game.GameLauncherService/ ::   ->  ‑
+	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Infrastructure.Services.Game.GameLauncherService/ ::   ->  ‒
+	AtomForge.Infrastructure.Services.Game.GameLauncherService [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameLauncherService AtomForge.Infrastructure.Services.Game.GameLauncherService/ ::   ->  –
+	System.Runtime.CompilerServices.TaskAwaiter`1<System.String> [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter`1<System.String> AtomForge.Infrastructure.Services.Game.GameLauncherService/ ::   ->  —
+	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter AtomForge.Infrastructure.Services.Game.GameLauncherService/ ::   ->  ―
 }
 
 [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameLauncherService/  -> [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameLauncherService/ 
@@ -904,11 +904,11 @@ Renamed Types:
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameLauncherService/ ::MoveNext[0]( ) skipped:  external base class or interface
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameLauncherService/ ::SetStateMachine[1]( [System.Runtime]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
 
-	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.Game.GameLauncherService/ ::   ->  ―
-	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Infrastructure.Services.Game.GameLauncherService/ ::   ->  •
-	AtomForge.Infrastructure.Services.Game.GameLauncherService [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameLauncherService AtomForge.Infrastructure.Services.Game.GameLauncherService/ ::   ->  ․
-	AtomForge.Application.ViewModels.Windows.MainWindow.GameStateViewModel [AtomForge.Infrastructure]AtomForge.Application.ViewModels.Windows.MainWindow.GameStateViewModel AtomForge.Infrastructure.Services.Game.GameLauncherService/ ::   ->  ‥
-	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter AtomForge.Infrastructure.Services.Game.GameLauncherService/ ::   ->  ‧
+	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.Game.GameLauncherService/ ::   ->  •
+	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Infrastructure.Services.Game.GameLauncherService/ ::   ->  ․
+	AtomForge.Infrastructure.Services.Game.GameLauncherService [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameLauncherService AtomForge.Infrastructure.Services.Game.GameLauncherService/ ::   ->  ‥
+	AtomForge.Application.ViewModels.Windows.MainWindow.GameStateViewModel [AtomForge.Infrastructure]AtomForge.Application.ViewModels.Windows.MainWindow.GameStateViewModel AtomForge.Infrastructure.Services.Game.GameLauncherService/ ::   ->  ‧
+	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter AtomForge.Infrastructure.Services.Game.GameLauncherService/ ::   ->   
 }
 
 [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameLauncherService/  -> [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameLauncherService/ 
@@ -917,11 +917,11 @@ Renamed Types:
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameLauncherService/ ::MoveNext[0]( ) skipped:  external base class or interface
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameLauncherService/ ::SetStateMachine[1]( [System.Runtime]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
 
-	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.Game.GameLauncherService/ ::   ->   
-	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Infrastructure.Services.Game.GameLauncherService/ ::   ->   
-	AtomForge.Infrastructure.Services.Game.GameLauncherService [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameLauncherService AtomForge.Infrastructure.Services.Game.GameLauncherService/ ::   ->  ‪
-	System.Runtime.CompilerServices.TaskAwaiter`1<System.String> [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter`1<System.String> AtomForge.Infrastructure.Services.Game.GameLauncherService/ ::   ->  ‫
-	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter AtomForge.Infrastructure.Services.Game.GameLauncherService/ :: ​ ->  ‬
+	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.Game.GameLauncherService/ ::   ->   
+	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Infrastructure.Services.Game.GameLauncherService/ ::   ->  ‪
+	AtomForge.Infrastructure.Services.Game.GameLauncherService [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameLauncherService AtomForge.Infrastructure.Services.Game.GameLauncherService/ ::   ->  ‫
+	System.Runtime.CompilerServices.TaskAwaiter`1<System.String> [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter`1<System.String> AtomForge.Infrastructure.Services.Game.GameLauncherService/ :: ​ ->  ‬
+	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter AtomForge.Infrastructure.Services.Game.GameLauncherService/ :: ‐ ->  ‭
 }
 
 [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameLauncherService/  -> [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameLauncherService/ 
@@ -930,10 +930,10 @@ Renamed Types:
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameLauncherService/ ::MoveNext[0]( ) skipped:  external base class or interface
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameLauncherService/ ::SetStateMachine[1]( [System.Runtime]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
 
-	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.Game.GameLauncherService/ :: ‐ ->  ‭
-	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Infrastructure.Services.Game.GameLauncherService/ :: ‑ ->  ‮
-	AtomForge.Infrastructure.Services.Game.GameLauncherService [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameLauncherService AtomForge.Infrastructure.Services.Game.GameLauncherService/ :: ‒ ->   
-	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter AtomForge.Infrastructure.Services.Game.GameLauncherService/ :: – ->  ′
+	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.Game.GameLauncherService/ :: ‑ ->  ‮
+	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Infrastructure.Services.Game.GameLauncherService/ :: ‒ ->   
+	AtomForge.Infrastructure.Services.Game.GameLauncherService [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameLauncherService AtomForge.Infrastructure.Services.Game.GameLauncherService/ :: – ->  ′
+	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter AtomForge.Infrastructure.Services.Game.GameLauncherService/ :: — ->  ‵
 }
 
 [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService/  -> [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService/ 
@@ -942,15 +942,15 @@ Renamed Types:
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService/ ::MoveNext[0]( ) skipped:  external base class or interface
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService/ ::SetStateMachine[1]( [System.Runtime]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
 
-	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService/ :: — ->  ‵
-	System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Byte[]> [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Byte[]> AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService/ :: ― ->  ″
-	AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService/ :: • ->  ‶
-	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService/ :: ․ ->  ‾
-	System.Threading.CancellationToken [AtomForge.Infrastructure]System.Threading.CancellationToken AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService/ :: ‥ ->  ⁇
-	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService/ :: ‧ ->  ⁈
-	System.Byte[] [AtomForge.Infrastructure]System.Byte[] AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService/ ::   ->  ⁉
-	System.Runtime.CompilerServices.TaskAwaiter`1<System.Byte[]> [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter`1<System.Byte[]> AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService/ ::   ->  ⁊
-	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService/ :: ‪ ->  ⁋
+	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService/ :: ― ->  ″
+	System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Byte[]> [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Byte[]> AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService/ :: • ->  ‶
+	AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService/ :: ․ ->  ‾
+	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService/ :: ‥ ->  ⁇
+	System.Threading.CancellationToken [AtomForge.Infrastructure]System.Threading.CancellationToken AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService/ :: ‧ ->  ⁈
+	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService/ ::   ->  ⁉
+	System.Byte[] [AtomForge.Infrastructure]System.Byte[] AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService/ ::   ->  ⁊
+	System.Runtime.CompilerServices.TaskAwaiter`1<System.Byte[]> [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter`1<System.Byte[]> AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService/ :: ‪ ->  ⁋
+	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService/ :: ‫ ->  ⁌
 }
 
 [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService/  -> [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService/ 
@@ -959,12 +959,12 @@ Renamed Types:
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService/ ::MoveNext[0]( ) skipped:  external base class or interface
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService/ ::SetStateMachine[1]( [System.Runtime]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
 
-	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService/ :: ‫ ->  ⁌
-	System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Windows.Media.Imaging.BitmapImage> [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Windows.Media.Imaging.BitmapImage> AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService/ :: ‬ ->  ⁍
-	AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService/ :: ‭ ->  ⁎
-	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService/ :: ‮ ->  ⁏
-	System.Threading.CancellationToken [AtomForge.Infrastructure]System.Threading.CancellationToken AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService/ ::   ->  ⁐
-	System.Runtime.CompilerServices.TaskAwaiter`1<System.Byte[]> [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter`1<System.Byte[]> AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService/ :: ′ ->  ⁑
+	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService/ :: ‬ ->  ⁍
+	System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Windows.Media.Imaging.BitmapImage> [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Windows.Media.Imaging.BitmapImage> AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService/ :: ‭ ->  ⁎
+	AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService/ :: ‮ ->  ⁏
+	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService/ ::   ->  ⁐
+	System.Threading.CancellationToken [AtomForge.Infrastructure]System.Threading.CancellationToken AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService/ :: ′ ->  ⁑
+	System.Runtime.CompilerServices.TaskAwaiter`1<System.Byte[]> [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter`1<System.Byte[]> AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService/ :: ‵ ->  ⁒
 }
 
 [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService/  -> [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService/ 
@@ -973,15 +973,15 @@ Renamed Types:
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService/ ::MoveNext[0]( ) skipped:  external base class or interface
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService/ ::SetStateMachine[1]( [System.Runtime]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
 
-	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService/ :: ‵ ->  ⁒
-	System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.String> [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.String> AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService/ :: ″ ->  ⁓
-	AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService/ :: ‶ ->  ⁔
-	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService/ :: ‾ ->  ⁕
+	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService/ :: ″ ->  ⁓
+	System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.String> [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.String> AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService/ :: ‶ ->  ⁔
+	AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService/ :: ‾ ->  ⁕
 	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService/ :: ⁇ ->  ⁖
-	System.Threading.CancellationToken [AtomForge.Infrastructure]System.Threading.CancellationToken AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService/ :: ⁈ ->  ⁗
-	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService/ :: ⁉ ->  ⁘
-	System.Runtime.CompilerServices.TaskAwaiter`1<System.Byte[]> [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter`1<System.Byte[]> AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService/ :: ⁊ ->  ⁙
-	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService/ :: ⁋ ->  ⁚
+	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService/ :: ⁈ ->  ⁗
+	System.Threading.CancellationToken [AtomForge.Infrastructure]System.Threading.CancellationToken AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService/ :: ⁉ ->  ⁘
+	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService/ :: ⁊ ->  ⁙
+	System.Runtime.CompilerServices.TaskAwaiter`1<System.Byte[]> [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter`1<System.Byte[]> AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService/ :: ⁋ ->  ⁚
+	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService/ :: ⁌ ->  ⁛
 }
 
 [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService/  -> [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService/ 
@@ -990,12 +990,12 @@ Renamed Types:
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService/ ::MoveNext[0]( ) skipped:  external base class or interface
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService/ ::SetStateMachine[1]( [System.Runtime]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
 
-	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService/ :: ⁌ ->  ⁛
-	System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.String> [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.String> AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService/ :: ⁍ ->  ⁜
-	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService/ :: ⁎ ->  ⁝
-	AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService/ :: ⁏ ->  ⁞
-	System.Threading.CancellationToken [AtomForge.Infrastructure]System.Threading.CancellationToken AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService/ :: ⁐ ->   
-	System.Runtime.CompilerServices.TaskAwaiter`1<System.String> [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter`1<System.String> AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService/ :: ⁑ ->  ⁠
+	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService/ :: ⁍ ->  ⁜
+	System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.String> [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.String> AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService/ :: ⁎ ->  ⁝
+	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService/ :: ⁏ ->  ⁞
+	AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService/ :: ⁐ ->   
+	System.Threading.CancellationToken [AtomForge.Infrastructure]System.Threading.CancellationToken AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService/ :: ⁑ ->  ⁠
+	System.Runtime.CompilerServices.TaskAwaiter`1<System.String> [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter`1<System.String> AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService/ :: ⁒ ->  ⁡
 }
 
 [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Analytics.LauncherAnalyticsService/  -> [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Analytics.LauncherAnalyticsService/ 
@@ -1004,13 +1004,13 @@ Renamed Types:
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Analytics.LauncherAnalyticsService/ ::MoveNext[0]( ) skipped:  external base class or interface
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Analytics.LauncherAnalyticsService/ ::SetStateMachine[1]( [System.Runtime]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
 
-	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.Analytics.LauncherAnalyticsService/ :: ⁒ ->  ⁡
-	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Infrastructure.Services.Analytics.LauncherAnalyticsService/ :: ⁓ ->  ⁢
-	AtomForge.Application.Interfaces.Refit.IWebApiLauncherRefit [AtomForge.Infrastructure]AtomForge.Application.Interfaces.Refit.IWebApiLauncherRefit AtomForge.Infrastructure.Services.Analytics.LauncherAnalyticsService/ :: ⁔ ->  ⁣
-	System.UInt64 [AtomForge.Infrastructure]System.UInt64 AtomForge.Infrastructure.Services.Analytics.LauncherAnalyticsService/ :: ⁕ ->  ⁤
-	AtomForge.Domain.Enums.Request.EActivityType [AtomForge.Infrastructure]AtomForge.Domain.Enums.Request.EActivityType AtomForge.Infrastructure.Services.Analytics.LauncherAnalyticsService/ :: ⁖ ->  ⁪
-	AtomForge.Infrastructure.Services.Analytics.LauncherAnalyticsService [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Analytics.LauncherAnalyticsService AtomForge.Infrastructure.Services.Analytics.LauncherAnalyticsService/ :: ⁗ ->  ⁫
-	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter AtomForge.Infrastructure.Services.Analytics.LauncherAnalyticsService/ :: ⁘ ->  ⁬
+	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.Analytics.LauncherAnalyticsService/ :: ⁓ ->  ⁢
+	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Infrastructure.Services.Analytics.LauncherAnalyticsService/ :: ⁔ ->  ⁣
+	AtomForge.Application.Interfaces.Refit.IWebApiLauncherRefit [AtomForge.Infrastructure]AtomForge.Application.Interfaces.Refit.IWebApiLauncherRefit AtomForge.Infrastructure.Services.Analytics.LauncherAnalyticsService/ :: ⁕ ->  ⁤
+	System.UInt64 [AtomForge.Infrastructure]System.UInt64 AtomForge.Infrastructure.Services.Analytics.LauncherAnalyticsService/ :: ⁖ ->  ⁪
+	AtomForge.Domain.Enums.Request.EActivityType [AtomForge.Infrastructure]AtomForge.Domain.Enums.Request.EActivityType AtomForge.Infrastructure.Services.Analytics.LauncherAnalyticsService/ :: ⁗ ->  ⁫
+	AtomForge.Infrastructure.Services.Analytics.LauncherAnalyticsService [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Analytics.LauncherAnalyticsService AtomForge.Infrastructure.Services.Analytics.LauncherAnalyticsService/ :: ⁘ ->  ⁬
+	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter AtomForge.Infrastructure.Services.Analytics.LauncherAnalyticsService/ :: ⁙ ->  ⁭
 }
 
 [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Analytics.LauncherAnalyticsService/  -> [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Analytics.LauncherAnalyticsService/ 
@@ -1019,11 +1019,11 @@ Renamed Types:
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Analytics.LauncherAnalyticsService/ ::MoveNext[0]( ) skipped:  external base class or interface
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Analytics.LauncherAnalyticsService/ ::SetStateMachine[1]( [System.Runtime]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
 
-	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.Analytics.LauncherAnalyticsService/ :: ⁙ ->  ⁭
-	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Infrastructure.Services.Analytics.LauncherAnalyticsService/ :: ⁚ ->  ⁮
-	AtomForge.Infrastructure.Services.Analytics.LauncherAnalyticsService [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Analytics.LauncherAnalyticsService AtomForge.Infrastructure.Services.Analytics.LauncherAnalyticsService/ :: ⁛ ->  ⁯
-	AtomForge.Domain.Enums.Request.EActivityType [AtomForge.Infrastructure]AtomForge.Domain.Enums.Request.EActivityType AtomForge.Infrastructure.Services.Analytics.LauncherAnalyticsService/ :: ⁜ ->  　
-	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter AtomForge.Infrastructure.Services.Analytics.LauncherAnalyticsService/ :: ⁝ ->   
+	System.Int32 [AtomForge.Infrastructure]System.Int32 AtomForge.Infrastructure.Services.Analytics.LauncherAnalyticsService/ :: ⁚ ->  ⁮
+	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.Infrastructure]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.Infrastructure.Services.Analytics.LauncherAnalyticsService/ :: ⁛ ->  ⁯
+	AtomForge.Infrastructure.Services.Analytics.LauncherAnalyticsService [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Analytics.LauncherAnalyticsService AtomForge.Infrastructure.Services.Analytics.LauncherAnalyticsService/ :: ⁜ ->  　
+	AtomForge.Domain.Enums.Request.EActivityType [AtomForge.Infrastructure]AtomForge.Domain.Enums.Request.EActivityType AtomForge.Infrastructure.Services.Analytics.LauncherAnalyticsService/ :: ⁝ ->   
+	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.Infrastructure]System.Runtime.CompilerServices.TaskAwaiter AtomForge.Infrastructure.Services.Analytics.LauncherAnalyticsService/ :: ⁞ ->   
 }
 
 [AtomForge.AppHost]AtomForge.AppHost.ApplicationHostService/  -> [AtomForge.AppHost]AtomForge.AppHost.ApplicationHostService/ 
@@ -1032,10 +1032,10 @@ Renamed Types:
 	[AtomForge.AppHost]AtomForge.AppHost.ApplicationHostService/ ::MoveNext[0]( ) skipped:  external base class or interface
 	[AtomForge.AppHost]AtomForge.AppHost.ApplicationHostService/ ::SetStateMachine[1]( [System.Runtime]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
 
-	System.Int32 [AtomForge.AppHost]System.Int32 AtomForge.AppHost.ApplicationHostService/ :: ⁣ ->   
-	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.AppHost]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.AppHost.ApplicationHostService/ :: ⁤ ->   
-	AtomForge.AppHost.ApplicationHostService [AtomForge.AppHost]AtomForge.AppHost.ApplicationHostService AtomForge.AppHost.ApplicationHostService/ :: ⁪ ->   
-	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.AppHost]System.Runtime.CompilerServices.TaskAwaiter AtomForge.AppHost.ApplicationHostService/ :: ⁫ ->   
+	System.Int32 [AtomForge.AppHost]System.Int32 AtomForge.AppHost.ApplicationHostService/ :: ⁤ ->   
+	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.AppHost]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.AppHost.ApplicationHostService/ :: ⁪ ->   
+	AtomForge.AppHost.ApplicationHostService [AtomForge.AppHost]AtomForge.AppHost.ApplicationHostService AtomForge.AppHost.ApplicationHostService/ :: ⁫ ->   
+	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.AppHost]System.Runtime.CompilerServices.TaskAwaiter AtomForge.AppHost.ApplicationHostService/ :: ⁬ ->  ​
 }
 
 [AtomForge.AppHost]AtomForge.AppHost.ApplicationHostService/  -> [AtomForge.AppHost]AtomForge.AppHost.ApplicationHostService/ 
@@ -1044,10 +1044,10 @@ Renamed Types:
 	[AtomForge.AppHost]AtomForge.AppHost.ApplicationHostService/ ::MoveNext[0]( ) skipped:  external base class or interface
 	[AtomForge.AppHost]AtomForge.AppHost.ApplicationHostService/ ::SetStateMachine[1]( [System.Runtime]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
 
-	System.Int32 [AtomForge.AppHost]System.Int32 AtomForge.AppHost.ApplicationHostService/ :: ⁬ ->  ​
-	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.AppHost]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.AppHost.ApplicationHostService/ :: ⁭ ->  ‐
-	AtomForge.AppHost.ApplicationHostService [AtomForge.AppHost]AtomForge.AppHost.ApplicationHostService AtomForge.AppHost.ApplicationHostService/ :: ⁮ ->  ‑
-	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.AppHost]System.Runtime.CompilerServices.TaskAwaiter AtomForge.AppHost.ApplicationHostService/ :: ⁯ ->  ‒
+	System.Int32 [AtomForge.AppHost]System.Int32 AtomForge.AppHost.ApplicationHostService/ :: ⁭ ->  ‐
+	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.AppHost]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.AppHost.ApplicationHostService/ :: ⁮ ->  ‑
+	AtomForge.AppHost.ApplicationHostService [AtomForge.AppHost]AtomForge.AppHost.ApplicationHostService AtomForge.AppHost.ApplicationHostService/ :: ⁯ ->  ‒
+	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.AppHost]System.Runtime.CompilerServices.TaskAwaiter AtomForge.AppHost.ApplicationHostService/ :: 　 ->  –
 }
 
 [AtomForge.AppHost]AtomForge.AppHost.ApplicationHostService/  -> [AtomForge.AppHost]AtomForge.AppHost.ApplicationHostService/ 
@@ -1056,9 +1056,9 @@ Renamed Types:
 	[AtomForge.AppHost]AtomForge.AppHost.ApplicationHostService/ ::MoveNext[0]( ) skipped:  external base class or interface
 	[AtomForge.AppHost]AtomForge.AppHost.ApplicationHostService/ ::SetStateMachine[1]( [System.Runtime]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
 
-	System.Int32 [AtomForge.AppHost]System.Int32 AtomForge.AppHost.ApplicationHostService/ :: 　 ->  –
-	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.AppHost]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.AppHost.ApplicationHostService/ ::   ->  —
-	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.AppHost]System.Runtime.CompilerServices.TaskAwaiter AtomForge.AppHost.ApplicationHostService/ ::   ->  ―
+	System.Int32 [AtomForge.AppHost]System.Int32 AtomForge.AppHost.ApplicationHostService/ ::   ->  —
+	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [AtomForge.AppHost]System.Runtime.CompilerServices.AsyncTaskMethodBuilder AtomForge.AppHost.ApplicationHostService/ ::   ->  ―
+	System.Runtime.CompilerServices.TaskAwaiter [AtomForge.AppHost]System.Runtime.CompilerServices.TaskAwaiter AtomForge.AppHost.ApplicationHostService/ ::   ->  •
 }
 
 [AtomForge.AppHost]AtomForge.AppHost.HostedAppManager/  -> [AtomForge.AppHost]AtomForge.AppHost.HostedAppManager/ 
@@ -1069,7 +1069,7 @@ Renamed Types:
 	[AtomForge.AppHost]AtomForge.AppHost.HostedAppManager/ ::.cctor[0]( ) skipped:  special name
 	[AtomForge.AppHost]AtomForge.AppHost.HostedAppManager/ ::.ctor[0]( ) skipped:  special name
 
-	AtomForge.AppHost.HostedAppManager/  [AtomForge.AppHost]AtomForge.AppHost.HostedAppManager/  AtomForge.AppHost.HostedAppManager/ ::   ->  •
+	AtomForge.AppHost.HostedAppManager/  [AtomForge.AppHost]AtomForge.AppHost.HostedAppManager/  AtomForge.AppHost.HostedAppManager/ ::   ->  ․
 }
 
 [SkachatRust]SkachatRust.App/  -> [SkachatRust]SkachatRust.App/ 
@@ -1078,8 +1078,8 @@ Renamed Types:
 	[SkachatRust]SkachatRust.App/ ::MoveNext[0]( ) skipped:  external base class or interface
 	[SkachatRust]SkachatRust.App/ ::SetStateMachine[1]( [System.Runtime]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
 
-	System.Int32 [SkachatRust]System.Int32 SkachatRust.App/ ::   ->   
-	System.Runtime.CompilerServices.AsyncVoidMethodBuilder [SkachatRust]System.Runtime.CompilerServices.AsyncVoidMethodBuilder SkachatRust.App/ ::   ->  ‪
+	System.Int32 [SkachatRust]System.Int32 SkachatRust.App/ ::   ->  ‪
+	System.Runtime.CompilerServices.AsyncVoidMethodBuilder [SkachatRust]System.Runtime.CompilerServices.AsyncVoidMethodBuilder SkachatRust.App/ ::   ->  ‫
 }
 
 [AtomForge.Presentation] .  -> [AtomForge.Presentation] . 
@@ -2408,17 +2408,19 @@ Skipped Types:
 [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Steam.SteamProfile skipped:  KeepPublicApi option in configuration
 {
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Steam.SteamProfile:: [0]( ) ->  
+	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Steam.SteamProfile:: [0]( ) ->  
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Steam.SteamProfile:: [1]( [System.Runtime]System.String ) ->  
 
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Steam.SteamProfile::Init[0]( ) skipped:  KeepPublicApi option in configuration
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Steam.SteamProfile::GetAvatarAsync[0]( ) skipped:  KeepPublicApi option in configuration
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Steam.SteamProfile::GetCurrentSteamId[0]( ) skipped:  KeepPublicApi option in configuration
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Steam.SteamProfile::GetName[0]( ) skipped:  KeepPublicApi option in configuration
-	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Steam.SteamProfile::.ctor[1]( [Microsoft.Extensions.Logging.Abstractions]Microsoft.Extensions.Logging.ILogger`1<[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Steam.SteamProfile> ) skipped:  special name
+	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Steam.SteamProfile::.ctor[2]( [AtomForge.Application]AtomForge.Application.Interfaces.Services.Steam.ISteamBasic, [Microsoft.Extensions.Logging.Abstractions]Microsoft.Extensions.Logging.ILogger`1<[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Steam.SteamProfile> ) skipped:  special name
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Steam.SteamProfile::Dispose[0]( ) skipped:  external base class or interface
 
 	Microsoft.Extensions.Logging.ILogger`1<AtomForge.Infrastructure.Services.Steam.SteamProfile> [AtomForge.Infrastructure]Microsoft.Extensions.Logging.ILogger`1<AtomForge.Infrastructure.Services.Steam.SteamProfile> AtomForge.Infrastructure.Services.Steam.SteamProfile:: ⁓ ->   
-	System.Boolean [AtomForge.Infrastructure]System.Boolean AtomForge.Infrastructure.Services.Steam.SteamProfile:: ⁔ ->  ⁠
+	AtomForge.Application.Interfaces.Services.Steam.ISteamBasic [AtomForge.Infrastructure]AtomForge.Application.Interfaces.Services.Steam.ISteamBasic AtomForge.Infrastructure.Services.Steam.SteamProfile:: ⁔ ->  ⁠
+	System.Boolean [AtomForge.Infrastructure]System.Boolean AtomForge.Infrastructure.Services.Steam.SteamProfile:: ⁕ ->  ⁡
 }
 
 [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Popup.InitializerPopupHandler skipped:  KeepPublicApi option in configuration
@@ -2427,7 +2429,7 @@ Skipped Types:
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Popup.InitializerPopupHandler::.ctor[1]( [AtomForge.Application]AtomForge.Application.Interfaces.Services.IPopupHandlerSerivce ) skipped:  special name
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Popup.InitializerPopupHandler::Configure[1]( [System.Runtime]System.Action`1<[Microsoft.AspNetCore.Http.Abstractions]Microsoft.AspNetCore.Builder.IApplicationBuilder> ) skipped:  external base class or interface
 
-	AtomForge.Application.Interfaces.Services.IPopupHandlerSerivce [AtomForge.Infrastructure]AtomForge.Application.Interfaces.Services.IPopupHandlerSerivce AtomForge.Infrastructure.Services.Popup.InitializerPopupHandler:: ⁕ ->  ⁡
+	AtomForge.Application.Interfaces.Services.IPopupHandlerSerivce [AtomForge.Infrastructure]AtomForge.Application.Interfaces.Services.IPopupHandlerSerivce AtomForge.Infrastructure.Services.Popup.InitializerPopupHandler:: ⁖ ->  ⁢
 }
 
 [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Popup.PopupHandlerSerivce skipped:  KeepPublicApi option in configuration
@@ -2438,10 +2440,10 @@ Skipped Types:
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Popup.PopupHandlerSerivce::PopupActions_OpenRequiredSteamPopup[1]( [WindowsBase]System.Windows.Threading.Dispatcher ) skipped:  KeepPublicApi option in configuration
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Popup.PopupHandlerSerivce::.ctor[4]( [Microsoft.Extensions.Logging.Abstractions]Microsoft.Extensions.Logging.ILogger`1<[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Popup.PopupHandlerSerivce>, [Wpf.Ui]Wpf.Ui.IContentDialogService, [AtomForge.Presentation]AtomForge.Presentation.Views.Pages.Popup.GameFolderPopup, [AtomForge.Presentation]AtomForge.Presentation.Views.Pages.Popup.RequiredSteamPopup ) skipped:  special name
 
-	AtomForge.Presentation.Views.Pages.Popup.GameFolderPopup [AtomForge.Infrastructure]AtomForge.Presentation.Views.Pages.Popup.GameFolderPopup AtomForge.Infrastructure.Services.Popup.PopupHandlerSerivce:: ⁖ ->  ⁢
-	AtomForge.Presentation.Views.Pages.Popup.RequiredSteamPopup [AtomForge.Infrastructure]AtomForge.Presentation.Views.Pages.Popup.RequiredSteamPopup AtomForge.Infrastructure.Services.Popup.PopupHandlerSerivce:: ⁗ ->  ⁣
-	Wpf.Ui.IContentDialogService [AtomForge.Infrastructure]Wpf.Ui.IContentDialogService AtomForge.Infrastructure.Services.Popup.PopupHandlerSerivce:: ⁘ ->  ⁤
-	Microsoft.Extensions.Logging.ILogger [AtomForge.Infrastructure]Microsoft.Extensions.Logging.ILogger AtomForge.Infrastructure.Services.Popup.PopupHandlerSerivce:: ⁙ ->  ⁪
+	AtomForge.Presentation.Views.Pages.Popup.GameFolderPopup [AtomForge.Infrastructure]AtomForge.Presentation.Views.Pages.Popup.GameFolderPopup AtomForge.Infrastructure.Services.Popup.PopupHandlerSerivce:: ⁗ ->  ⁣
+	AtomForge.Presentation.Views.Pages.Popup.RequiredSteamPopup [AtomForge.Infrastructure]AtomForge.Presentation.Views.Pages.Popup.RequiredSteamPopup AtomForge.Infrastructure.Services.Popup.PopupHandlerSerivce:: ⁘ ->  ⁤
+	Wpf.Ui.IContentDialogService [AtomForge.Infrastructure]Wpf.Ui.IContentDialogService AtomForge.Infrastructure.Services.Popup.PopupHandlerSerivce:: ⁙ ->  ⁪
+	Microsoft.Extensions.Logging.ILogger [AtomForge.Infrastructure]Microsoft.Extensions.Logging.ILogger AtomForge.Infrastructure.Services.Popup.PopupHandlerSerivce:: ⁚ ->  ⁫
 }
 
 [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.ConfigManager skipped:  KeepPublicApi option in configuration
@@ -2459,10 +2461,10 @@ Skipped Types:
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.ConfigManager:: [0]( ) skipped:  special name
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.ConfigManager::.ctor[2]( [Microsoft.Extensions.Logging.Abstractions]Microsoft.Extensions.Logging.ILogger`1<[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.ConfigManager>, [AtomForge.Application]AtomForge.Application.Interfaces.Services.Managers.IDirectoryManager ) skipped:  special name
 
-	Microsoft.Extensions.Logging.ILogger`1<AtomForge.Infrastructure.Services.Managers.ConfigManager> [AtomForge.Infrastructure]Microsoft.Extensions.Logging.ILogger`1<AtomForge.Infrastructure.Services.Managers.ConfigManager> AtomForge.Infrastructure.Services.Managers.ConfigManager:: ⁚ ->  ⁫
-	AtomForge.Application.Interfaces.Services.Managers.IDirectoryManager [AtomForge.Infrastructure]AtomForge.Application.Interfaces.Services.Managers.IDirectoryManager AtomForge.Infrastructure.Services.Managers.ConfigManager:: ⁛ ->  ⁬
-	System.Text.Json.JsonSerializerOptions [AtomForge.Infrastructure]System.Text.Json.JsonSerializerOptions AtomForge.Infrastructure.Services.Managers.ConfigManager:: ⁜ ->  ⁭
-	AtomForge.Domain.Models.Config.BaseConfig [AtomForge.Infrastructure]AtomForge.Domain.Models.Config.BaseConfig AtomForge.Infrastructure.Services.Managers.ConfigManager:: ⁝ ->  ⁮
+	Microsoft.Extensions.Logging.ILogger`1<AtomForge.Infrastructure.Services.Managers.ConfigManager> [AtomForge.Infrastructure]Microsoft.Extensions.Logging.ILogger`1<AtomForge.Infrastructure.Services.Managers.ConfigManager> AtomForge.Infrastructure.Services.Managers.ConfigManager:: ⁛ ->  ⁬
+	AtomForge.Application.Interfaces.Services.Managers.IDirectoryManager [AtomForge.Infrastructure]AtomForge.Application.Interfaces.Services.Managers.IDirectoryManager AtomForge.Infrastructure.Services.Managers.ConfigManager:: ⁜ ->  ⁭
+	System.Text.Json.JsonSerializerOptions [AtomForge.Infrastructure]System.Text.Json.JsonSerializerOptions AtomForge.Infrastructure.Services.Managers.ConfigManager:: ⁝ ->  ⁮
+	AtomForge.Domain.Models.Config.BaseConfig [AtomForge.Infrastructure]AtomForge.Domain.Models.Config.BaseConfig AtomForge.Infrastructure.Services.Managers.ConfigManager:: ⁞ ->  ⁯
 
 
 	AtomForge.Domain.Models.Config.BaseConfig [AtomForge.Infrastructure]AtomForge.Domain.Models.Config.BaseConfig AtomForge.Infrastructure.Services.Managers.ConfigManager::BaseConfig skipped:  KeepPublicApi option in configuration
@@ -2479,7 +2481,7 @@ Skipped Types:
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.GameConfigManager::GetGameConfigValues[0]( ) skipped:  KeepPublicApi option in configuration
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.GameConfigManager::.ctor[1]( [AtomForge.Application]AtomForge.Application.Interfaces.Services.Managers.IConfigManager ) skipped:  special name
 
-	AtomForge.Application.Interfaces.Services.Managers.IConfigManager [AtomForge.Infrastructure]AtomForge.Application.Interfaces.Services.Managers.IConfigManager AtomForge.Infrastructure.Services.Managers.GameConfigManager:: ⁞ ->  ⁯
+	AtomForge.Application.Interfaces.Services.Managers.IConfigManager [AtomForge.Infrastructure]AtomForge.Application.Interfaces.Services.Managers.IConfigManager AtomForge.Infrastructure.Services.Managers.GameConfigManager::   ->  　
 }
 
 [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.LanguageManager skipped:  KeepPublicApi option in configuration
@@ -2491,8 +2493,8 @@ Skipped Types:
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.LanguageManager::.ctor[2]( [Microsoft.Extensions.Logging.Abstractions]Microsoft.Extensions.Logging.ILogger`1<[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.InitializationLauncherService>, [AtomForge.Application]AtomForge.Application.Interfaces.Services.Managers.IConfigManager ) skipped:  special name
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Managers.LanguageManager::Configure[0]( ) skipped:  KeepPublicApi option in configuration
 
-	Microsoft.Extensions.Logging.ILogger`1<AtomForge.Infrastructure.Services.InitializationLauncherService> [AtomForge.Infrastructure]Microsoft.Extensions.Logging.ILogger`1<AtomForge.Infrastructure.Services.InitializationLauncherService> AtomForge.Infrastructure.Services.Managers.LanguageManager::   ->  　
-	AtomForge.Application.Interfaces.Services.Managers.IConfigManager [AtomForge.Infrastructure]AtomForge.Application.Interfaces.Services.Managers.IConfigManager AtomForge.Infrastructure.Services.Managers.LanguageManager:: ⁠ ->   
+	Microsoft.Extensions.Logging.ILogger`1<AtomForge.Infrastructure.Services.InitializationLauncherService> [AtomForge.Infrastructure]Microsoft.Extensions.Logging.ILogger`1<AtomForge.Infrastructure.Services.InitializationLauncherService> AtomForge.Infrastructure.Services.Managers.LanguageManager:: ⁠ ->   
+	AtomForge.Application.Interfaces.Services.Managers.IConfigManager [AtomForge.Infrastructure]AtomForge.Application.Interfaces.Services.Managers.IConfigManager AtomForge.Infrastructure.Services.Managers.LanguageManager:: ⁡ ->   
 }
 
 [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameClientChecker skipped:  KeepPublicApi option in configuration
@@ -2503,7 +2505,7 @@ Skipped Types:
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameClientChecker::ExistsGameFolder[0]( ) skipped:  KeepPublicApi option in configuration
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameClientChecker::.ctor[1]( [AtomForge.Application]AtomForge.Application.Interfaces.Services.Managers.IGameConfigManager ) skipped:  special name
 
-	AtomForge.Application.Interfaces.Services.Managers.IGameConfigManager [AtomForge.Infrastructure]AtomForge.Application.Interfaces.Services.Managers.IGameConfigManager AtomForge.Infrastructure.Services.Game.GameClientChecker:: ⁡ ->   
+	AtomForge.Application.Interfaces.Services.Managers.IGameConfigManager [AtomForge.Infrastructure]AtomForge.Application.Interfaces.Services.Managers.IGameConfigManager AtomForge.Infrastructure.Services.Game.GameClientChecker:: ⁢ ->   
 }
 
 [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameLauncherService skipped:  KeepPublicApi option in configuration
@@ -2527,19 +2529,19 @@ Skipped Types:
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameLauncherService::CreateGameFolder[0]( ) skipped:  KeepPublicApi option in configuration
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameLauncherService::.ctor[9]( [Microsoft.Extensions.Logging.Abstractions]Microsoft.Extensions.Logging.ILogger`1<[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameLauncherService>, [AtomForge.Application]AtomForge.Application.Interfaces.Services.Game.IGameDownloader, [AtomForge.Application]AtomForge.Application.Interfaces.Services.Managers.IDirectoryManager, [AtomForge.Application]AtomForge.Application.Interfaces.Services.Managers.IGameConfigManager, [AtomForge.Application]AtomForge.Application.Interfaces.Services.Game.IGameClientChecker, [AtomForge.Application]AtomForge.Application.Interfaces.Services.Analytics.ILauncherAnalyticsService, [AtomForge.Application]AtomForge.Application.Interfaces.Services.Downloaders.IDownloaderTorrentService, [AtomForge.Application]AtomForge.Application.Interfaces.Services.IWebLauncherService, [AtomForge.Application]AtomForge.Application.Interfaces.Services.Game.IGameStarter ) skipped:  special name
 
-	Microsoft.Extensions.Logging.ILogger`1<AtomForge.Infrastructure.Services.Game.GameLauncherService> [AtomForge.Infrastructure]Microsoft.Extensions.Logging.ILogger`1<AtomForge.Infrastructure.Services.Game.GameLauncherService> AtomForge.Infrastructure.Services.Game.GameLauncherService:: ⁬ ->   
-	AtomForge.Application.Interfaces.Services.Game.IGameDownloader [AtomForge.Infrastructure]AtomForge.Application.Interfaces.Services.Game.IGameDownloader AtomForge.Infrastructure.Services.Game.GameLauncherService:: ⁭ ->   
-	AtomForge.Application.Interfaces.Services.Game.IGameClientChecker [AtomForge.Infrastructure]AtomForge.Application.Interfaces.Services.Game.IGameClientChecker AtomForge.Infrastructure.Services.Game.GameLauncherService:: ⁮ ->   
-	AtomForge.Application.Interfaces.Services.Managers.IDirectoryManager [AtomForge.Infrastructure]AtomForge.Application.Interfaces.Services.Managers.IDirectoryManager AtomForge.Infrastructure.Services.Game.GameLauncherService:: ⁯ ->   
-	AtomForge.Application.Interfaces.Services.Managers.IGameConfigManager [AtomForge.Infrastructure]AtomForge.Application.Interfaces.Services.Managers.IGameConfigManager AtomForge.Infrastructure.Services.Game.GameLauncherService:: 　 ->   
-	AtomForge.Application.Interfaces.Services.Downloaders.IDownloaderTorrentService [AtomForge.Infrastructure]AtomForge.Application.Interfaces.Services.Downloaders.IDownloaderTorrentService AtomForge.Infrastructure.Services.Game.GameLauncherService::   ->   
-	AtomForge.Application.Interfaces.Services.Analytics.ILauncherAnalyticsService [AtomForge.Infrastructure]AtomForge.Application.Interfaces.Services.Analytics.ILauncherAnalyticsService AtomForge.Infrastructure.Services.Game.GameLauncherService::   ->  ​
-	AtomForge.Application.Interfaces.Services.IWebLauncherService [AtomForge.Infrastructure]AtomForge.Application.Interfaces.Services.IWebLauncherService AtomForge.Infrastructure.Services.Game.GameLauncherService::   ->  ‐
-	AtomForge.Application.Interfaces.Services.Game.IGameStarter [AtomForge.Infrastructure]AtomForge.Application.Interfaces.Services.Game.IGameStarter AtomForge.Infrastructure.Services.Game.GameLauncherService::   ->  ‑
-	AtomForge.Domain.DTOs.GameClientInfoDto [AtomForge.Infrastructure]AtomForge.Domain.DTOs.GameClientInfoDto AtomForge.Infrastructure.Services.Game.GameLauncherService::   ->  ‒
-	AtomForge.Domain.Models.Config.GameConfig [AtomForge.Infrastructure]AtomForge.Domain.Models.Config.GameConfig AtomForge.Infrastructure.Services.Game.GameLauncherService::   ->  –
-	System.Boolean [AtomForge.Infrastructure]System.Boolean AtomForge.Infrastructure.Services.Game.GameLauncherService::   ->  —
-	AtomForge.Application.ViewModels.Windows.MainWindow.GameStateViewModel [AtomForge.Infrastructure]AtomForge.Application.ViewModels.Windows.MainWindow.GameStateViewModel AtomForge.Infrastructure.Services.Game.GameLauncherService::   ->  ―
+	Microsoft.Extensions.Logging.ILogger`1<AtomForge.Infrastructure.Services.Game.GameLauncherService> [AtomForge.Infrastructure]Microsoft.Extensions.Logging.ILogger`1<AtomForge.Infrastructure.Services.Game.GameLauncherService> AtomForge.Infrastructure.Services.Game.GameLauncherService:: ⁭ ->   
+	AtomForge.Application.Interfaces.Services.Game.IGameDownloader [AtomForge.Infrastructure]AtomForge.Application.Interfaces.Services.Game.IGameDownloader AtomForge.Infrastructure.Services.Game.GameLauncherService:: ⁮ ->   
+	AtomForge.Application.Interfaces.Services.Game.IGameClientChecker [AtomForge.Infrastructure]AtomForge.Application.Interfaces.Services.Game.IGameClientChecker AtomForge.Infrastructure.Services.Game.GameLauncherService:: ⁯ ->   
+	AtomForge.Application.Interfaces.Services.Managers.IDirectoryManager [AtomForge.Infrastructure]AtomForge.Application.Interfaces.Services.Managers.IDirectoryManager AtomForge.Infrastructure.Services.Game.GameLauncherService:: 　 ->   
+	AtomForge.Application.Interfaces.Services.Managers.IGameConfigManager [AtomForge.Infrastructure]AtomForge.Application.Interfaces.Services.Managers.IGameConfigManager AtomForge.Infrastructure.Services.Game.GameLauncherService::   ->   
+	AtomForge.Application.Interfaces.Services.Downloaders.IDownloaderTorrentService [AtomForge.Infrastructure]AtomForge.Application.Interfaces.Services.Downloaders.IDownloaderTorrentService AtomForge.Infrastructure.Services.Game.GameLauncherService::   ->  ​
+	AtomForge.Application.Interfaces.Services.Analytics.ILauncherAnalyticsService [AtomForge.Infrastructure]AtomForge.Application.Interfaces.Services.Analytics.ILauncherAnalyticsService AtomForge.Infrastructure.Services.Game.GameLauncherService::   ->  ‐
+	AtomForge.Application.Interfaces.Services.IWebLauncherService [AtomForge.Infrastructure]AtomForge.Application.Interfaces.Services.IWebLauncherService AtomForge.Infrastructure.Services.Game.GameLauncherService::   ->  ‑
+	AtomForge.Application.Interfaces.Services.Game.IGameStarter [AtomForge.Infrastructure]AtomForge.Application.Interfaces.Services.Game.IGameStarter AtomForge.Infrastructure.Services.Game.GameLauncherService::   ->  ‒
+	AtomForge.Domain.DTOs.GameClientInfoDto [AtomForge.Infrastructure]AtomForge.Domain.DTOs.GameClientInfoDto AtomForge.Infrastructure.Services.Game.GameLauncherService::   ->  –
+	AtomForge.Domain.Models.Config.GameConfig [AtomForge.Infrastructure]AtomForge.Domain.Models.Config.GameConfig AtomForge.Infrastructure.Services.Game.GameLauncherService::   ->  —
+	System.Boolean [AtomForge.Infrastructure]System.Boolean AtomForge.Infrastructure.Services.Game.GameLauncherService::   ->  ―
+	AtomForge.Application.ViewModels.Windows.MainWindow.GameStateViewModel [AtomForge.Infrastructure]AtomForge.Application.ViewModels.Windows.MainWindow.GameStateViewModel AtomForge.Infrastructure.Services.Game.GameLauncherService::   ->  •
 
 
 	System.Boolean [AtomForge.Infrastructure]System.Boolean AtomForge.Infrastructure.Services.Game.GameLauncherService::ForceUpdate skipped:  KeepPublicApi option in configuration
@@ -2553,7 +2555,7 @@ Skipped Types:
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameStarter::StartGame[3]( [System.Runtime]System.String, [System.Runtime]System.String, [System.Runtime]System.String ) skipped:  KeepPublicApi option in configuration
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameStarter::.ctor[1]( [Microsoft.Extensions.Logging.Abstractions]Microsoft.Extensions.Logging.ILogger`1<[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Game.GameStarter> ) skipped:  special name
 
-	Microsoft.Extensions.Logging.ILogger`1<AtomForge.Infrastructure.Services.Game.GameStarter> [AtomForge.Infrastructure]Microsoft.Extensions.Logging.ILogger`1<AtomForge.Infrastructure.Services.Game.GameStarter> AtomForge.Infrastructure.Services.Game.GameStarter::   ->  •
+	Microsoft.Extensions.Logging.ILogger`1<AtomForge.Infrastructure.Services.Game.GameStarter> [AtomForge.Infrastructure]Microsoft.Extensions.Logging.ILogger`1<AtomForge.Infrastructure.Services.Game.GameStarter> AtomForge.Infrastructure.Services.Game.GameStarter::   ->  ․
 }
 
 [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService skipped:  KeepPublicApi option in configuration
@@ -2565,10 +2567,10 @@ Skipped Types:
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService::FetchBitmapImageAsync[2]( [System.Runtime]System.String, [System.Runtime]System.Threading.CancellationToken ) skipped:  KeepPublicApi option in configuration
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService::.ctor[2]( [Microsoft.Extensions.Logging.Abstractions]Microsoft.Extensions.Logging.ILogger`1<[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService>, [System.Net.Http]System.Net.Http.HttpClient ) skipped:  special name
 
-	Microsoft.Extensions.Logging.ILogger`1<AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService> [AtomForge.Infrastructure]Microsoft.Extensions.Logging.ILogger`1<AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService> AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService::   ->  ․
-	System.Net.Http.HttpClient [AtomForge.Infrastructure]System.Net.Http.HttpClient AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService::   ->  ‥
-	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService::   ->  ‧
-	System.TimeSpan [AtomForge.Infrastructure]System.TimeSpan AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService::   ->   
+	Microsoft.Extensions.Logging.ILogger`1<AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService> [AtomForge.Infrastructure]Microsoft.Extensions.Logging.ILogger`1<AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService> AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService::   ->  ‥
+	System.Net.Http.HttpClient [AtomForge.Infrastructure]System.Net.Http.HttpClient AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService::   ->  ‧
+	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService::   ->   
+	System.TimeSpan [AtomForge.Infrastructure]System.TimeSpan AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService:: ​ ->   
 }
 
 [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService skipped:  KeepPublicApi option in configuration
@@ -2579,9 +2581,9 @@ Skipped Types:
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService::GetFileTorrent[1]( [System.Runtime]System.String ) skipped:  KeepPublicApi option in configuration
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService::.ctor[2]( [Microsoft.Extensions.Logging.Abstractions]Microsoft.Extensions.Logging.ILogger`1<[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService>, [System.Net.Http]System.Net.Http.HttpClient ) skipped:  special name
 
-	Microsoft.Extensions.Logging.ILogger`1<AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService> [AtomForge.Infrastructure]Microsoft.Extensions.Logging.ILogger`1<AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService> AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService:: ​ ->   
-	System.Net.Http.HttpClient [AtomForge.Infrastructure]System.Net.Http.HttpClient AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService:: ‐ ->  ‪
-	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService:: ‑ ->  ‫
+	Microsoft.Extensions.Logging.ILogger`1<AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService> [AtomForge.Infrastructure]Microsoft.Extensions.Logging.ILogger`1<AtomForge.Infrastructure.Services.Downloaders.DownloaderImageService> AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService:: ‐ ->  ‪
+	System.Net.Http.HttpClient [AtomForge.Infrastructure]System.Net.Http.HttpClient AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService:: ‑ ->  ‫
+	System.String [AtomForge.Infrastructure]System.String AtomForge.Infrastructure.Services.Downloaders.DownloaderTorrentService:: ‒ ->  ‬
 }
 
 [AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Analytics.LauncherAnalyticsService skipped:  KeepPublicApi option in configuration
@@ -2591,9 +2593,9 @@ Skipped Types:
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Analytics.LauncherAnalyticsService::SendRecord[1]( [AtomForge.Domain]AtomForge.Domain.Enums.Request.EActivityType ) skipped:  KeepPublicApi option in configuration
 	[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Analytics.LauncherAnalyticsService::.ctor[3]( [Microsoft.Extensions.Logging.Abstractions]Microsoft.Extensions.Logging.ILogger`1<[AtomForge.Infrastructure]AtomForge.Infrastructure.Services.Analytics.LauncherAnalyticsService>, [AtomForge.Application]AtomForge.Application.Interfaces.Services.Steam.ISteamProfile, [System.ComponentModel]System.IServiceProvider ) skipped:  special name
 
-	Microsoft.Extensions.Logging.ILogger`1<AtomForge.Infrastructure.Services.Analytics.LauncherAnalyticsService> [AtomForge.Infrastructure]Microsoft.Extensions.Logging.ILogger`1<AtomForge.Infrastructure.Services.Analytics.LauncherAnalyticsService> AtomForge.Infrastructure.Services.Analytics.LauncherAnalyticsService:: ‒ ->  ‬
-	AtomForge.Application.Interfaces.Services.Steam.ISteamProfile [AtomForge.Infrastructure]AtomForge.Application.Interfaces.Services.Steam.ISteamProfile AtomForge.Infrastructure.Services.Analytics.LauncherAnalyticsService:: – ->  ‭
-	System.IServiceProvider [AtomForge.Infrastructure]System.IServiceProvider AtomForge.Infrastructure.Services.Analytics.LauncherAnalyticsService:: — ->  ‮
+	Microsoft.Extensions.Logging.ILogger`1<AtomForge.Infrastructure.Services.Analytics.LauncherAnalyticsService> [AtomForge.Infrastructure]Microsoft.Extensions.Logging.ILogger`1<AtomForge.Infrastructure.Services.Analytics.LauncherAnalyticsService> AtomForge.Infrastructure.Services.Analytics.LauncherAnalyticsService:: – ->  ‭
+	AtomForge.Application.Interfaces.Services.Steam.ISteamProfile [AtomForge.Infrastructure]AtomForge.Application.Interfaces.Services.Steam.ISteamProfile AtomForge.Infrastructure.Services.Analytics.LauncherAnalyticsService:: — ->  ‮
+	System.IServiceProvider [AtomForge.Infrastructure]System.IServiceProvider AtomForge.Infrastructure.Services.Analytics.LauncherAnalyticsService:: ― ->   
 }
 
 [AtomForge.AppHost]AtomForge.AppHost.ApplicationHostService skipped:  KeepPublicApi option in configuration
@@ -2605,9 +2607,9 @@ Skipped Types:
 	[AtomForge.AppHost]AtomForge.AppHost.ApplicationHostService::StartAsync[1]( [System.Runtime]System.Threading.CancellationToken ) skipped:  external base class or interface
 	[AtomForge.AppHost]AtomForge.AppHost.ApplicationHostService::StopAsync[1]( [System.Runtime]System.Threading.CancellationToken ) skipped:  external base class or interface
 
-	System.IServiceProvider [AtomForge.AppHost]System.IServiceProvider AtomForge.AppHost.ApplicationHostService:: ⁞ ->   
-	AtomForge.Application.Interfaces.Services.IWebLauncherService [AtomForge.AppHost]AtomForge.Application.Interfaces.Services.IWebLauncherService AtomForge.AppHost.ApplicationHostService::   ->   
-	Wpf.Ui.INavigationWindow [AtomForge.AppHost]Wpf.Ui.INavigationWindow AtomForge.AppHost.ApplicationHostService:: ⁠ ->   
+	System.IServiceProvider [AtomForge.AppHost]System.IServiceProvider AtomForge.AppHost.ApplicationHostService::   ->   
+	AtomForge.Application.Interfaces.Services.IWebLauncherService [AtomForge.AppHost]AtomForge.Application.Interfaces.Services.IWebLauncherService AtomForge.AppHost.ApplicationHostService:: ⁠ ->   
+	Wpf.Ui.INavigationWindow [AtomForge.AppHost]Wpf.Ui.INavigationWindow AtomForge.AppHost.ApplicationHostService:: ⁡ ->   
 }
 
 [AtomForge.AppHost]AtomForge.AppHost.HostedAppManager skipped:  KeepPublicApi option in configuration
@@ -2626,8 +2628,8 @@ Skipped Types:
 	[AtomForge.AppHost]AtomForge.AppHost.HostedAppManager::Stop[0]( ) skipped:  KeepPublicApi option in configuration
 	[AtomForge.AppHost]AtomForge.AppHost.HostedAppManager::.cctor[0]( ) skipped:  special name
 
-	System.String [AtomForge.AppHost]System.String AtomForge.AppHost.HostedAppManager:: ⁡ ->   
-	Microsoft.Extensions.Hosting.IHost [AtomForge.AppHost]Microsoft.Extensions.Hosting.IHost AtomForge.AppHost.HostedAppManager:: ⁢ ->   
+	System.String [AtomForge.AppHost]System.String AtomForge.AppHost.HostedAppManager:: ⁢ ->   
+	Microsoft.Extensions.Hosting.IHost [AtomForge.AppHost]Microsoft.Extensions.Hosting.IHost AtomForge.AppHost.HostedAppManager:: ⁣ ->   
 }
 
 [SkachatRust]SkachatRust.App skipped:  KeepPublicApi option in configuration
@@ -2639,7 +2641,7 @@ Skipped Types:
 	[SkachatRust]SkachatRust.App::Main[0]( ) skipped:  KeepPublicApi option in configuration
 	[SkachatRust]SkachatRust.App::.ctor[0]( ) skipped:  special name
 
-	System.Boolean [SkachatRust]System.Boolean SkachatRust.App::   ->  ․
+	System.Boolean [SkachatRust]System.Boolean SkachatRust.App::   ->  ‥
 }
 
 [AtomForge.Application]AtomForge.Application.Interfaces.Services.IAppSettings skipped:  KeepPublicApi option in configuration
